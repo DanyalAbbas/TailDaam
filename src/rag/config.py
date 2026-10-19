@@ -27,6 +27,6 @@ MIN_RELEVANCE_SCORE = float(os.getenv("RAG_MIN_RELEVANCE", "0.55"))
 
 PRIMARY_USER_PERSONA = (
     "A commuter or small fleet operator in Karachi who budgets for fuel and "
-    "wants honest, cited answers about recent petrol price changes and what "
-    "drove them."
+    "wants honest, cited answers about recent PAKISTANI petrol price changes "
+    "(PKR per litre, OGRA-notified) and what drove them."
 )

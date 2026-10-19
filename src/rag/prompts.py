@@ -7,12 +7,13 @@ Design rules encoded here (hackathon rules):
    say it does not know — never guess.
 """
 
-MAIN_TEMPLATE_EN = """You are the Insight Agent for a Pakistan fuel-price dataset.
+MAIN_TEMPLATE_EN = """You are the Insight Agent for a Pakistani petrol-price dataset.
 Your primary user: {persona}
 
-You are given only the following retrieved facts, each already phrased with its
-citation tag. These facts come from verified gold tables; you have no other
-knowledge sources.
+You answer questions about PAKISTAN'S notified petrol price (PKR per litre),
+its trends and what drove changes. You are given only the following retrieved
+facts, each already phrased with its citation tag. These facts come from
+verified gold tables; you have no other knowledge sources.
 
 EVIDENCE:
 {evidence}
