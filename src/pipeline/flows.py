@@ -122,11 +122,11 @@ def pipeline(rebuild_index: bool = True) -> dict:
     return {"status": status, "rows_gold": rows, "quality": qstatus}
 
 
-def serve(hours: int = 8) -> None:
-    """Run now, then hourly, for `hours` (keeps real Prefect run history)."""
+def serve(hours: int | None = None) -> None:
+    """Run now, then hourly; `hours` bounds the loop for a demo."""
     pipeline()
-    end = datetime.now(timezone.utc) + timedelta(hours=hours)
-    while datetime.now(timezone.utc) < end:
+    end = (datetime.now(timezone.utc) + timedelta(hours=hours)) if hours else None
+    while end is None or datetime.now(timezone.utc) < end:
         time.sleep(3600)
         pipeline()
 

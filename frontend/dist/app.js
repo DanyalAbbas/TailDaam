@@ -381,6 +381,14 @@ function renderFacts(overview) {
   const m = overview.model || {};
   const s = overview.sources || {};
   const health = state.health || {};
+  const p = overview.pipeline || {};
+  const runTime = p.finished_utc || p.started_utc;
+  const runLabel = runTime
+    ? `${new Intl.DateTimeFormat("en-GB", {
+        day: "numeric", month: "short", hour: "2-digit", minute: "2-digit",
+        timeZone: "UTC", hour12: false,
+      }).format(new Date(runTime))} UTC`
+    : "not logged";
   const status = (q.status || "unknown").toUpperCase();
   const dot = status === "PASS" ? "pass" : status === "FAIL" ? "fail" : "";
   const improve = m.improvement;
@@ -399,6 +407,10 @@ function renderFacts(overview) {
     <div class="fact-row">
       <dt>Facts indexed</dt>
       <dd>${health.facts_indexed == null ? "—" : health.facts_indexed.toLocaleString("en-PK")}<small>${s.files ?? "—"} source files · ${s.publishers ?? "—"} publishers</small></dd>
+    </div>
+    <div class="fact-row">
+      <dt>Last pipeline run</dt>
+      <dd>${esc((p.state || "not logged").toUpperCase())}<small>${esc(runLabel)}${p.rows_gold ? ` · ${p.rows_gold.toLocaleString("en-PK")} gold rows` : ""}</small></dd>
     </div>`;
 }
 
@@ -447,7 +459,7 @@ function renderCity(city, latest) {
     tbody.innerHTML = '<tr><td colspan="4" class="empty">No city annex found.</td></tr>';
     return;
   }
-  $("#city-sub").textContent = `Monthly averages, ${monthName(city.month)} · ${city.cities.length} cities`;
+  $("#city-sub").textContent = `Monthly averages, ${monthName(city.month)} · ${city.cities.length} reporting locations`;
 
   const rows = city.cities.map((name, i) => {
     const petrol = city.petrol[i];

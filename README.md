@@ -1,10 +1,20 @@
+---
+title: HACK INSIGHT
+emoji: ⛽
+colorFrom: green
+colorTo: gray
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # HACK INSIGHT — Pakistan fuel prices, with receipts
 
 An end-to-end, reproducible data product for **Pakistani petrol and diesel
 prices**: a governed data warehouse, a baseline-beating risk model, and a RAG
 insight agent that is structurally incapable of inventing a number.
 
-Built for the HACK INSIGHT hackathon (19–22 October 2026).
+Built for the HACK INSIGHT hackathon (19–22 October 2026). **Track:** Energy demand — proposed problem: Pakistani fuel-price volatility and pass-through.
 
 **Live:** [hack-insight.fastapicloud.dev](https://hack-insight.fastapicloud.dev) ·
 **Demo video:** [`artifacts/demo.mp4`](artifacts/demo.mp4) ·
@@ -52,15 +62,15 @@ and an agent whose every number is traceable to a row id.
 | Source | Publisher | Rows (clean) | Licence |
 |---|---|---|---|
 | PBS weekly SPI reports (41 weeks) | Pakistan Bureau of Statistics | 82 product-weeks (petrol + HSD) | Government of Pakistan open publication |
-| PBS monthly city annex | Pakistan Bureau of Statistics | 36 city-product prices (18 cities × 2 products) | Government of Pakistan open publication |
-| EIA daily petroleum spot prices (11 series) | U.S. Energy Information Administration | **84,547** daily observations | public domain (US Government work) |
+| PBS monthly city annex | Pakistan Bureau of Statistics | 36 city-product prices (18 reporting locations: 17 cities + national average, × 2 products) | Government of Pakistan open publication |
+| EIA daily petroleum spot prices (11 series) | U.S. Energy Information Administration | **84,546** daily observations | public domain (US Government work) |
 | World Bank Pink Sheet | World Bank | 6,720 energy observations | CC BY 4.0 |
 
 The EIA block supplies the volume and the global input market; the PBS block is
 the Pakistani anchor (national weekly series and city-level monthly averages).
 Two independent publishers are used, plus a third for cross-checking.
 
-**Volume check:** 84,547 + 6,720 + 82 + 36 = **91,385 clean rows**. The raw
+**Volume check:** 84,546 + 6,720 + 82 + 36 = **91,384 clean rows**. The raw
 files and the manifest are committed so the record can be audited without a
 network call; `make data` re-downloads them and records fresh SHA-256 hashes.
 
@@ -290,6 +300,22 @@ The static frontend is mounted with `app.frontend("/", directory="frontend/dist"
 If `MISTRAL_API_KEY` is unavailable, the service fits the local TF-IDF model
 over `data/gold` in memory on first use, so the deployed app has no external
 index to fetch and no large index to upload.
+
+### Hugging Face Space
+
+The repository is Space-ready: the YAML block at the top of this file declares
+`sdk: docker` and `app_port: 7860`, and the `Dockerfile` listens on 7860. To
+publish the same app there:
+
+1. Create a **Docker Space** named `hack-insight` under your Hugging Face
+   account (hardware: CPU basic is enough).
+2. Push this repository to it, either with `hf upload <user>/hack-insight . --repo-type space`
+   or by adding the Space as a git remote and pushing `main`.
+3. Confirm `https://<user>-hack-insight.hf.space/api/health` returns
+   `{"status":"ok", ...}` and open the root URL.
+
+The Space uses the in-memory TF-IDF fallback, so it needs no `data/chroma`
+upload and starts in a few seconds.
 
 Example:
 

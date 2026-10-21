@@ -51,6 +51,6 @@ prose; AI did not generate data, results, or citations.**
 
 ## Declaration
 
-All members can explain the code they submit. The assistant's output was treated
-as a draft: reviewed, executed, and corrected by the team.
+I can explain every line of the code I submit. The assistant's output was treated
+as a draft: reviewed, executed, and corrected by me.
 

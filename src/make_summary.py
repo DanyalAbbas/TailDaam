@@ -68,9 +68,9 @@ def main() -> int:
 
     section(pdf, "Dataset (all rows from original publishers)",
             "PBS weekly SPI: 41 weeks x 2 products (petrol super, high-speed "
-            "diesel). PBS monthly city annex: 18 cities x 2 products. US EIA: "
-            "11 daily petroleum spot series, 84,547 observations. World Bank Pink "
-            "Sheet: 6,720 monthly energy observations. Total clean layer: 91,385 "
+            "diesel). PBS monthly city annex: 18 reporting locations (17 cities + national average) x 2 products. US EIA: "
+            "11 daily petroleum spot series, 84,546 observations. World Bank Pink "
+            "Sheet: 6,720 monthly energy observations. Total clean layer: 91,384 "
             "rows. Every raw file is SHA-256 hashed in data/manifest.csv and every "
             "gold fact stores its source row ids and citation tag. No synthetic, "
             "interpolated or re-uploaded data.")
@@ -94,8 +94,9 @@ def main() -> int:
                 "than presenting a spurious price-level win.")
 
     section(pdf, "Insight agent",
-            "Chroma retrieval over 2,129 gold facts. Answers quote retrieved "
-            "facts; the agent never generates a number. A declared-scope gate, a "
+            "Vector retrieval over 2,129 gold facts (Chroma when an index is "
+            "present; in-memory TF-IDF otherwise). Answers quote retrieved facts; "
+            "the agent never generates a number. A declared-scope gate, a "
             "retrieval-confidence floor and time/product/city filters make refusal "
             "a code path, not a prompt request. Out-of-scope questions ('weather in "
             "Lahore') and unsupported periods ('January 2024') return 'I don't "

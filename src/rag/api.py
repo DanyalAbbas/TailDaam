@@ -97,6 +97,27 @@ def _read_artifact_csv(name: str) -> pd.DataFrame:
     return pd.read_csv(path) if path.exists() else pd.DataFrame()
 
 
+def _last_pipeline_run() -> dict:
+    path = ROOT / "prefect_runs.csv"
+    if not path.exists():
+        return {}
+    try:
+        df = pd.read_csv(path)
+        if df.empty:
+            return {}
+        row = df.iloc[-1]
+        return {
+            "run_id": str(row.get("run_id", "")),
+            "state": str(row.get("state", "")),
+            "started_utc": str(row.get("started_utc", "")),
+            "finished_utc": str(row.get("finished_utc", "")),
+            "quality_status": str(row.get("quality_status", "")),
+            "rows_gold": int(row.get("rows_gold", 0) or 0),
+        }
+    except Exception:
+        return {}
+
+
 def _latest_prices() -> list[dict]:
     df = _read_csv("pk_petrol_weekly.csv")
     if df.empty:
@@ -229,6 +250,7 @@ async def overview():
             "challenger_mae": metrics.get("challenger", {}).get("mae"),
         },
         "coverage": _coverage(),
+        "pipeline": _last_pipeline_run(),
         "sources": {
             "files": int(len(manifest)),
             "publishers": int(manifest["publisher"].nunique())
