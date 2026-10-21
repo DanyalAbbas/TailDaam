@@ -105,59 +105,63 @@ def clean_pbs_weekly() -> pd.DataFrame:
 
 
 def clean_pbs_monthly() -> pd.DataFrame:
-    path = RAW / "pbs_spi" / "SPI-Monthly-Prices-Annex-9.xlsx"
-    if not path.exists():
-        return pd.DataFrame()
-    xl = pd.ExcelFile(path)
+    folder = RAW / "pbs_spi" / "monthly"
+    paths = sorted(folder.glob("SPI-Monthly-Prices-*.xlsx"))
+    if not paths:
+        # Backwards-compatible fallback for the original single-file layout.
+        legacy = RAW / "pbs_spi" / "SPI-Monthly-Prices-Annex-9.xlsx"
+        paths = [legacy] if legacy.exists() else []
     rows = []
-    for sheet in xl.sheet_names:
-        df = xl.parse(sheet, header=None)
-        if df.empty:
-            continue
-        # month from title row (e.g. "... for the month of September 2026")
-        title = " ".join(str(x) for x in df.iloc[0].dropna().tolist())
-        m = re.search(r"month of\s+([A-Za-z]+)\s+(\d{4})", title)
-        if not m:
-            continue
-        month = pd.to_datetime(f"{m.group(1)} {m.group(2)}").strftime("%Y-%m")
-        header_idx = None
-        for i in range(min(6, len(df))):
-            if any("Description" in str(x) for x in df.iloc[i].tolist()):
-                header_idx = i
-                break
-        if header_idx is None:
-            continue
-        header = [str(x).strip() for x in df.iloc[header_idx].tolist()]
-        city_cols = []
-        avg_col = None
-        for j, h in enumerate(header):
-            hl = h.lower()
-            if j <= 2:
+    for path in paths:
+        xl = pd.ExcelFile(path)
+        for sheet in xl.sheet_names:
+            df = xl.parse(sheet, header=None)
+            if df.empty:
                 continue
-            if hl.startswith("average prices"):
-                avg_col = j
-                break
-            if h and hl not in ("nan",) and "%" not in hl:
-                city_cols.append((j, h))
-        if avg_col is not None:
-            city_cols.append((avg_col, "National average"))
-        for _, r in df.iloc[header_idx + 1:].iterrows():
-            name = str(r.iloc[1]).strip().lower()
-            product = _PRODUCT_MAP.get(name)
-            if not product:
+            # Month comes from the title row, not the file name.
+            title = " ".join(str(x) for x in df.iloc[0].dropna().tolist())
+            m = re.search(r"month of\s+([A-Za-z]+)\s+(\d{4})", title)
+            if not m:
                 continue
-            for j, city in city_cols:
-                v = _num(r.iloc[j]) if j < len(r) else None
-                if v is None:
+            month = pd.to_datetime(f"{m.group(1)} {m.group(2)}").strftime("%Y-%m")
+            header_idx = None
+            for i in range(min(6, len(df))):
+                if any("Description" in str(x) for x in df.iloc[i].tolist()):
+                    header_idx = i
+                    break
+            if header_idx is None:
+                continue
+            header = [str(x).strip() for x in df.iloc[header_idx].tolist()]
+            city_cols = []
+            avg_col = None
+            for j, h in enumerate(header):
+                hl = h.lower()
+                if j <= 2:
                     continue
-                rows.append({
-                    "row_id": f"pbsm:{month}:{product}:{city}",
-                    "month": month,
-                    "city": city,
-                    "product": product,
-                    "price_pkr_l": v,
-                    "source_file": str(path.relative_to(RAW.parent)),
-                })
+                if hl.startswith("average prices"):
+                    avg_col = j
+                    break
+                if h and hl not in ("nan",) and "%" not in hl:
+                    city_cols.append((j, h))
+            if avg_col is not None:
+                city_cols.append((avg_col, "National average"))
+            for _, r in df.iloc[header_idx + 1:].iterrows():
+                name = str(r.iloc[1]).strip().lower()
+                product = _PRODUCT_MAP.get(name)
+                if not product:
+                    continue
+                for j, city in city_cols:
+                    v = _num(r.iloc[j]) if j < len(r) else None
+                    if v is None:
+                        continue
+                    rows.append({
+                        "row_id": f"pbsm:{month}:{product}:{city}",
+                        "month": month,
+                        "city": city,
+                        "product": product,
+                        "price_pkr_l": v,
+                        "source_file": str(path.relative_to(RAW.parent)),
+                    })
     out = pd.DataFrame(rows)
     if out.empty:
         return out

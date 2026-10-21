@@ -168,6 +168,7 @@ def _coverage() -> list[dict]:
     model = _read_csv("model_evaluation.csv")
     weeks = weekly["period_end"].nunique() if not weekly.empty else 0
     cities = city["entity"].nunique() if not city.empty else 0
+    months = city["period_begin"].nunique() if not city.empty else 0
     return [
         {
             "label": "National weekly prices",
@@ -176,7 +177,7 @@ def _coverage() -> list[dict]:
         },
         {
             "label": "City monthly prices",
-            "detail": f"{cities // 2} cities · PBS annex",
+            "detail": f"{cities // 2} locations · {months} months · PBS annex",
             "rows": int(len(city)),
         },
         {
@@ -197,12 +198,17 @@ def _city_table() -> dict:
     if df.empty:
         return {"cities": [], "petrol": [], "diesel": [], "month": None}
     df = df.copy()
+    df["period_begin"] = pd.to_datetime(df["period_begin"])
+    # The city table is a snapshot: always show the latest month, never an
+    # average across the monthly panel.
+    latest = df["period_begin"].max()
+    df = df[df["period_begin"] == latest].copy()
     df["city"] = df["entity"].str.rsplit(" in ", n=1).str[-1]
     df["product"] = df["entity"].str.contains("diesel", case=False).map(
         {True: "diesel", False: "petrol"})
     pivot = df.pivot_table(index="city", columns="product", values="value")
     pivot = pivot.sort_index()
-    month = str(df["period_begin"].iloc[0])[:7]
+    month = latest.strftime("%Y-%m")
     return {
         "cities": [str(c) for c in pivot.index],
         "petrol": [round(float(v), 2) for v in pivot.get("petrol", pd.Series())],

@@ -15,7 +15,7 @@ effect was not benchmarked; it is not a claim of zero.
 | **In-memory TF-IDF fallback** instead of requiring Chroma on deploy | No accuracy claim; lexical matching is weaker than hosted embeddings, disclosed | Removes a 100 MB index build from the startup/health-check path; warm local `/ask` **~0.04 s**, remote `/ask` **~0.65 s** | Removes **109 MB** `data/chroma` artifact from the deploy path; in-process index only | Kept for free/offline deployment |
 | Hand-written **FastAPI + static SPA** instead of Streamlit | No model/agent accuracy change; one runtime serves UI and API | Local `/api/overview` **0.066 s**, `/api/model` **0.005 s**; no build step | Frontend directory **168 KB**; no Streamlit/WebSocket runtime | Kept |
 | **Cache-busted assets** (`?v=20261021b`) | No accuracy change | Fixes stale-JS loads after deployment (observed during release) | Negligible | Kept |
-| **Deterministic quality rules** | Prevents invalid rows entering gold/training; 91,384 clean rows; WARN, 1 fix, 4 flags | Pipeline run **34.8 s** end-to-end (real Prefect run) | Quality log is small CSV | Kept |
+| **Deterministic quality rules** | Prevents invalid rows entering gold/training; 91,672 clean rows; WARN, 1 fix, 4 flags | Pipeline run **42.5 s** end-to-end (real Prefect run) | Quality log is small CSV | Kept |
 | **Extractive answering by default** | Eliminates generated-number risk by construction; LLM path still verifies | No token/network call; local answer ~0.04 s | No model weights loaded | Kept |
 | **Static Hugging Face Space** instead of Docker Space | No change | Free tier; static files CDN-served | No container image | Forced by free-tier policy; kept |
 
@@ -80,7 +80,7 @@ hidden.
 **Change.** The repository can build a persistent Chroma index
 (`data/chroma`, **109 MB**), but the free deployment does not need to upload or
 build it. If the index is absent and no Mistral key is set, the service fits
-the same local TF-IDF embedder over the 2,129 gold facts in memory on first use.
+the same local TF-IDF embedder over the 2,417 gold facts in memory on first use.
 
 **Accuracy.** TF-IDF is lexical, not semantic; paraphrases can be missed. This
 is a real accuracy trade-off and is disclosed in the README, `/api/health` and
@@ -130,7 +130,7 @@ deployment correctness fix, not an accuracy or speed optimization.
 or non-finite prices, >35% daily moves, implausible petrol levels, cadence gaps
 and freshness. Decisions are logged as FIX / FLAG / FAIL.
 
-**Effect.** The clean layer contains **91,384** rows; the current quality status
+**Effect.** The clean layer contains **91,672** rows; the current quality status
 is **WARN** with **1 fix** and **4 flags**. The 9 April 2026 HSD outlier
 (522.29 PKR/L against 380.56 petrol) triggers the new weekly-jump rule; it is
 kept and annotated in the gold note, not silently dropped. This protects the

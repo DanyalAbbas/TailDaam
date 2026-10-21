@@ -40,7 +40,7 @@ TFIDF_PATH = CHROMA_DIR / "tfidf.joblib"
 
 # On FastAPI Cloud the 109 MB Chroma directory is deliberately excluded from
 # the upload. The service can still answer: fit the same TF-IDF vectorizer over
-# the 2,129 gold facts in memory on first use. This keeps startup fast (the
+# the 2,417 gold facts in memory on first use. This keeps startup fast (the
 # container health check must pass) and avoids a 100 MB upload. Locally, when
 # data/chroma exists, the persistent Chroma path is used unchanged.
 _MEMORY_LOCK = threading.Lock()

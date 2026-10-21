@@ -19,7 +19,7 @@
     <img src="https://img.shields.io/badge/Hugging%20Face-Static%20Space-FFD21E?style=flat-square" alt="TailDaam on Hugging Face" />
   </a>
   <a href="#3-dataset-real-cited-and-big-enough-to-matter">
-    <img src="https://img.shields.io/badge/Data-91%2C384%20clean%20rows-0A6B3D?style=flat-square" alt="91,384 clean rows" />
+    <img src="https://img.shields.io/badge/Data-91%2C672%20clean%20rows-0A6B3D?style=flat-square" alt="91,672 clean rows" />
   </a>
   <a href="#4-model-volatility-where-a-model-can-actually-win">
     <img src="https://img.shields.io/badge/Model-7.27%25%20MAE%20win-0A6B3D?style=flat-square" alt="7.27% lower MAE than the baseline" />
@@ -82,7 +82,7 @@ and an agent whose every number is traceable to a row id.
 
 | Layer | What it does | Where |
 |---|---|---|
-| **Acquire** | Downloads 41 PBS weekly SPI reports, the PBS monthly city annex, 11 EIA daily petroleum series, and the World Bank Pink Sheet. Hashes every raw file into `data/manifest.csv`. | `src/acquire.py` |
+| **Acquire** | Downloads 41 PBS weekly SPI reports, nine 2026 PBS monthly city annexes, 11 EIA daily petroleum series, and the World Bank Pink Sheet. Hashes every raw file into `data/manifest.csv`. | `src/acquire.py` |
 | **Clean** | Typed long-format tables with stable `row_id`s and source paths. | `src/clean.py` |
 | **Quality agent** | Deterministic rules; every decision logged as FIX / FLAG / FAIL with a reason. | `src/quality.py` |
 | **Gold** | The only layer the agent may quote. Fixed contract + citation registry. | `src/build_gold.py` |
@@ -98,7 +98,7 @@ and an agent whose every number is traceable to a row id.
 | Source | Publisher | Rows (clean) | Licence |
 |---|---|---|---|
 | PBS weekly SPI reports (41 weeks) | Pakistan Bureau of Statistics | 82 product-weeks (petrol + HSD) | Government of Pakistan open publication |
-| PBS monthly city annex | Pakistan Bureau of Statistics | 36 city-product prices (18 reporting locations: 17 cities + national average, × 2 products) | Government of Pakistan open publication |
+| PBS monthly city annexes (Jan–Sep 2026) | Pakistan Bureau of Statistics | 324 city-product prices (18 reporting locations: 17 cities + national average, × 2 products × 9 months) | Government of Pakistan open publication |
 | EIA daily petroleum spot prices (11 series) | U.S. Energy Information Administration | **84,546** daily observations | public domain (US Government work) |
 | World Bank Pink Sheet | World Bank | 6,720 energy observations | CC BY 4.0 |
 
@@ -106,9 +106,10 @@ The EIA block supplies the volume and the global input market; the PBS block is
 the Pakistani anchor (national weekly series and city-level monthly averages).
 Two independent publishers are used, plus a third for cross-checking.
 
-**Volume check:** 84,546 + 6,720 + 82 + 36 = **91,384 clean rows**. The raw
-files and the manifest are committed so the record can be audited without a
-network call; `make data` re-downloads them and records fresh SHA-256 hashes.
+**Volume check:** 84,546 + 6,720 + 82 + 324 = **91,672 clean rows** from **62 raw
+files**. The raw files and the manifest are committed so the record can be
+audited without a network call; `make data` re-downloads them and records fresh
+SHA-256 hashes.
 
 **Manifest contract** (`data/manifest.csv`): `file, source, publisher, url,
 query, fetch_time_utc, sha256, licence, bytes`. Every gold row stores the

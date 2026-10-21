@@ -18,6 +18,7 @@ from fpdf import FPDF
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "manifest.csv"
 CLEAN = ROOT / "data" / "clean"
+GOLD = ROOT / "data" / "gold"
 LOGO = ROOT / "frontend" / "dist" / "mark.png"
 OUT = ROOT / "Dataset_Proposal.pdf"
 
@@ -135,6 +136,10 @@ def main() -> int:
                      "wb_monthly_energy"]
     }
     total_rows = sum(counts.values())
+    gold_facts = sum(
+        len(pd.read_csv(p)) for p in GOLD.glob("*.csv")
+        if p.name != "citation_registry.csv"
+    )
     pbs_files = int((manifest["publisher"] == "Pakistan Bureau of Statistics").sum())
     pbs_weekly_files = int(manifest["file"].str.contains("pbs_spi/spi_").sum())
     pbs_monthly_files = pbs_files - pbs_weekly_files
@@ -221,7 +226,7 @@ def main() -> int:
     pdf.set_xy(23, card_y + 30)
     pdf.set_font("Helvetica", "", 6.8)
     pdf.set_text_color(190, 200, 191)
-    pdf.cell(0, 4, "91,384 rows are above the 50,000-row gate. No synthetic or re-uploaded data.",
+    pdf.cell(0, 4, f"{total_rows:,} rows are above the 50,000-row gate. No synthetic or re-uploaded data.",
              new_x="LMARGIN", new_y="NEXT")
 
     pdf.set_xy(18, 222)
@@ -321,7 +326,7 @@ def main() -> int:
 
     y = 137
     y = label(pdf, "02  /  SOURCES", y)
-    heading(pdf, "Three publishers. 54 files. 91,384 clean rows.", 18)
+    heading(pdf, f"Three publishers. {pbs_files + eia_files + wb_files} files. {total_rows:,} clean rows.", 18)
 
     table_x = 18
     table_y = pdf.get_y() + 2
@@ -360,7 +365,7 @@ def main() -> int:
 
     pdf.ln(5)
     cards = [
-        ("50,000+", "Volume gate", "The clean layer is 91,384 rows, not a thin "
+        ("50,000+", "Volume gate", f"The clean layer is {total_rows:,} rows, not a thin "
          "weekly series."),
         ("3", "Independent sources", "PBS is the Pakistani anchor; EIA and the "
          "World Bank are off the suggested source list."),
@@ -426,7 +431,7 @@ def main() -> int:
         ("DESCRIPTIVE", "PBS weekly + EIA Brent", "39 overlapping weeks: "
          "correlation 0.6928, slope 0.5821 PKR per USD/bbl. Reported as "
          "small-sample evidence; no causal claim."),
-        ("RAG EVIDENCE", "2,129 gold facts", "PBS weekly/monthly, EIA and World "
+        ("RAG EVIDENCE", f"{gold_facts:,} gold facts", "PBS weekly/monthly, EIA and World "
          "Bank rows with citation tags and row IDs. The agent may only quote "
          "these rows."),
     ]
@@ -561,7 +566,7 @@ def main() -> int:
     limits = [
         ("Short history", "PBS serves 41 weekly reports; publication gaps stay gaps."),
         ("Administered prices", "Domestic prices move at policy reviews, not continuously."),
-        ("One month of cities", "The PBS monthly city annex covers September 2026."),
+        ("City history", "PBS city annexes cover Jan-Sep 2026; 2025 editions are not in this build."),
         ("Global target", "The model forecasts Brent volatility, not the domestic retail level."),
         ("Lexical fallback", "Without a Mistral key, retrieval is TF-IDF; refusals are preferred to guesses."),
     ]
@@ -614,7 +619,7 @@ def main() -> int:
     pdf.set_font("Helvetica", "", 7.4)
     pdf.set_text_color(45, 53, 47)
     pdf.multi_cell(164, 3.8,
-                   "All 91,384 clean rows come from the original PBS, EIA and "
+                   f"All {total_rows:,} clean rows come from the original PBS, EIA and "
                    "World Bank publishers. No synthetic, interpolated or "
                    "AI-generated observation is used for training or evaluation. "
                    "The quality warnings and the missed pipeline window are "

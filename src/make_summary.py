@@ -5,10 +5,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pandas as pd
 from fpdf import FPDF
 
 ROOT = Path(__file__).resolve().parents[1]
 ART = ROOT / "artifacts"
+CLEAN = ROOT / "data" / "clean"
+GOLD = ROOT / "data" / "gold"
 
 
 class Summary(FPDF):
@@ -45,6 +48,16 @@ def main() -> int:
     pt = {}
     if (ART / "pakistan_passthrough.json").exists():
         pt = json.loads((ART / "pakistan_passthrough.json").read_text())
+    counts = {
+        name: len(pd.read_parquet(CLEAN / f"{name}.parquet"))
+        for name in ["eia_daily", "pbs_weekly_pk", "pbs_monthly_city",
+                     "wb_monthly_energy"]
+    }
+    clean_total = sum(counts.values())
+    gold_facts = sum(
+        len(pd.read_csv(p)) for p in GOLD.glob("*.csv")
+        if p.name != "citation_registry.csv"
+    )
 
     pdf = Summary(format="A4")
     pdf.add_page()
@@ -70,12 +83,15 @@ def main() -> int:
 
     section(pdf, "Dataset (all rows from original publishers)",
             "PBS weekly SPI: 41 weeks x 2 products (petrol super, high-speed "
-            "diesel). PBS monthly city annex: 18 reporting locations (17 cities + national average) x 2 products. US EIA: "
-            "11 daily petroleum spot series, 84,546 observations. World Bank Pink "
-            "Sheet: 6,720 monthly energy observations. Total clean layer: 91,384 "
-            "rows. Every raw file is SHA-256 hashed in data/manifest.csv and every "
-            "gold fact stores its source row ids and citation tag. No synthetic, "
-            "interpolated or re-uploaded data.")
+            "diesel). PBS monthly city annex: Jan-Sep 2026 x 18 reporting "
+            f"locations (17 cities + national average) x 2 products = "
+            f"{counts['pbs_monthly_city']:,} city-product prices. US EIA: 11 daily "
+            f"petroleum spot series, {counts['eia_daily']:,} observations. World "
+            f"Bank Pink Sheet: {counts['wb_monthly_energy']:,} monthly energy "
+            f"observations. Total clean layer: {clean_total:,} rows. Every raw "
+            "file is SHA-256 hashed in data/manifest.csv and every gold fact stores "
+            "its source row ids and citation tag. No synthetic, interpolated or "
+            "re-uploaded data.")
 
     section(pdf, "Model: next-month Brent volatility",
             f"Baseline persistence MAE {b['mae']:.2f}; challenger "
@@ -96,8 +112,8 @@ def main() -> int:
                 "than presenting a spurious price-level win.")
 
     section(pdf, "Insight agent",
-            "Vector retrieval over 2,129 gold facts (Chroma when an index is "
-            "present; in-memory TF-IDF otherwise). Answers quote retrieved facts; "
+            f"Vector retrieval over {gold_facts:,} gold facts (Chroma when an "
+            "index is present; in-memory TF-IDF otherwise). Answers quote retrieved facts; "
             "the agent never generates a number. A declared-scope gate, a "
             "retrieval-confidence floor and time/product/city filters make refusal "
             "a code path, not a prompt request. Out-of-scope questions ('weather in "

@@ -29,13 +29,13 @@ refusal-first insight agent that cites every number.
 
 | Layer | Final implementation |
 |---|---|
-| Acquisition | 41 PBS weekly SPI reports + 1 PBS monthly city annex + 11 EIA daily petroleum series + World Bank Pink Sheet = **54 raw files** |
+| Acquisition | 41 PBS weekly SPI reports + 9 PBS monthly city annexes (Jan–Sep 2026) + 11 EIA daily petroleum series + World Bank Pink Sheet = **62 raw files** |
 | Provenance | `data/manifest.csv` with source URL, publisher, query, fetch time, SHA-256, licence and bytes for every file |
-| Clean layer | **91,384 rows**: EIA 84,546; World Bank 6,720; PBS weekly 82; PBS monthly city 36 |
+| Clean layer | **91,672 rows**: EIA 84,546; World Bank 6,720; PBS weekly 82; PBS monthly city 324 (9 months) |
 | Quality agent | 14 deterministic rules; every FIX / FLAG / FAIL logged; current status **WARN** (1 fix, 4 flags) |
 | Model | Next-month Brent realised volatility; persistence baseline MAE **17.8044** vs HAR ridge **16.5102** (**7.269%** lower); 90% interval covers **89.25%**; group errors published |
-| Insight agent | Retrieval over 2,129 gold facts; scope/confidence/time/product/city gates; citation tags and row ids; structural refusal |
-| Pipeline | Prefect flow: acquire → clean → quality → gold → model → index; one real 34.8 s run, no backfill |
+| Insight agent | Retrieval over 2,417 gold facts; scope/confidence/time/product/city gates; citation tags and row ids; structural refusal |
+| Pipeline | Prefect flow: acquire → clean → quality → gold → model → index; two real runs (34.8 s, 42.5 s), no backfill |
 | Deployment | FastAPI Cloud API + free static Hugging Face Space; no login |
 
 ## Sources and independence
@@ -55,7 +55,7 @@ the Pakistani anchor. No Kaggle mirror, blog or re-upload is used.
 A single fortnightly Pakistani series cannot reach 50,000 rows. The honest
 solution is a multi-series daily/Monthly warehouse: EIA daily observations
 (84,546 clean rows) plus World Bank monthly energy (6,720) plus the domestic
-PBS tables. Total **91,384 clean rows**, above the 50,000 minimum, with two
+PBS tables. Total **91,672 clean rows**, above the 50,000 minimum, with two
 independent publishers plus a third for cross-checking.
 
 ## Model scope (and what is not claimed)
@@ -88,7 +88,8 @@ is not a causal estimate and is not used to train the Brent model.
 - The 9 April 2026 HSD value (522.29 PKR/L against 380.56 petrol) is a real
   published outlier. It triggers the weekly-jump flag, is kept, and is
   annotated in the gold note; it is not silently removed.
-- The PBS monthly city annex covers September 2026 only.
+- The PBS monthly city annexes cover January–September 2026; 2025 editions are
+  not included in this build.
 - No synthetic, interpolated or AI-generated observations are used for
   training or evaluation.
 - Freshness is bounded by the latest collected PBS week (2026-10-15); the

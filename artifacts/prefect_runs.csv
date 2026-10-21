@@ -1,2 +1,3 @@
 run_id,flow_name,state,started_utc,finished_utc,duration_s,rows_gold,quality_status,notes
 3355116a-4cd2-4ecb-83ea-76e204d19a00,hack-insight-hourly,WARN,2026-10-21T11:31:11+00:00,2026-10-21T11:31:45+00:00,34.8,2129,WARN,indexed 2129 gold facts
+641b424b-4459-49bd-a217-e402fbec6628,hack-insight-hourly,WARN,2026-10-21T14:47:06+00:00,2026-10-21T14:47:48+00:00,42.5,2417,WARN,indexed 2417 gold facts

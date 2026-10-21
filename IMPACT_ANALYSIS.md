@@ -60,7 +60,7 @@ up a short, administered price series as a predictive win.
 | **Faster verification** | Cited answer replaces a manual PDF search | Live agent returns a price + row id in ~0.65 s from Cloud; local warm request ~0.04 s | Timed newsroom task before/after; time-to-publish |
 | **Fewer unsupported claims** | Structural refusal and number verification | Contract tests cover out-of-scope, unsupported period, bad city/product and unsupported-number rejection | Error rate in a controlled fact-check exercise |
 | **Better risk framing** | Volatility forecast beats persistence; intervals and group errors are published | 7.27% MAE improvement; 89.25% coverage; price-level failure disclosed | Whether analysts use the interval/regime errors rather than a point number |
-| **Auditable public record** | Manifest, quality log, gold row ids and citation registry | 54 raw files, 91,384 clean rows, 3 publishers, SHA-256 per file | Independent audit reproduces the same counts and citations |
+| **Auditable public record** | Manifest, quality log, gold row ids and citation registry | 62 raw files, 91,672 clean rows, 3 publishers, SHA-256 per file | Independent audit reproduces the same counts and citations |
 | **Language access** | Urdu toggle and Urdu question glossary | Urdu UI and templates; live answers in English and Urdu | Urdu usability testing with non-English readers |
 | **Reusable infrastructure** | Small, tested pipeline and refusal contract | 10 passing tests; one-command rebuild | Another team or market reuses the pattern |
 
@@ -72,7 +72,7 @@ unsupported answers visibly impossible**, with a clear plan to measure the rest.
 
 ## 5. What has actually been measured
 
-- **Data scale:** 91,384 clean rows from 54 raw files and 3 independent
+- **Data scale:** 91,672 clean rows from 62 raw files and 3 independent
   publishers; at least one publisher (EIA/World Bank) is outside the suggested
   track list. Every raw file is hashed.
 - **Model:** persistence MAE 17.8044 → HAR ridge 16.5102 (**7.269%** lower);
@@ -81,7 +81,7 @@ unsupported answers visibly impossible**, with a clear plan to measure the rest.
   reported and **not** claimed as a meaningful win.
 - **Agent behaviour:** 10 contract/honesty tests pass, including scope refusal,
   unsupported period, city/product filtering and rounded-number verification.
-- **Operations:** one real Prefect run, 34.8 s, WARN quality status, 2,129 gold
+- **Operations:** two real Prefect runs (34.8 s, 42.5 s), WARN quality status, 2,417 gold
   facts indexed. The missed Tue–Wed window is disclosed; no history was
   backfilled.
 - **Reach:** live public dashboard on a static Hugging Face Space and a FastAPI

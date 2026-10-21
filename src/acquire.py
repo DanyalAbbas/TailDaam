@@ -5,7 +5,8 @@ Sources
 EIA-PETRO : US Energy Information Administration daily petroleum spot prices.
             Original publisher, US Government work -> public domain.
 PBS-SPI   : Pakistan Bureau of Statistics weekly Sensitive Price Indicator
-            reports (petrol super + high-speed diesel, PKR/litre).
+            reports (petrol super + high-speed diesel, PKR/litre) plus the
+            monthly city annexes (2026 YTD).
             Government of Pakistan open publication.
 WB-PINK   : World Bank Commodity Markets "Pink Sheet" monthly prices.
             CC BY 4.0.
@@ -56,10 +57,30 @@ PBS_WEEKLY_DATES = [
 PBS_WEEKLY_URL = (
     "https://www.pbs.gov.pk/wp-content/uploads/2020/07/3.-SPI-Report-{date}.xlsx"
 )
-PBS_MONTHLY_URL = (
-    "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
-    "SPI-Monthly-Prices-Annex-9.xlsx"
-)
+# PBS keeps each month's city annex under a different (often opaque) file name.
+# These are the 2026 editions served on the price-statistics page as of
+# 2026-10-21. The title row inside each workbook is the source of truth for the
+# month; clean.py parses it rather than trusting the file name.
+PBS_MONTHLY_SOURCES = {
+    "2026-01": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "SPI-Monthly-Prices-Annex-2.xlsx",
+    "2026-02": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "SPI-Monthly-Prices-Annex-5.xlsx",
+    "2026-03": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "SPI-Monthly-Prices-Annex-4.xlsx",
+    "2026-04": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "SPI-Monthly-Prices-Annex-1-2.xlsx",
+    "2026-05": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "13.-SPI-Monthly-Prices-Annex-1.xlsx",
+    "2026-06": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "SPI-Monthly-Prices-Annex-2-1.xlsx",
+    "2026-07": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "SPI-Monthly-Prices-Annex-6.xlsx",
+    "2026-08": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "SPI-Monthly-Prices-Annex-8.xlsx",
+    "2026-09": "https://www.pbs.gov.pk/wp-content/uploads/2020/07/"
+               "SPI-Monthly-Prices-Annex-9.xlsx",
+}
 WB_URL = (
     "https://thedocs.worldbank.org/en/doc/"
     "5d903e848db1d1b83e0ec8f744e55570-0350012021/related/"
@@ -119,17 +140,20 @@ def fetch_pbs_weekly() -> int:
     return sum(results)
 
 
-def fetch_pbs_monthly() -> bool:
-    dest = RAW / "pbs_spi" / "SPI-Monthly-Prices-Annex-9.xlsx"
-    if dest.exists() and dest.stat().st_size > 1000:
-        return True
-    if download(PBS_MONTHLY_URL, dest):
-        record_file(dest, "PBS-SPI", "Pakistan Bureau of Statistics",
-                    PBS_MONTHLY_URL,
-                    "Government of Pakistan open publication",
-                    query="monthly average prices of essential items by city")
-        return True
-    return False
+def fetch_pbs_monthly() -> int:
+    got = 0
+    for month, url in PBS_MONTHLY_SOURCES.items():
+        dest = RAW / "pbs_spi" / "monthly" / f"SPI-Monthly-Prices-{month}.xlsx"
+        if dest.exists() and dest.stat().st_size > 1000:
+            got += 1
+            continue
+        if download(url, dest):
+            record_file(dest, "PBS-SPI", "Pakistan Bureau of Statistics",
+                        url,
+                        "Government of Pakistan open publication",
+                        query=f"monthly average prices by city for {month}")
+            got += 1
+    return got
 
 
 def fetch_worldbank() -> bool:
@@ -151,8 +175,9 @@ def main() -> int:
     print("Fetching PBS weekly SPI reports...")
     n_pbs = fetch_pbs_weekly()
     print(f"  {n_pbs}/{len(PBS_WEEKLY_DATES)} PBS weekly reports present")
-    print("Fetching PBS monthly annex...")
-    print("  ok" if fetch_pbs_monthly() else "  FAILED")
+    print("Fetching PBS monthly annexes...")
+    n_monthly = fetch_pbs_monthly()
+    print(f"  {n_monthly}/{len(PBS_MONTHLY_SOURCES)} PBS monthly annexes present")
     print("Fetching World Bank Pink Sheet...")
     print("  ok" if fetch_worldbank() else "  FAILED")
     if n_eia == 0 and n_pbs == 0:

@@ -26,9 +26,9 @@ Point at the black price board:
 
 Open `data/manifest.csv` in the editor:
 
-> "Every raw file — 41 PBS weekly reports, the PBS city annex, 11 EIA daily
+> "Every raw file — 41 PBS weekly reports, nine PBS city annexes, 11 EIA daily
 > series, the World Bank Pink Sheet — is SHA-256 hashed with its URL, publisher,
-> fetch time and licence. 91,000 clean rows. No synthetic data, no Kaggle
+> fetch time and licence. 91,672 clean rows. No synthetic data, no Kaggle
 > mirrors."
 
 ## 0:50–1:20 — The model beats its declared baseline
@@ -100,5 +100,6 @@ Show `prefect_runs.csv`:
 | `How much better is the model than the baseline?` | 7.27% MAE improvement, `[MODEL-CARD]` |
 | `What was the petrol price in October 2026?` | October weeks from PBS |
 | `What was the petrol price in January 2024?` | Refusal (outside collected period) |
+| `What was the diesel price in Karachi in January 2026?` | 258.23 PKR/L, `[PBS-SPI]`, row `pbsm:2026-01:hsd:Karachi` |
 | `What is the price of gold?` | Refusal (out of scope) |
 | `What is the 90% interval coverage?` | 89.25%, `[MODEL-CARD]` |
