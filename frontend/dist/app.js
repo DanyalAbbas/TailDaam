@@ -802,7 +802,7 @@ async function loadModel() {
 
 async function loadHealth() {
   try {
-    renderHealth(await getJSON("/health"));
+    renderHealth(await getJSON("/api/health"));
   } catch {
     $("#agent-mode").textContent = "API offline";
     $("#composer-note").textContent = "The agent API is offline. Start it with `make api`.";
