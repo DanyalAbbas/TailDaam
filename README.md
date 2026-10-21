@@ -50,6 +50,7 @@ Built for the HACK INSIGHT hackathon (19–22 October 2026). **Track:** Energy d
 
 **Submission pack:** [`Summary.pdf`](Summary.pdf) ·
 [`Dataset_Proposal.pdf`](Dataset_Proposal.pdf) ·
+[`TailDaam_Submission.pptx`](TailDaam_Submission.pptx) ·
 [`AI_Use_Log.md`](AI_Use_Log.md) ·
 [`BUSINESS_MODEL.md`](BUSINESS_MODEL.md) ·
 [`IMPACT_ANALYSIS.md`](IMPACT_ANALYSIS.md) ·
