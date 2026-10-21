@@ -1,6 +1,9 @@
-/* HACK INSIGHT frontend — served as static files by FastAPI's app.frontend().
+/* TailDaam frontend — served as static files by FastAPI's app.frontend().
    No framework, no build step. Every figure comes from /api/overview, /api/model
    or /ask; nothing is typed into the markup. */
+
+const API_BASE = (window.TAILDAAM_API || window.HACK_INSIGHT_API || "").replace(/\/$/, "");
+const apiUrl = (path) => `${API_BASE}${path}`;
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
@@ -82,7 +85,7 @@ const publisherTag = (name) => {
 /* ---------- data access ---------- */
 
 async function getJSON(url) {
-  const res = await fetch(url, { headers: { accept: "application/json" } });
+  const res = await fetch(apiUrl(url), { headers: { accept: "application/json" } });
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
   return res.json();
 }
@@ -717,7 +720,7 @@ async function ask(question) {
   $("#messages").scrollTop = $("#messages").scrollHeight;
 
   try {
-    const res = await fetch("/ask", {
+    const res = await fetch(apiUrl("/ask"), {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ question, lang }),
@@ -842,8 +845,8 @@ function route() {
     else a.removeAttribute("aria-current");
   });
   document.title = tab === "overview"
-    ? "HACK INSIGHT · Pakistan fuel prices on the record"
-    : `HACK INSIGHT · ${tab === "model" ? "Model" : "Insight agent"}`;
+    ? "TailDaam · Pakistan fuel prices on the record"
+    : `TailDaam · ${tab === "model" ? "Model" : "Insight agent"}`;
   if (location.hash !== `#${tab}`) history.replaceState(null, "", `#${tab}`);
   if (tab === "overview" && state.overview) renderPriceChart(state.priceKey);
   if (tab === "model" && state.model) renderModel(state.model);

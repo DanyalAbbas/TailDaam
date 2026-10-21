@@ -1,4 +1,4 @@
-"""Shared paths, hashing and manifest helpers for HACK INSIGHT."""
+"""Shared paths, hashing and manifest helpers for TailDaam."""
 
 from __future__ import annotations
 

@@ -15,7 +15,7 @@ class Summary(FPDF):
     def header(self):
         self.set_font("Helvetica", "B", 9)
         self.set_text_color(90, 90, 90)
-        self.cell(0, 6, "HACK INSIGHT 2026  |  Pakistan fuel prices, with receipts",
+        self.cell(0, 6, "TailDaam 2026  |  Pakistan fuel prices, with receipts",
                   align="R", new_x="LMARGIN", new_y="NEXT")
         self.ln(2)
 
@@ -48,11 +48,13 @@ def main() -> int:
 
     pdf = Summary(format="A4")
     pdf.add_page()
-    pdf.set_font("Helvetica", "B", 18)
+    pdf.set_font("Helvetica", "B", 20)
     pdf.set_text_color(15, 45, 30)
-    pdf.cell(0, 9, "Pakistan fuel prices, with receipts", new_x="LMARGIN",
+    pdf.cell(0, 11, "TailDaam", new_x="LMARGIN", new_y="NEXT")
+    pdf.set_font("Helvetica", "B", 12)
+    pdf.cell(0, 7, "Pakistan fuel prices, with receipts", new_x="LMARGIN",
              new_y="NEXT")
-    pdf.set_font("Helvetica", "", 10)
+    pdf.set_font("Helvetica", "", 9)
     pdf.set_text_color(80, 80, 80)
     pdf.cell(0, 5, "A governed dataset, a baseline-beating risk model, and a "
                    "refusal-first insight agent", new_x="LMARGIN", new_y="NEXT")

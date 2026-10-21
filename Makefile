@@ -1,4 +1,4 @@
-# HACK INSIGHT — reproducible entry points (uv-managed environment).
+# TailDaam — reproducible entry points (uv-managed environment).
 # `uv sync`/`uv pip install` handles dependencies; every target below runs the
 # same code the hourly Prefect flow runs.
 

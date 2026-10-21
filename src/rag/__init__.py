@@ -1,4 +1,4 @@
-"""RAG-based Insight Agent for HACK INSIGHT.
+"""RAG-based Insight Agent for TailDaam.
 
 Honesty contract (hackathon rule 1):
 - Every number in an answer comes from a gold table row snapshot stored in

@@ -38,3 +38,7 @@ timestamp,lang,passed,refusal,unverified_numbers,unknown_citations,question
 2026-10-21T17:39:53,en,True,False,,,What was the diesel price in Karachi in September 2026?
 2026-10-21T17:39:58,en,True,True,,,What is the weather in Lahore today?
 2026-10-21T17:40:03,ur,True,False,,,پاکستان میں پیٹرول کی قیمت کیا ہے؟
+2026-10-21T17:57:36,en,True,False,,,What is the current petrol price in Pakistan?
+2026-10-21T17:57:41,en,True,False,,,What was the diesel price in Karachi in September 2026?
+2026-10-21T17:57:46,en,True,True,,,What is the weather in Lahore today?
+2026-10-21T17:57:52,ur,True,False,,,پاکستان میں پیٹرول کی قیمت کیا ہے؟

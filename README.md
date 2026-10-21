@@ -1,22 +1,15 @@
----
-title: HACK INSIGHT
-emoji: ⛽
-colorFrom: green
-colorTo: gray
-sdk: docker
-app_port: 7860
-pinned: false
----
-
-# HACK INSIGHT — Pakistan fuel prices, with receipts
+# TailDaam — Pakistan fuel prices, with receipts
 
 An end-to-end, reproducible data product for **Pakistani petrol and diesel
 prices**: a governed data warehouse, a baseline-beating risk model, and a RAG
 insight agent that is structurally incapable of inventing a number.
 
+The name combines **tail risk** with **daam**, Urdu for price.
+
 Built for the HACK INSIGHT hackathon (19–22 October 2026). **Track:** Energy demand — proposed problem: Pakistani fuel-price volatility and pass-through.
 
 **Live:** [hack-insight.fastapicloud.dev](https://hack-insight.fastapicloud.dev) ·
+**Hugging Face Space:** [TailDaam](https://danyalabbas-hack-insight.static.hf.space) ·
 **Demo video:** [`artifacts/demo.mp4`](artifacts/demo.mp4) ·
 **API docs:** [hack-insight.fastapicloud.dev/docs](https://hack-insight.fastapicloud.dev/docs)
 
@@ -303,19 +296,29 @@ index to fetch and no large index to upload.
 
 ### Hugging Face Space
 
-The repository is Space-ready: the YAML block at the top of this file declares
-`sdk: docker` and `app_port: 7860`, and the `Dockerfile` listens on 7860. To
-publish the same app there:
+**Live:** <https://danyalabbas-hack-insight.static.hf.space>
 
-1. Create a **Docker Space** named `hack-insight` under your Hugging Face
-   account (hardware: CPU basic is enough).
-2. Push this repository to it, either with `hf upload <user>/hack-insight . --repo-type space`
-   or by adding the Space as a git remote and pushing `main`.
-3. Confirm `https://<user>-hack-insight.hf.space/api/health` returns
-   `{"status":"ok", ...}` and open the root URL.
+The Space is a free **Static Space** in `space/`. It serves the same SPA and
+calls the verified FastAPI Cloud API; the API base is set in
+`space/config.js`. Docker and Gradio Spaces on free `cpu-basic` now require a
+PRO subscription, so the static Space is the reproducible free option.
 
-The Space uses the in-memory TF-IDF fallback, so it needs no `data/chroma`
-upload and starts in a few seconds.
+To redeploy it:
+
+```bash
+.venv/bin/python - <<'PY'
+from huggingface_hub import HfApi
+HfApi().upload_folder(
+    folder_path="space",
+    repo_id="DanyalAbbas/hack-insight",
+    repo_type="space",
+    commit_message="Update the TailDaam static dashboard",
+)
+PY
+```
+
+The Space card is `space/README.md` (`sdk: static`). The same frontend is mounted
+by FastAPI at `/` when the backend runs locally or on FastAPI Cloud.
 
 Example:
 
@@ -335,6 +338,7 @@ src/
   pipeline/flows.py
   rag/            # retrieval, prompts, verification, API, CLI
 frontend/dist/    # hand-written SPA served by FastAPI (no build step)
+space/            # static Hugging Face Space (same SPA, remote API base)
 main.py           # FastAPI Cloud entrypoint: main:app
 pyproject.toml    # deployment dependencies + entrypoint
 tests/            # gold contract, citation registry, honesty gate

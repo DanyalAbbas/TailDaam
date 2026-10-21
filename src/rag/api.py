@@ -50,7 +50,7 @@ async def lifespan(_app: FastAPI):
 
 
 app = FastAPI(
-    title="HACK INSIGHT — Pakistan fuel prices",
+    title="TailDaam — Pakistan fuel prices",
     lifespan=lifespan,
     description=(
         "Grounded insight agent over governed gold tables. Every number is "
