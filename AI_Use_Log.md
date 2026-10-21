@@ -8,7 +8,7 @@ prose; AI did not generate data, results, or citations.**
 
 | Tool | Role |
 |---|---|
-| DeepSeek / Claude coding assistant (OpenCode) | Code scaffolding, refactoring, test writing, documentation editing, debugging |
+| DeepSeek V4.1 Flash Free in OpenCode | Code scaffolding, refactoring, test writing, documentation editing, debugging |
 | No generative model at inference (default mode) | The shipped agent uses extractive answering over gold facts |
 
 ## What AI was used for
@@ -22,6 +22,8 @@ prose; AI did not generate data, results, or citations.**
 | 21 Oct | Model | Drafted HAR feature code and metrics code | Ran the split ourselves; read the metrics; kept the failed price-level attempt in the model card |
 | 21 Oct | Frontend | Drafted a Streamlit layout, then replaced it with a hand-written SPA served by FastAPI | Ran both locally; the Streamlit version was discarded before submission |
 | 21 Oct | Docs | Edited README, model card and this log | Every claim cross-checked against artifacts |
+| 21 Oct | Deployment | Prepared `main:app`, `pyproject.toml` and the FastAPI Cloud entrypoint | Verified locally and live at `https://hack-insight.fastapicloud.dev` |
+| 21 Oct | Demo | Recorded the captioned walkthrough with Playwright and ffmpeg | Reviewed every frame; captions match the real UI and live numbers |
 
 ## What AI was **not** used for
 
@@ -52,4 +54,3 @@ prose; AI did not generate data, results, or citations.**
 All members can explain the code they submit. The assistant's output was treated
 as a draft: reviewed, executed, and corrected by the team.
 
-| 21 Oct | Deployment | Prepared `main:app`, `pyproject.toml` and the FastAPI Cloud entrypoint | Verified `main:app` locally; cloud login is the remaining manual step |
