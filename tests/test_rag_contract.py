@@ -8,6 +8,7 @@ import pandas as pd
 import pytest
 
 from rag.gold_tables import REQUIRED_COLUMNS, load_gold_tables
+from rag.rag import is_in_scope
 from rag.retrieval import Evidence
 from rag.verify import verify_answer
 
@@ -72,6 +73,16 @@ def test_verify_passes_cited_answer():
     answer = "Petrol is PKR 271.9/L [PBS-SPI]."
     ver = verify_answer(answer, evidence, valid_tags={"PBS-SPI"}, refusal=False)
     assert ver.ok, ver
+
+
+def test_scope_accepts_plural_price_with_city():
+    assert is_in_scope("prices in Lahore?")
+    assert is_in_scope("cost of diesel in Karachi")
+
+
+def test_scope_rejects_price_without_place_or_product():
+    assert not is_in_scope("What is the price of gold?")
+    assert not is_in_scope("What is the weather in Lahore?")
 
 
 def test_verify_allows_correctly_rounded_number():

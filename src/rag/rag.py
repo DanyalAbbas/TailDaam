@@ -130,7 +130,8 @@ def is_in_scope(question: str) -> bool:
         return False
     if tokens & CORE_TERMS:
         return True
-    if "price" in tokens and (tokens & PLACES):
+    if (tokens & {"price", "prices", "cost", "costs", "rate", "rates"}) \
+            and (tokens & PLACES):
         return True
     return False
 

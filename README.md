@@ -6,6 +6,10 @@ insight agent that is structurally incapable of inventing a number.
 
 Built for the HACK INSIGHT hackathon (19–22 October 2026).
 
+**Live:** [hack-insight.fastapicloud.dev](https://hack-insight.fastapicloud.dev) ·
+**Demo video:** [`artifacts/demo.mp4`](artifacts/demo.mp4) ·
+**API docs:** [hack-insight.fastapicloud.dev/docs](https://hack-insight.fastapicloud.dev/docs)
+
 ---
 
 ## 1. The problem
@@ -310,7 +314,8 @@ tests/            # gold contract, citation registry, honesty gate
 data/
   gold/           # committed, small, the only quotable layer
   manifest.csv    # committed provenance ledger
-artifacts/        # metrics, predictions, group errors, quality log, model card
+artifacts/        # metrics, predictions, group errors, quality log, model card,
+                  # frontend screenshots, demo.mp4
 models/           # fitted model
 Summary.pdf       # one-page summary
 prefect_runs.csv  # real pipeline run history

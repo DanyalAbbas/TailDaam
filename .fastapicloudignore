@@ -12,3 +12,5 @@ tests/
 docs/
 Summary.pdf
 prefect_runs.csv
+artifacts/demo.mp4
+artifacts/frontend_*.png
