@@ -16,6 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LOCAL = ROOT / "artifacts" / "pipeline_runs.csv"
 OUT = ROOT / "prefect_runs.csv"
+ARTIFACT_OUT = ROOT / "artifacts" / "prefect_runs.csv"
 COLUMNS = ["run_id", "flow_name", "state", "started_utc", "finished_utc",
            "duration_s", "rows_gold", "quality_status", "notes"]
 
@@ -43,22 +44,23 @@ def main() -> int:
     with LOCAL.open(newline="", encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
     ids = prefect_ids()
-    with OUT.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=COLUMNS)
-        w.writeheader()
-        for r in rows:
-            w.writerow({
-                "run_id": ids.get(r["run_id"], r["run_id"]),
-                "flow_name": r["flow_name"],
-                "state": r["status"],
-                "started_utc": r["started_utc"],
-                "finished_utc": r["finished_utc"],
-                "duration_s": r["duration_s"],
-                "rows_gold": r["rows_gold"],
-                "quality_status": r["quality_status"],
-                "notes": r["notes"],
-            })
-    print(f"wrote {len(rows)} real runs to {OUT.relative_to(ROOT)}")
+    for out in (OUT, ARTIFACT_OUT):
+        with out.open("w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=COLUMNS)
+            w.writeheader()
+            for r in rows:
+                w.writerow({
+                    "run_id": ids.get(r["run_id"], r["run_id"]),
+                    "flow_name": r["flow_name"],
+                    "state": r["status"],
+                    "started_utc": r["started_utc"],
+                    "finished_utc": r["finished_utc"],
+                    "duration_s": r["duration_s"],
+                    "rows_gold": r["rows_gold"],
+                    "quality_status": r["quality_status"],
+                    "notes": r["notes"],
+                })
+    print(f"wrote {len(rows)} real runs to {OUT.relative_to(ROOT)} and {ARTIFACT_OUT.relative_to(ROOT)}")
     return 0
 
 
