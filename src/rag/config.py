@@ -22,8 +22,10 @@ MISTRAL_EMBED_MODEL = os.getenv("MISTRAL_EMBED_MODEL", "mistral-embed")
 # Retrieve top-k evidence chunks for the answer step.
 TOP_K = int(os.getenv("RAG_TOP_K", "6"))
 # Chunks whose best score (0-1 cosine similarity) falls below this are treated
-# as unsupported -> the agent refuses. Tuned on mock; recalibrate on real data.
+# as unsupported -> the agent refuses. Two floors because the embedding backends
+# have different score distributions; both are configurable.
 MIN_RELEVANCE_SCORE = float(os.getenv("RAG_MIN_RELEVANCE", "0.55"))
+MIN_RELEVANCE_TFIDF = float(os.getenv("RAG_MIN_RELEVANCE_TFIDF", "0.08"))
 
 PRIMARY_USER_PERSONA = (
     "A commuter or small fleet operator in Karachi who budgets for fuel and "

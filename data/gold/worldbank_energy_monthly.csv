@@ -1,0 +1,841 @@
+doc_id,table_name,row_ids,citation_tag,period_begin,period_end,entity,value,unit,notes
+WB-coal_australian-2018-01,worldbank_energy_monthly,wb:2018M01:coal_australian,WB-PINK,2018-01-01,2018-01-01,"Coal, Australian",106.45,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-02,worldbank_energy_monthly,wb:2018M02:coal_australian,WB-PINK,2018-02-01,2018-02-01,"Coal, Australian",105.95,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-03,worldbank_energy_monthly,wb:2018M03:coal_australian,WB-PINK,2018-03-01,2018-03-01,"Coal, Australian",96.66,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-04,worldbank_energy_monthly,wb:2018M04:coal_australian,WB-PINK,2018-04-01,2018-04-01,"Coal, Australian",93.69,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-05,worldbank_energy_monthly,wb:2018M05:coal_australian,WB-PINK,2018-05-01,2018-05-01,"Coal, Australian",105.29,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-06,worldbank_energy_monthly,wb:2018M06:coal_australian,WB-PINK,2018-06-01,2018-06-01,"Coal, Australian",114.33,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-07,worldbank_energy_monthly,wb:2018M07:coal_australian,WB-PINK,2018-07-01,2018-07-01,"Coal, Australian",119.57,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-08,worldbank_energy_monthly,wb:2018M08:coal_australian,WB-PINK,2018-08-01,2018-08-01,"Coal, Australian",117.34,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-09,worldbank_energy_monthly,wb:2018M09:coal_australian,WB-PINK,2018-09-01,2018-09-01,"Coal, Australian",114.16,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-10,worldbank_energy_monthly,wb:2018M10:coal_australian,WB-PINK,2018-10-01,2018-10-01,"Coal, Australian",108.73,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-11,worldbank_energy_monthly,wb:2018M11:coal_australian,WB-PINK,2018-11-01,2018-11-01,"Coal, Australian",100.73,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2018-12,worldbank_energy_monthly,wb:2018M12:coal_australian,WB-PINK,2018-12-01,2018-12-01,"Coal, Australian",101.37,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-01,worldbank_energy_monthly,wb:2019M01:coal_australian,WB-PINK,2019-01-01,2019-01-01,"Coal, Australian",98.56,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-02,worldbank_energy_monthly,wb:2019M02:coal_australian,WB-PINK,2019-02-01,2019-02-01,"Coal, Australian",95.42,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-03,worldbank_energy_monthly,wb:2019M03:coal_australian,WB-PINK,2019-03-01,2019-03-01,"Coal, Australian",93.12,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-04,worldbank_energy_monthly,wb:2019M04:coal_australian,WB-PINK,2019-04-01,2019-04-01,"Coal, Australian",86.77,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-05,worldbank_energy_monthly,wb:2019M05:coal_australian,WB-PINK,2019-05-01,2019-05-01,"Coal, Australian",82.32,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-06,worldbank_energy_monthly,wb:2019M06:coal_australian,WB-PINK,2019-06-01,2019-06-01,"Coal, Australian",72.49,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-07,worldbank_energy_monthly,wb:2019M07:coal_australian,WB-PINK,2019-07-01,2019-07-01,"Coal, Australian",72.08,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-08,worldbank_energy_monthly,wb:2019M08:coal_australian,WB-PINK,2019-08-01,2019-08-01,"Coal, Australian",65.55,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-09,worldbank_energy_monthly,wb:2019M09:coal_australian,WB-PINK,2019-09-01,2019-09-01,"Coal, Australian",65.95,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-10,worldbank_energy_monthly,wb:2019M10:coal_australian,WB-PINK,2019-10-01,2019-10-01,"Coal, Australian",69.2,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-11,worldbank_energy_monthly,wb:2019M11:coal_australian,WB-PINK,2019-11-01,2019-11-01,"Coal, Australian",66.99,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2019-12,worldbank_energy_monthly,wb:2019M12:coal_australian,WB-PINK,2019-12-01,2019-12-01,"Coal, Australian",66.18,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-01,worldbank_energy_monthly,wb:2020M01:coal_australian,WB-PINK,2020-01-01,2020-01-01,"Coal, Australian",69.66,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-02,worldbank_energy_monthly,wb:2020M02:coal_australian,WB-PINK,2020-02-01,2020-02-01,"Coal, Australian",67.64,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-03,worldbank_energy_monthly,wb:2020M03:coal_australian,WB-PINK,2020-03-01,2020-03-01,"Coal, Australian",66.74,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-04,worldbank_energy_monthly,wb:2020M04:coal_australian,WB-PINK,2020-04-01,2020-04-01,"Coal, Australian",58.55,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-05,worldbank_energy_monthly,wb:2020M05:coal_australian,WB-PINK,2020-05-01,2020-05-01,"Coal, Australian",52.49,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-06,worldbank_energy_monthly,wb:2020M06:coal_australian,WB-PINK,2020-06-01,2020-06-01,"Coal, Australian",52.21,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-07,worldbank_energy_monthly,wb:2020M07:coal_australian,WB-PINK,2020-07-01,2020-07-01,"Coal, Australian",51.56,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-08,worldbank_energy_monthly,wb:2020M08:coal_australian,WB-PINK,2020-08-01,2020-08-01,"Coal, Australian",50.14,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-09,worldbank_energy_monthly,wb:2020M09:coal_australian,WB-PINK,2020-09-01,2020-09-01,"Coal, Australian",54.6,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-10,worldbank_energy_monthly,wb:2020M10:coal_australian,WB-PINK,2020-10-01,2020-10-01,"Coal, Australian",58.4,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-11,worldbank_energy_monthly,wb:2020M11:coal_australian,WB-PINK,2020-11-01,2020-11-01,"Coal, Australian",64.4,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2020-12,worldbank_energy_monthly,wb:2020M12:coal_australian,WB-PINK,2020-12-01,2020-12-01,"Coal, Australian",83.03,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-01,worldbank_energy_monthly,wb:2021M01:coal_australian,WB-PINK,2021-01-01,2021-01-01,"Coal, Australian",86.83,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-02,worldbank_energy_monthly,wb:2021M02:coal_australian,WB-PINK,2021-02-01,2021-02-01,"Coal, Australian",86.74,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-03,worldbank_energy_monthly,wb:2021M03:coal_australian,WB-PINK,2021-03-01,2021-03-01,"Coal, Australian",94.92,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-04,worldbank_energy_monthly,wb:2021M04:coal_australian,WB-PINK,2021-04-01,2021-04-01,"Coal, Australian",92.22,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-05,worldbank_energy_monthly,wb:2021M05:coal_australian,WB-PINK,2021-05-01,2021-05-01,"Coal, Australian",107.04,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-06,worldbank_energy_monthly,wb:2021M06:coal_australian,WB-PINK,2021-06-01,2021-06-01,"Coal, Australian",129.97,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-07,worldbank_energy_monthly,wb:2021M07:coal_australian,WB-PINK,2021-07-01,2021-07-01,"Coal, Australian",151.97,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-08,worldbank_energy_monthly,wb:2021M08:coal_australian,WB-PINK,2021-08-01,2021-08-01,"Coal, Australian",169.58,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-09,worldbank_energy_monthly,wb:2021M09:coal_australian,WB-PINK,2021-09-01,2021-09-01,"Coal, Australian",185.69,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-10,worldbank_energy_monthly,wb:2021M10:coal_australian,WB-PINK,2021-10-01,2021-10-01,"Coal, Australian",224.51,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-11,worldbank_energy_monthly,wb:2021M11:coal_australian,WB-PINK,2021-11-01,2021-11-01,"Coal, Australian",157.48,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2021-12,worldbank_energy_monthly,wb:2021M12:coal_australian,WB-PINK,2021-12-01,2021-12-01,"Coal, Australian",169.65,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-01,worldbank_energy_monthly,wb:2022M01:coal_australian,WB-PINK,2022-01-01,2022-01-01,"Coal, Australian",196.95,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-02,worldbank_energy_monthly,wb:2022M02:coal_australian,WB-PINK,2022-02-01,2022-02-01,"Coal, Australian",219.78,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-03,worldbank_energy_monthly,wb:2022M03:coal_australian,WB-PINK,2022-03-01,2022-03-01,"Coal, Australian",314.04,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-04,worldbank_energy_monthly,wb:2022M04:coal_australian,WB-PINK,2022-04-01,2022-04-01,"Coal, Australian",310.85,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-05,worldbank_energy_monthly,wb:2022M05:coal_australian,WB-PINK,2022-05-01,2022-05-01,"Coal, Australian",371.86,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-06,worldbank_energy_monthly,wb:2022M06:coal_australian,WB-PINK,2022-06-01,2022-06-01,"Coal, Australian",374.08,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-07,worldbank_energy_monthly,wb:2022M07:coal_australian,WB-PINK,2022-07-01,2022-07-01,"Coal, Australian",402.2,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-08,worldbank_energy_monthly,wb:2022M08:coal_australian,WB-PINK,2022-08-01,2022-08-01,"Coal, Australian",406.97,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-09,worldbank_energy_monthly,wb:2022M09:coal_australian,WB-PINK,2022-09-01,2022-09-01,"Coal, Australian",430.81,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-10,worldbank_energy_monthly,wb:2022M10:coal_australian,WB-PINK,2022-10-01,2022-10-01,"Coal, Australian",389.79,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-11,worldbank_energy_monthly,wb:2022M11:coal_australian,WB-PINK,2022-11-01,2022-11-01,"Coal, Australian",342.16,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2022-12,worldbank_energy_monthly,wb:2022M12:coal_australian,WB-PINK,2022-12-01,2022-12-01,"Coal, Australian",379.23,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-01,worldbank_energy_monthly,wb:2023M01:coal_australian,WB-PINK,2023-01-01,2023-01-01,"Coal, Australian",317.99,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-02,worldbank_energy_monthly,wb:2023M02:coal_australian,WB-PINK,2023-02-01,2023-02-01,"Coal, Australian",207.48,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-03,worldbank_energy_monthly,wb:2023M03:coal_australian,WB-PINK,2023-03-01,2023-03-01,"Coal, Australian",187.23,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-04,worldbank_energy_monthly,wb:2023M04:coal_australian,WB-PINK,2023-04-01,2023-04-01,"Coal, Australian",194.28,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-05,worldbank_energy_monthly,wb:2023M05:coal_australian,WB-PINK,2023-05-01,2023-05-01,"Coal, Australian",160.48,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-06,worldbank_energy_monthly,wb:2023M06:coal_australian,WB-PINK,2023-06-01,2023-06-01,"Coal, Australian",139.42,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-07,worldbank_energy_monthly,wb:2023M07:coal_australian,WB-PINK,2023-07-01,2023-07-01,"Coal, Australian",140.63,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-08,worldbank_energy_monthly,wb:2023M08:coal_australian,WB-PINK,2023-08-01,2023-08-01,"Coal, Australian",152.61,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-09,worldbank_energy_monthly,wb:2023M09:coal_australian,WB-PINK,2023-09-01,2023-09-01,"Coal, Australian",162.47,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-10,worldbank_energy_monthly,wb:2023M10:coal_australian,WB-PINK,2023-10-01,2023-10-01,"Coal, Australian",142.12,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-11,worldbank_energy_monthly,wb:2023M11:coal_australian,WB-PINK,2023-11-01,2023-11-01,"Coal, Australian",126.82,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2023-12,worldbank_energy_monthly,wb:2023M12:coal_australian,WB-PINK,2023-12-01,2023-12-01,"Coal, Australian",141.82,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-01,worldbank_energy_monthly,wb:2024M01:coal_australian,WB-PINK,2024-01-01,2024-01-01,"Coal, Australian",124.9,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-02,worldbank_energy_monthly,wb:2024M02:coal_australian,WB-PINK,2024-02-01,2024-02-01,"Coal, Australian",124.22,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-03,worldbank_energy_monthly,wb:2024M03:coal_australian,WB-PINK,2024-03-01,2024-03-01,"Coal, Australian",131.49,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-04,worldbank_energy_monthly,wb:2024M04:coal_australian,WB-PINK,2024-04-01,2024-04-01,"Coal, Australian",134.97,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-05,worldbank_energy_monthly,wb:2024M05:coal_australian,WB-PINK,2024-05-01,2024-05-01,"Coal, Australian",142.01,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-06,worldbank_energy_monthly,wb:2024M06:coal_australian,WB-PINK,2024-06-01,2024-06-01,"Coal, Australian",135.1,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-07,worldbank_energy_monthly,wb:2024M07:coal_australian,WB-PINK,2024-07-01,2024-07-01,"Coal, Australian",137.55,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-08,worldbank_energy_monthly,wb:2024M08:coal_australian,WB-PINK,2024-08-01,2024-08-01,"Coal, Australian",145.76,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-09,worldbank_energy_monthly,wb:2024M09:coal_australian,WB-PINK,2024-09-01,2024-09-01,"Coal, Australian",139.2,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-10,worldbank_energy_monthly,wb:2024M10:coal_australian,WB-PINK,2024-10-01,2024-10-01,"Coal, Australian",146.63,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-11,worldbank_energy_monthly,wb:2024M11:coal_australian,WB-PINK,2024-11-01,2024-11-01,"Coal, Australian",142.12,($/mt),World Bank Pink Sheet monthly price
+WB-coal_australian-2024-12,worldbank_energy_monthly,wb:2024M12:coal_australian,WB-PINK,2024-12-01,2024-12-01,"Coal, Australian",129.81,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-01,worldbank_energy_monthly,wb:2018M01:coal_south_african,WB-PINK,2018-01-01,2018-01-01,"Coal, South African **",97.48,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-02,worldbank_energy_monthly,wb:2018M02:coal_south_african,WB-PINK,2018-02-01,2018-02-01,"Coal, South African **",92.68,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-03,worldbank_energy_monthly,wb:2018M03:coal_south_african,WB-PINK,2018-03-01,2018-03-01,"Coal, South African **",89.5,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-04,worldbank_energy_monthly,wb:2018M04:coal_south_african,WB-PINK,2018-04-01,2018-04-01,"Coal, South African **",92.32,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-05,worldbank_energy_monthly,wb:2018M05:coal_south_african,WB-PINK,2018-05-01,2018-05-01,"Coal, South African **",101.89,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-06,worldbank_energy_monthly,wb:2018M06:coal_south_african,WB-PINK,2018-06-01,2018-06-01,"Coal, South African **",103.88,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-07,worldbank_energy_monthly,wb:2018M07:coal_south_african,WB-PINK,2018-07-01,2018-07-01,"Coal, South African **",106.02,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-08,worldbank_energy_monthly,wb:2018M08:coal_south_african,WB-PINK,2018-08-01,2018-08-01,"Coal, South African **",98.48,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-09,worldbank_energy_monthly,wb:2018M09:coal_south_african,WB-PINK,2018-09-01,2018-09-01,"Coal, South African **",102.14,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-10,worldbank_energy_monthly,wb:2018M10:coal_south_african,WB-PINK,2018-10-01,2018-10-01,"Coal, South African **",100.34,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-11,worldbank_energy_monthly,wb:2018M11:coal_south_african,WB-PINK,2018-11-01,2018-11-01,"Coal, South African **",91.58,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2018-12,worldbank_energy_monthly,wb:2018M12:coal_south_african,WB-PINK,2018-12-01,2018-12-01,"Coal, South African **",95.41,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-01,worldbank_energy_monthly,wb:2019M01:coal_south_african,WB-PINK,2019-01-01,2019-01-01,"Coal, South African **",91.29,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-02,worldbank_energy_monthly,wb:2019M02:coal_south_african,WB-PINK,2019-02-01,2019-02-01,"Coal, South African **",84.16,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-03,worldbank_energy_monthly,wb:2019M03:coal_south_african,WB-PINK,2019-03-01,2019-03-01,"Coal, South African **",78.81,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-04,worldbank_energy_monthly,wb:2019M04:coal_south_african,WB-PINK,2019-04-01,2019-04-01,"Coal, South African **",72.49,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-05,worldbank_energy_monthly,wb:2019M05:coal_south_african,WB-PINK,2019-05-01,2019-05-01,"Coal, South African **",68.93,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-06,worldbank_energy_monthly,wb:2019M06:coal_south_african,WB-PINK,2019-06-01,2019-06-01,"Coal, South African **",62.94,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-07,worldbank_energy_monthly,wb:2019M07:coal_south_african,WB-PINK,2019-07-01,2019-07-01,"Coal, South African **",65.79,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-08,worldbank_energy_monthly,wb:2019M08:coal_south_african,WB-PINK,2019-08-01,2019-08-01,"Coal, South African **",60.43,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-09,worldbank_energy_monthly,wb:2019M09:coal_south_african,WB-PINK,2019-09-01,2019-09-01,"Coal, South African **",61.37,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-10,worldbank_energy_monthly,wb:2019M10:coal_south_african,WB-PINK,2019-10-01,2019-10-01,"Coal, South African **",67.44,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-11,worldbank_energy_monthly,wb:2019M11:coal_south_african,WB-PINK,2019-11-01,2019-11-01,"Coal, South African **",73.62,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2019-12,worldbank_energy_monthly,wb:2019M12:coal_south_african,WB-PINK,2019-12-01,2019-12-01,"Coal, South African **",76.03,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-01,worldbank_energy_monthly,wb:2020M01:coal_south_african,WB-PINK,2020-01-01,2020-01-01,"Coal, South African **",82.09,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-02,worldbank_energy_monthly,wb:2020M02:coal_south_african,WB-PINK,2020-02-01,2020-02-01,"Coal, South African **",79.99,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-03,worldbank_energy_monthly,wb:2020M03:coal_south_african,WB-PINK,2020-03-01,2020-03-01,"Coal, South African **",67.89,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-04,worldbank_energy_monthly,wb:2020M04:coal_south_african,WB-PINK,2020-04-01,2020-04-01,"Coal, South African **",56.58,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-05,worldbank_energy_monthly,wb:2020M05:coal_south_african,WB-PINK,2020-05-01,2020-05-01,"Coal, South African **",57.42,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-06,worldbank_energy_monthly,wb:2020M06:coal_south_african,WB-PINK,2020-06-01,2020-06-01,"Coal, South African **",56.81,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-07,worldbank_energy_monthly,wb:2020M07:coal_south_african,WB-PINK,2020-07-01,2020-07-01,"Coal, South African **",56.6,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-08,worldbank_energy_monthly,wb:2020M08:coal_south_african,WB-PINK,2020-08-01,2020-08-01,"Coal, South African **",57.38,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-09,worldbank_energy_monthly,wb:2020M09:coal_south_african,WB-PINK,2020-09-01,2020-09-01,"Coal, South African **",57.47,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-10,worldbank_energy_monthly,wb:2020M10:coal_south_african,WB-PINK,2020-10-01,2020-10-01,"Coal, South African **",61.04,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-11,worldbank_energy_monthly,wb:2020M11:coal_south_african,WB-PINK,2020-11-01,2020-11-01,"Coal, South African **",69.43,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2020-12,worldbank_energy_monthly,wb:2020M12:coal_south_african,WB-PINK,2020-12-01,2020-12-01,"Coal, South African **",85.18,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-01,worldbank_energy_monthly,wb:2021M01:coal_south_african,WB-PINK,2021-01-01,2021-01-01,"Coal, South African **",86.85,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-02,worldbank_energy_monthly,wb:2021M02:coal_south_african,WB-PINK,2021-02-01,2021-02-01,"Coal, South African **",82.76,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-03,worldbank_energy_monthly,wb:2021M03:coal_south_african,WB-PINK,2021-03-01,2021-03-01,"Coal, South African **",90.66,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-04,worldbank_energy_monthly,wb:2021M04:coal_south_african,WB-PINK,2021-04-01,2021-04-01,"Coal, South African **",89.13,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-05,worldbank_energy_monthly,wb:2021M05:coal_south_african,WB-PINK,2021-05-01,2021-05-01,"Coal, South African **",99.31,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-06,worldbank_energy_monthly,wb:2021M06:coal_south_african,WB-PINK,2021-06-01,2021-06-01,"Coal, South African **",112.92,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-07,worldbank_energy_monthly,wb:2021M07:coal_south_african,WB-PINK,2021-07-01,2021-07-01,"Coal, South African **",122.33,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-08,worldbank_energy_monthly,wb:2021M08:coal_south_african,WB-PINK,2021-08-01,2021-08-01,"Coal, South African **",137.92,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-09,worldbank_energy_monthly,wb:2021M09:coal_south_african,WB-PINK,2021-09-01,2021-09-01,"Coal, South African **",146.0528,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-10,worldbank_energy_monthly,wb:2021M10:coal_south_african,WB-PINK,2021-10-01,2021-10-01,"Coal, South African **",199.65,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-11,worldbank_energy_monthly,wb:2021M11:coal_south_african,WB-PINK,2021-11-01,2021-11-01,"Coal, South African **",128.0,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2021-12,worldbank_energy_monthly,wb:2021M12:coal_south_african,WB-PINK,2021-12-01,2021-12-01,"Coal, South African **",142.5,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-01,worldbank_energy_monthly,wb:2022M01:coal_south_african,WB-PINK,2022-01-01,2022-01-01,"Coal, South African **",168.5,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-02,worldbank_energy_monthly,wb:2022M02:coal_south_african,WB-PINK,2022-02-01,2022-02-01,"Coal, South African **",196.4,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-03,worldbank_energy_monthly,wb:2022M03:coal_south_african,WB-PINK,2022-03-01,2022-03-01,"Coal, South African **",294.42,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-04,worldbank_energy_monthly,wb:2022M04:coal_south_african,WB-PINK,2022-04-01,2022-04-01,"Coal, South African **",302.0,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-05,worldbank_energy_monthly,wb:2022M05:coal_south_african,WB-PINK,2022-05-01,2022-05-01,"Coal, South African **",280.0,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-06,worldbank_energy_monthly,wb:2022M06:coal_south_african,WB-PINK,2022-06-01,2022-06-01,"Coal, South African **",291.3568,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-07,worldbank_energy_monthly,wb:2022M07:coal_south_african,WB-PINK,2022-07-01,2022-07-01,"Coal, South African **",269.0866,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-08,worldbank_energy_monthly,wb:2022M08:coal_south_african,WB-PINK,2022-08-01,2022-08-01,"Coal, South African **",274.6195,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-09,worldbank_energy_monthly,wb:2022M09:coal_south_african,WB-PINK,2022-09-01,2022-09-01,"Coal, South African **",234.9845,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-10,worldbank_energy_monthly,wb:2022M10:coal_south_african,WB-PINK,2022-10-01,2022-10-01,"Coal, South African **",191.2199,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-11,worldbank_energy_monthly,wb:2022M11:coal_south_african,WB-PINK,2022-11-01,2022-11-01,"Coal, South African **",169.0966,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2022-12,worldbank_energy_monthly,wb:2022M12:coal_south_african,WB-PINK,2022-12-01,2022-12-01,"Coal, South African **",215.0,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-01,worldbank_energy_monthly,wb:2023M01:coal_south_african,WB-PINK,2023-01-01,2023-01-01,"Coal, South African **",172.0,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-02,worldbank_energy_monthly,wb:2023M02:coal_south_african,WB-PINK,2023-02-01,2023-02-01,"Coal, South African **",144.67,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-03,worldbank_energy_monthly,wb:2023M03:coal_south_african,WB-PINK,2023-03-01,2023-03-01,"Coal, South African **",136.84,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-04,worldbank_energy_monthly,wb:2023M04:coal_south_african,WB-PINK,2023-04-01,2023-04-01,"Coal, South African **",133.7451,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-05,worldbank_energy_monthly,wb:2023M05:coal_south_african,WB-PINK,2023-05-01,2023-05-01,"Coal, South African **",103.0,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-06,worldbank_energy_monthly,wb:2023M06:coal_south_african,WB-PINK,2023-06-01,2023-06-01,"Coal, South African **",98.58,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-07,worldbank_energy_monthly,wb:2023M07:coal_south_african,WB-PINK,2023-07-01,2023-07-01,"Coal, South African **",96.75,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-08,worldbank_energy_monthly,wb:2023M08:coal_south_african,WB-PINK,2023-08-01,2023-08-01,"Coal, South African **",97.6046,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-09,worldbank_energy_monthly,wb:2023M09:coal_south_african,WB-PINK,2023-09-01,2023-09-01,"Coal, South African **",99.85,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-10,worldbank_energy_monthly,wb:2023M10:coal_south_african,WB-PINK,2023-10-01,2023-10-01,"Coal, South African **",128.4,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-11,worldbank_energy_monthly,wb:2023M11:coal_south_african,WB-PINK,2023-11-01,2023-11-01,"Coal, South African **",109.0,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2023-12,worldbank_energy_monthly,wb:2023M12:coal_south_african,WB-PINK,2023-12-01,2023-12-01,"Coal, South African **",108.8294,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-01,worldbank_energy_monthly,wb:2024M01:coal_south_african,WB-PINK,2024-01-01,2024-01-01,"Coal, South African **",106.75,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-02,worldbank_energy_monthly,wb:2024M02:coal_south_african,WB-PINK,2024-02-01,2024-02-01,"Coal, South African **",105.193,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-03,worldbank_energy_monthly,wb:2024M03:coal_south_african,WB-PINK,2024-03-01,2024-03-01,"Coal, South African **",104.84,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-04,worldbank_energy_monthly,wb:2024M04:coal_south_african,WB-PINK,2024-04-01,2024-04-01,"Coal, South African **",104.89,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-05,worldbank_energy_monthly,wb:2024M05:coal_south_african,WB-PINK,2024-05-01,2024-05-01,"Coal, South African **",105.63,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-06,worldbank_energy_monthly,wb:2024M06:coal_south_african,WB-PINK,2024-06-01,2024-06-01,"Coal, South African **",105.3,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-07,worldbank_energy_monthly,wb:2024M07:coal_south_african,WB-PINK,2024-07-01,2024-07-01,"Coal, South African **",105.31,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-08,worldbank_energy_monthly,wb:2024M08:coal_south_african,WB-PINK,2024-08-01,2024-08-01,"Coal, South African **",106.21,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-09,worldbank_energy_monthly,wb:2024M09:coal_south_african,WB-PINK,2024-09-01,2024-09-01,"Coal, South African **",106.07,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-10,worldbank_energy_monthly,wb:2024M10:coal_south_african,WB-PINK,2024-10-01,2024-10-01,"Coal, South African **",106.81,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-11,worldbank_energy_monthly,wb:2024M11:coal_south_african,WB-PINK,2024-11-01,2024-11-01,"Coal, South African **",106.82,($/mt),World Bank Pink Sheet monthly price
+WB-coal_south_african-2024-12,worldbank_energy_monthly,wb:2024M12:coal_south_african,WB-PINK,2024-12-01,2024-12-01,"Coal, South African **",105.47,($/mt),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-01,worldbank_energy_monthly,wb:2018M01:crude_oil_brent,WB-PINK,2018-01-01,2018-01-01,"Crude oil, Brent",68.99,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-02,worldbank_energy_monthly,wb:2018M02:crude_oil_brent,WB-PINK,2018-02-01,2018-02-01,"Crude oil, Brent",65.42,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-03,worldbank_energy_monthly,wb:2018M03:crude_oil_brent,WB-PINK,2018-03-01,2018-03-01,"Crude oil, Brent",66.45,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-04,worldbank_energy_monthly,wb:2018M04:crude_oil_brent,WB-PINK,2018-04-01,2018-04-01,"Crude oil, Brent",71.63,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-05,worldbank_energy_monthly,wb:2018M05:crude_oil_brent,WB-PINK,2018-05-01,2018-05-01,"Crude oil, Brent",76.65,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-06,worldbank_energy_monthly,wb:2018M06:crude_oil_brent,WB-PINK,2018-06-01,2018-06-01,"Crude oil, Brent",75.19,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-07,worldbank_energy_monthly,wb:2018M07:crude_oil_brent,WB-PINK,2018-07-01,2018-07-01,"Crude oil, Brent",74.44,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-08,worldbank_energy_monthly,wb:2018M08:crude_oil_brent,WB-PINK,2018-08-01,2018-08-01,"Crude oil, Brent",73.13,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-09,worldbank_energy_monthly,wb:2018M09:crude_oil_brent,WB-PINK,2018-09-01,2018-09-01,"Crude oil, Brent",78.86,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-10,worldbank_energy_monthly,wb:2018M10:crude_oil_brent,WB-PINK,2018-10-01,2018-10-01,"Crude oil, Brent",80.47,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-11,worldbank_energy_monthly,wb:2018M11:crude_oil_brent,WB-PINK,2018-11-01,2018-11-01,"Crude oil, Brent",65.17,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2018-12,worldbank_energy_monthly,wb:2018M12:crude_oil_brent,WB-PINK,2018-12-01,2018-12-01,"Crude oil, Brent",56.46,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-01,worldbank_energy_monthly,wb:2019M01:crude_oil_brent,WB-PINK,2019-01-01,2019-01-01,"Crude oil, Brent",59.27,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-02,worldbank_energy_monthly,wb:2019M02:crude_oil_brent,WB-PINK,2019-02-01,2019-02-01,"Crude oil, Brent",64.13,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-03,worldbank_energy_monthly,wb:2019M03:crude_oil_brent,WB-PINK,2019-03-01,2019-03-01,"Crude oil, Brent",66.41,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-04,worldbank_energy_monthly,wb:2019M04:crude_oil_brent,WB-PINK,2019-04-01,2019-04-01,"Crude oil, Brent",71.2,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-05,worldbank_energy_monthly,wb:2019M05:crude_oil_brent,WB-PINK,2019-05-01,2019-05-01,"Crude oil, Brent",70.53,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-06,worldbank_energy_monthly,wb:2019M06:crude_oil_brent,WB-PINK,2019-06-01,2019-06-01,"Crude oil, Brent",63.3,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-07,worldbank_energy_monthly,wb:2019M07:crude_oil_brent,WB-PINK,2019-07-01,2019-07-01,"Crude oil, Brent",64.0,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-08,worldbank_energy_monthly,wb:2019M08:crude_oil_brent,WB-PINK,2019-08-01,2019-08-01,"Crude oil, Brent",59.25,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-09,worldbank_energy_monthly,wb:2019M09:crude_oil_brent,WB-PINK,2019-09-01,2019-09-01,"Crude oil, Brent",62.33,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-10,worldbank_energy_monthly,wb:2019M10:crude_oil_brent,WB-PINK,2019-10-01,2019-10-01,"Crude oil, Brent",59.37,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-11,worldbank_energy_monthly,wb:2019M11:crude_oil_brent,WB-PINK,2019-11-01,2019-11-01,"Crude oil, Brent",62.74,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2019-12,worldbank_energy_monthly,wb:2019M12:crude_oil_brent,WB-PINK,2019-12-01,2019-12-01,"Crude oil, Brent",65.85,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-01,worldbank_energy_monthly,wb:2020M01:crude_oil_brent,WB-PINK,2020-01-01,2020-01-01,"Crude oil, Brent",63.6,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-02,worldbank_energy_monthly,wb:2020M02:crude_oil_brent,WB-PINK,2020-02-01,2020-02-01,"Crude oil, Brent",55.0,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-03,worldbank_energy_monthly,wb:2020M03:crude_oil_brent,WB-PINK,2020-03-01,2020-03-01,"Crude oil, Brent",32.98,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-04,worldbank_energy_monthly,wb:2020M04:crude_oil_brent,WB-PINK,2020-04-01,2020-04-01,"Crude oil, Brent",23.34,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-05,worldbank_energy_monthly,wb:2020M05:crude_oil_brent,WB-PINK,2020-05-01,2020-05-01,"Crude oil, Brent",31.02,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-06,worldbank_energy_monthly,wb:2020M06:crude_oil_brent,WB-PINK,2020-06-01,2020-06-01,"Crude oil, Brent",39.93,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-07,worldbank_energy_monthly,wb:2020M07:crude_oil_brent,WB-PINK,2020-07-01,2020-07-01,"Crude oil, Brent",42.81,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-08,worldbank_energy_monthly,wb:2020M08:crude_oil_brent,WB-PINK,2020-08-01,2020-08-01,"Crude oil, Brent",44.26,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-09,worldbank_energy_monthly,wb:2020M09:crude_oil_brent,WB-PINK,2020-09-01,2020-09-01,"Crude oil, Brent",41.09,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-10,worldbank_energy_monthly,wb:2020M10:crude_oil_brent,WB-PINK,2020-10-01,2020-10-01,"Crude oil, Brent",40.47,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-11,worldbank_energy_monthly,wb:2020M11:crude_oil_brent,WB-PINK,2020-11-01,2020-11-01,"Crude oil, Brent",43.23,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2020-12,worldbank_energy_monthly,wb:2020M12:crude_oil_brent,WB-PINK,2020-12-01,2020-12-01,"Crude oil, Brent",49.87,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-01,worldbank_energy_monthly,wb:2021M01:crude_oil_brent,WB-PINK,2021-01-01,2021-01-01,"Crude oil, Brent",54.55,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-02,worldbank_energy_monthly,wb:2021M02:crude_oil_brent,WB-PINK,2021-02-01,2021-02-01,"Crude oil, Brent",61.96,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-03,worldbank_energy_monthly,wb:2021M03:crude_oil_brent,WB-PINK,2021-03-01,2021-03-01,"Crude oil, Brent",65.19,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-04,worldbank_energy_monthly,wb:2021M04:crude_oil_brent,WB-PINK,2021-04-01,2021-04-01,"Crude oil, Brent",64.77,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-05,worldbank_energy_monthly,wb:2021M05:crude_oil_brent,WB-PINK,2021-05-01,2021-05-01,"Crude oil, Brent",68.04,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-06,worldbank_energy_monthly,wb:2021M06:crude_oil_brent,WB-PINK,2021-06-01,2021-06-01,"Crude oil, Brent",73.07,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-07,worldbank_energy_monthly,wb:2021M07:crude_oil_brent,WB-PINK,2021-07-01,2021-07-01,"Crude oil, Brent",74.39,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-08,worldbank_energy_monthly,wb:2021M08:crude_oil_brent,WB-PINK,2021-08-01,2021-08-01,"Crude oil, Brent",70.02,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-09,worldbank_energy_monthly,wb:2021M09:crude_oil_brent,WB-PINK,2021-09-01,2021-09-01,"Crude oil, Brent",74.6,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-10,worldbank_energy_monthly,wb:2021M10:crude_oil_brent,WB-PINK,2021-10-01,2021-10-01,"Crude oil, Brent",83.65,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-11,worldbank_energy_monthly,wb:2021M11:crude_oil_brent,WB-PINK,2021-11-01,2021-11-01,"Crude oil, Brent",80.77,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2021-12,worldbank_energy_monthly,wb:2021M12:crude_oil_brent,WB-PINK,2021-12-01,2021-12-01,"Crude oil, Brent",74.31,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-01,worldbank_energy_monthly,wb:2022M01:crude_oil_brent,WB-PINK,2022-01-01,2022-01-01,"Crude oil, Brent",85.53,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-02,worldbank_energy_monthly,wb:2022M02:crude_oil_brent,WB-PINK,2022-02-01,2022-02-01,"Crude oil, Brent",95.76,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-03,worldbank_energy_monthly,wb:2022M03:crude_oil_brent,WB-PINK,2022-03-01,2022-03-01,"Crude oil, Brent",115.59,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-04,worldbank_energy_monthly,wb:2022M04:crude_oil_brent,WB-PINK,2022-04-01,2022-04-01,"Crude oil, Brent",105.78,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-05,worldbank_energy_monthly,wb:2022M05:crude_oil_brent,WB-PINK,2022-05-01,2022-05-01,"Crude oil, Brent",112.37,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-06,worldbank_energy_monthly,wb:2022M06:crude_oil_brent,WB-PINK,2022-06-01,2022-06-01,"Crude oil, Brent",120.08,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-07,worldbank_energy_monthly,wb:2022M07:crude_oil_brent,WB-PINK,2022-07-01,2022-07-01,"Crude oil, Brent",108.92,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-08,worldbank_energy_monthly,wb:2022M08:crude_oil_brent,WB-PINK,2022-08-01,2022-08-01,"Crude oil, Brent",98.6,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-09,worldbank_energy_monthly,wb:2022M09:crude_oil_brent,WB-PINK,2022-09-01,2022-09-01,"Crude oil, Brent",90.16,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-10,worldbank_energy_monthly,wb:2022M10:crude_oil_brent,WB-PINK,2022-10-01,2022-10-01,"Crude oil, Brent",93.13,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-11,worldbank_energy_monthly,wb:2022M11:crude_oil_brent,WB-PINK,2022-11-01,2022-11-01,"Crude oil, Brent",91.07,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2022-12,worldbank_energy_monthly,wb:2022M12:crude_oil_brent,WB-PINK,2022-12-01,2022-12-01,"Crude oil, Brent",80.9,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-01,worldbank_energy_monthly,wb:2023M01:crude_oil_brent,WB-PINK,2023-01-01,2023-01-01,"Crude oil, Brent",83.09,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-02,worldbank_energy_monthly,wb:2023M02:crude_oil_brent,WB-PINK,2023-02-01,2023-02-01,"Crude oil, Brent",82.71,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-03,worldbank_energy_monthly,wb:2023M03:crude_oil_brent,WB-PINK,2023-03-01,2023-03-01,"Crude oil, Brent",78.53,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-04,worldbank_energy_monthly,wb:2023M04:crude_oil_brent,WB-PINK,2023-04-01,2023-04-01,"Crude oil, Brent",84.11,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-05,worldbank_energy_monthly,wb:2023M05:crude_oil_brent,WB-PINK,2023-05-01,2023-05-01,"Crude oil, Brent",75.7,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-06,worldbank_energy_monthly,wb:2023M06:crude_oil_brent,WB-PINK,2023-06-01,2023-06-01,"Crude oil, Brent",74.89,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-07,worldbank_energy_monthly,wb:2023M07:crude_oil_brent,WB-PINK,2023-07-01,2023-07-01,"Crude oil, Brent",80.1,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-08,worldbank_energy_monthly,wb:2023M08:crude_oil_brent,WB-PINK,2023-08-01,2023-08-01,"Crude oil, Brent",86.163,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-09,worldbank_energy_monthly,wb:2023M09:crude_oil_brent,WB-PINK,2023-09-01,2023-09-01,"Crude oil, Brent",94.0,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-10,worldbank_energy_monthly,wb:2023M10:crude_oil_brent,WB-PINK,2023-10-01,2023-10-01,"Crude oil, Brent",91.061,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-11,worldbank_energy_monthly,wb:2023M11:crude_oil_brent,WB-PINK,2023-11-01,2023-11-01,"Crude oil, Brent",83.183,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2023-12,worldbank_energy_monthly,wb:2023M12:crude_oil_brent,WB-PINK,2023-12-01,2023-12-01,"Crude oil, Brent",77.858,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-01,worldbank_energy_monthly,wb:2024M01:crude_oil_brent,WB-PINK,2024-01-01,2024-01-01,"Crude oil, Brent",80.227,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-02,worldbank_energy_monthly,wb:2024M02:crude_oil_brent,WB-PINK,2024-02-01,2024-02-01,"Crude oil, Brent",83.764,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-03,worldbank_energy_monthly,wb:2024M03:crude_oil_brent,WB-PINK,2024-03-01,2024-03-01,"Crude oil, Brent",85.447,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-04,worldbank_energy_monthly,wb:2024M04:crude_oil_brent,WB-PINK,2024-04-01,2024-04-01,"Crude oil, Brent",90.054,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-05,worldbank_energy_monthly,wb:2024M05:crude_oil_brent,WB-PINK,2024-05-01,2024-05-01,"Crude oil, Brent",81.995,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-06,worldbank_energy_monthly,wb:2024M06:crude_oil_brent,WB-PINK,2024-06-01,2024-06-01,"Crude oil, Brent",82.555,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-07,worldbank_energy_monthly,wb:2024M07:crude_oil_brent,WB-PINK,2024-07-01,2024-07-01,"Crude oil, Brent",85.296,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-08,worldbank_energy_monthly,wb:2024M08:crude_oil_brent,WB-PINK,2024-08-01,2024-08-01,"Crude oil, Brent",80.863,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-09,worldbank_energy_monthly,wb:2024M09:crude_oil_brent,WB-PINK,2024-09-01,2024-09-01,"Crude oil, Brent",74.293,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-10,worldbank_energy_monthly,wb:2024M10:crude_oil_brent,WB-PINK,2024-10-01,2024-10-01,"Crude oil, Brent",75.662,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-11,worldbank_energy_monthly,wb:2024M11:crude_oil_brent,WB-PINK,2024-11-01,2024-11-01,"Crude oil, Brent",74.395,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_brent-2024-12,worldbank_energy_monthly,wb:2024M12:crude_oil_brent,WB-PINK,2024-12-01,2024-12-01,"Crude oil, Brent",73.833,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-01,worldbank_energy_monthly,wb:2018M01:crude_oil_dubai,WB-PINK,2018-01-01,2018-01-01,"Crude oil, Dubai",66.02,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-02,worldbank_energy_monthly,wb:2018M02:crude_oil_dubai,WB-PINK,2018-02-01,2018-02-01,"Crude oil, Dubai",62.79,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-03,worldbank_energy_monthly,wb:2018M03:crude_oil_dubai,WB-PINK,2018-03-01,2018-03-01,"Crude oil, Dubai",63.29,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-04,worldbank_energy_monthly,wb:2018M04:crude_oil_dubai,WB-PINK,2018-04-01,2018-04-01,"Crude oil, Dubai",68.43,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-05,worldbank_energy_monthly,wb:2018M05:crude_oil_dubai,WB-PINK,2018-05-01,2018-05-01,"Crude oil, Dubai",73.66,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-06,worldbank_energy_monthly,wb:2018M06:crude_oil_dubai,WB-PINK,2018-06-01,2018-06-01,"Crude oil, Dubai",73.22,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-07,worldbank_energy_monthly,wb:2018M07:crude_oil_dubai,WB-PINK,2018-07-01,2018-07-01,"Crude oil, Dubai",72.72,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-08,worldbank_energy_monthly,wb:2018M08:crude_oil_dubai,WB-PINK,2018-08-01,2018-08-01,"Crude oil, Dubai",72.13,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-09,worldbank_energy_monthly,wb:2018M09:crude_oil_dubai,WB-PINK,2018-09-01,2018-09-01,"Crude oil, Dubai",77.02,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-10,worldbank_energy_monthly,wb:2018M10:crude_oil_dubai,WB-PINK,2018-10-01,2018-10-01,"Crude oil, Dubai",78.96,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-11,worldbank_energy_monthly,wb:2018M11:crude_oil_dubai,WB-PINK,2018-11-01,2018-11-01,"Crude oil, Dubai",65.11,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2018-12,worldbank_energy_monthly,wb:2018M12:crude_oil_dubai,WB-PINK,2018-12-01,2018-12-01,"Crude oil, Dubai",56.47,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-01,worldbank_energy_monthly,wb:2019M01:crude_oil_dubai,WB-PINK,2019-01-01,2019-01-01,"Crude oil, Dubai",58.96,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-02,worldbank_energy_monthly,wb:2019M02:crude_oil_dubai,WB-PINK,2019-02-01,2019-02-01,"Crude oil, Dubai",64.32,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-03,worldbank_energy_monthly,wb:2019M03:crude_oil_dubai,WB-PINK,2019-03-01,2019-03-01,"Crude oil, Dubai",66.8,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-04,worldbank_energy_monthly,wb:2019M04:crude_oil_dubai,WB-PINK,2019-04-01,2019-04-01,"Crude oil, Dubai",70.66,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-05,worldbank_energy_monthly,wb:2019M05:crude_oil_dubai,WB-PINK,2019-05-01,2019-05-01,"Crude oil, Dubai",69.13,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-06,worldbank_energy_monthly,wb:2019M06:crude_oil_dubai,WB-PINK,2019-06-01,2019-06-01,"Crude oil, Dubai",61.3,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-07,worldbank_energy_monthly,wb:2019M07:crude_oil_dubai,WB-PINK,2019-07-01,2019-07-01,"Crude oil, Dubai",62.91,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-08,worldbank_energy_monthly,wb:2019M08:crude_oil_dubai,WB-PINK,2019-08-01,2019-08-01,"Crude oil, Dubai",58.92,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-09,worldbank_energy_monthly,wb:2019M09:crude_oil_dubai,WB-PINK,2019-09-01,2019-09-01,"Crude oil, Dubai",60.84,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-10,worldbank_energy_monthly,wb:2019M10:crude_oil_dubai,WB-PINK,2019-10-01,2019-10-01,"Crude oil, Dubai",58.47,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-11,worldbank_energy_monthly,wb:2019M11:crude_oil_dubai,WB-PINK,2019-11-01,2019-11-01,"Crude oil, Dubai",61.41,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2019-12,worldbank_energy_monthly,wb:2019M12:crude_oil_dubai,WB-PINK,2019-12-01,2019-12-01,"Crude oil, Dubai",64.41,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-01,worldbank_energy_monthly,wb:2020M01:crude_oil_dubai,WB-PINK,2020-01-01,2020-01-01,"Crude oil, Dubai",63.76,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-02,worldbank_energy_monthly,wb:2020M02:crude_oil_dubai,WB-PINK,2020-02-01,2020-02-01,"Crude oil, Dubai",54.51,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-03,worldbank_energy_monthly,wb:2020M03:crude_oil_dubai,WB-PINK,2020-03-01,2020-03-01,"Crude oil, Dubai",33.75,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-04,worldbank_energy_monthly,wb:2020M04:crude_oil_dubai,WB-PINK,2020-04-01,2020-04-01,"Crude oil, Dubai",23.27,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-05,worldbank_energy_monthly,wb:2020M05:crude_oil_dubai,WB-PINK,2020-05-01,2020-05-01,"Crude oil, Dubai",31.56,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-06,worldbank_energy_monthly,wb:2020M06:crude_oil_dubai,WB-PINK,2020-06-01,2020-06-01,"Crude oil, Dubai",40.14,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-07,worldbank_energy_monthly,wb:2020M07:crude_oil_dubai,WB-PINK,2020-07-01,2020-07-01,"Crude oil, Dubai",42.64,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-08,worldbank_energy_monthly,wb:2020M08:crude_oil_dubai,WB-PINK,2020-08-01,2020-08-01,"Crude oil, Dubai",43.71,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-09,worldbank_energy_monthly,wb:2020M09:crude_oil_dubai,WB-PINK,2020-09-01,2020-09-01,"Crude oil, Dubai",41.1,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-10,worldbank_energy_monthly,wb:2020M10:crude_oil_dubai,WB-PINK,2020-10-01,2020-10-01,"Crude oil, Dubai",39.7,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-11,worldbank_energy_monthly,wb:2020M11:crude_oil_dubai,WB-PINK,2020-11-01,2020-11-01,"Crude oil, Dubai",42.58,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2020-12,worldbank_energy_monthly,wb:2020M12:crude_oil_dubai,WB-PINK,2020-12-01,2020-12-01,"Crude oil, Dubai",49.26,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-01,worldbank_energy_monthly,wb:2021M01:crude_oil_dubai,WB-PINK,2021-01-01,2021-01-01,"Crude oil, Dubai",54.16,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-02,worldbank_energy_monthly,wb:2021M02:crude_oil_dubai,WB-PINK,2021-02-01,2021-02-01,"Crude oil, Dubai",60.37,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-03,worldbank_energy_monthly,wb:2021M03:crude_oil_dubai,WB-PINK,2021-03-01,2021-03-01,"Crude oil, Dubai",63.95,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-04,worldbank_energy_monthly,wb:2021M04:crude_oil_dubai,WB-PINK,2021-04-01,2021-04-01,"Crude oil, Dubai",62.37,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-05,worldbank_energy_monthly,wb:2021M05:crude_oil_dubai,WB-PINK,2021-05-01,2021-05-01,"Crude oil, Dubai",65.98,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-06,worldbank_energy_monthly,wb:2021M06:crude_oil_dubai,WB-PINK,2021-06-01,2021-06-01,"Crude oil, Dubai",70.96,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-07,worldbank_energy_monthly,wb:2021M07:crude_oil_dubai,WB-PINK,2021-07-01,2021-07-01,"Crude oil, Dubai",73.0,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-08,worldbank_energy_monthly,wb:2021M08:crude_oil_dubai,WB-PINK,2021-08-01,2021-08-01,"Crude oil, Dubai",68.85,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-09,worldbank_energy_monthly,wb:2021M09:crude_oil_dubai,WB-PINK,2021-09-01,2021-09-01,"Crude oil, Dubai",72.24,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-10,worldbank_energy_monthly,wb:2021M10:crude_oil_dubai,WB-PINK,2021-10-01,2021-10-01,"Crude oil, Dubai",81.22,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-11,worldbank_energy_monthly,wb:2021M11:crude_oil_dubai,WB-PINK,2021-11-01,2021-11-01,"Crude oil, Dubai",79.8,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2021-12,worldbank_energy_monthly,wb:2021M12:crude_oil_dubai,WB-PINK,2021-12-01,2021-12-01,"Crude oil, Dubai",72.76,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-01,worldbank_energy_monthly,wb:2022M01:crude_oil_dubai,WB-PINK,2022-01-01,2022-01-01,"Crude oil, Dubai",83.11,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-02,worldbank_energy_monthly,wb:2022M02:crude_oil_dubai,WB-PINK,2022-02-01,2022-02-01,"Crude oil, Dubai",93.13,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-03,worldbank_energy_monthly,wb:2022M03:crude_oil_dubai,WB-PINK,2022-03-01,2022-03-01,"Crude oil, Dubai",113.11,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-04,worldbank_energy_monthly,wb:2022M04:crude_oil_dubai,WB-PINK,2022-04-01,2022-04-01,"Crude oil, Dubai",102.68,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-05,worldbank_energy_monthly,wb:2022M05:crude_oil_dubai,WB-PINK,2022-05-01,2022-05-01,"Crude oil, Dubai",108.32,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-06,worldbank_energy_monthly,wb:2022M06:crude_oil_dubai,WB-PINK,2022-06-01,2022-06-01,"Crude oil, Dubai",115.73,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-07,worldbank_energy_monthly,wb:2022M07:crude_oil_dubai,WB-PINK,2022-07-01,2022-07-01,"Crude oil, Dubai",106.48,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-08,worldbank_energy_monthly,wb:2022M08:crude_oil_dubai,WB-PINK,2022-08-01,2022-08-01,"Crude oil, Dubai",97.75,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-09,worldbank_energy_monthly,wb:2022M09:crude_oil_dubai,WB-PINK,2022-09-01,2022-09-01,"Crude oil, Dubai",90.63,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-10,worldbank_energy_monthly,wb:2022M10:crude_oil_dubai,WB-PINK,2022-10-01,2022-10-01,"Crude oil, Dubai",90.59,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-11,worldbank_energy_monthly,wb:2022M11:crude_oil_dubai,WB-PINK,2022-11-01,2022-11-01,"Crude oil, Dubai",86.28,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2022-12,worldbank_energy_monthly,wb:2022M12:crude_oil_dubai,WB-PINK,2022-12-01,2022-12-01,"Crude oil, Dubai",76.78,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-01,worldbank_energy_monthly,wb:2023M01:crude_oil_dubai,WB-PINK,2023-01-01,2023-01-01,"Crude oil, Dubai",80.03,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-02,worldbank_energy_monthly,wb:2023M02:crude_oil_dubai,WB-PINK,2023-02-01,2023-02-01,"Crude oil, Dubai",81.21,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-03,worldbank_energy_monthly,wb:2023M03:crude_oil_dubai,WB-PINK,2023-03-01,2023-03-01,"Crude oil, Dubai",77.52,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-04,worldbank_energy_monthly,wb:2023M04:crude_oil_dubai,WB-PINK,2023-04-01,2023-04-01,"Crude oil, Dubai",83.83,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-05,worldbank_energy_monthly,wb:2023M05:crude_oil_dubai,WB-PINK,2023-05-01,2023-05-01,"Crude oil, Dubai",75.08,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-06,worldbank_energy_monthly,wb:2023M06:crude_oil_dubai,WB-PINK,2023-06-01,2023-06-01,"Crude oil, Dubai",74.67,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-07,worldbank_energy_monthly,wb:2023M07:crude_oil_dubai,WB-PINK,2023-07-01,2023-07-01,"Crude oil, Dubai",80.46,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-08,worldbank_energy_monthly,wb:2023M08:crude_oil_dubai,WB-PINK,2023-08-01,2023-08-01,"Crude oil, Dubai",86.61,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-09,worldbank_energy_monthly,wb:2023M09:crude_oil_dubai,WB-PINK,2023-09-01,2023-09-01,"Crude oil, Dubai",93.08,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-10,worldbank_energy_monthly,wb:2023M10:crude_oil_dubai,WB-PINK,2023-10-01,2023-10-01,"Crude oil, Dubai",90.62,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-11,worldbank_energy_monthly,wb:2023M11:crude_oil_dubai,WB-PINK,2023-11-01,2023-11-01,"Crude oil, Dubai",83.45,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2023-12,worldbank_energy_monthly,wb:2023M12:crude_oil_dubai,WB-PINK,2023-12-01,2023-12-01,"Crude oil, Dubai",77.22,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-01,worldbank_energy_monthly,wb:2024M01:crude_oil_dubai,WB-PINK,2024-01-01,2024-01-01,"Crude oil, Dubai",78.86,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-02,worldbank_energy_monthly,wb:2024M02:crude_oil_dubai,WB-PINK,2024-02-01,2024-02-01,"Crude oil, Dubai",81.18,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-03,worldbank_energy_monthly,wb:2024M03:crude_oil_dubai,WB-PINK,2024-03-01,2024-03-01,"Crude oil, Dubai",84.7,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-04,worldbank_energy_monthly,wb:2024M04:crude_oil_dubai,WB-PINK,2024-04-01,2024-04-01,"Crude oil, Dubai",89.39,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-05,worldbank_energy_monthly,wb:2024M05:crude_oil_dubai,WB-PINK,2024-05-01,2024-05-01,"Crude oil, Dubai",83.53,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-06,worldbank_energy_monthly,wb:2024M06:crude_oil_dubai,WB-PINK,2024-06-01,2024-06-01,"Crude oil, Dubai",82.17,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-07,worldbank_energy_monthly,wb:2024M07:crude_oil_dubai,WB-PINK,2024-07-01,2024-07-01,"Crude oil, Dubai",83.94,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-08,worldbank_energy_monthly,wb:2024M08:crude_oil_dubai,WB-PINK,2024-08-01,2024-08-01,"Crude oil, Dubai",77.95,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-09,worldbank_energy_monthly,wb:2024M09:crude_oil_dubai,WB-PINK,2024-09-01,2024-09-01,"Crude oil, Dubai",73.43,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-10,worldbank_energy_monthly,wb:2024M10:crude_oil_dubai,WB-PINK,2024-10-01,2024-10-01,"Crude oil, Dubai",74.65,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-11,worldbank_energy_monthly,wb:2024M11:crude_oil_dubai,WB-PINK,2024-11-01,2024-11-01,"Crude oil, Dubai",72.79,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_dubai-2024-12,worldbank_energy_monthly,wb:2024M12:crude_oil_dubai,WB-PINK,2024-12-01,2024-12-01,"Crude oil, Dubai",73.31,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-01,worldbank_energy_monthly,wb:2018M01:crude_oil_wti,WB-PINK,2018-01-01,2018-01-01,"Crude oil, WTI",63.67,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-02,worldbank_energy_monthly,wb:2018M02:crude_oil_wti,WB-PINK,2018-02-01,2018-02-01,"Crude oil, WTI",62.17,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-03,worldbank_energy_monthly,wb:2018M03:crude_oil_wti,WB-PINK,2018-03-01,2018-03-01,"Crude oil, WTI",62.76,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-04,worldbank_energy_monthly,wb:2018M04:crude_oil_wti,WB-PINK,2018-04-01,2018-04-01,"Crude oil, WTI",66.32,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-05,worldbank_energy_monthly,wb:2018M05:crude_oil_wti,WB-PINK,2018-05-01,2018-05-01,"Crude oil, WTI",69.98,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-06,worldbank_energy_monthly,wb:2018M06:crude_oil_wti,WB-PINK,2018-06-01,2018-06-01,"Crude oil, WTI",67.52,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-07,worldbank_energy_monthly,wb:2018M07:crude_oil_wti,WB-PINK,2018-07-01,2018-07-01,"Crude oil, WTI",70.84,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-08,worldbank_energy_monthly,wb:2018M08:crude_oil_wti,WB-PINK,2018-08-01,2018-08-01,"Crude oil, WTI",67.99,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-09,worldbank_energy_monthly,wb:2018M09:crude_oil_wti,WB-PINK,2018-09-01,2018-09-01,"Crude oil, WTI",70.21,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-10,worldbank_energy_monthly,wb:2018M10:crude_oil_wti,WB-PINK,2018-10-01,2018-10-01,"Crude oil, WTI",70.75,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-11,worldbank_energy_monthly,wb:2018M11:crude_oil_wti,WB-PINK,2018-11-01,2018-11-01,"Crude oil, WTI",56.67,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2018-12,worldbank_energy_monthly,wb:2018M12:crude_oil_wti,WB-PINK,2018-12-01,2018-12-01,"Crude oil, WTI",48.95,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-01,worldbank_energy_monthly,wb:2019M01:crude_oil_wti,WB-PINK,2019-01-01,2019-01-01,"Crude oil, WTI",51.52,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-02,worldbank_energy_monthly,wb:2019M02:crude_oil_wti,WB-PINK,2019-02-01,2019-02-01,"Crude oil, WTI",54.95,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-03,worldbank_energy_monthly,wb:2019M03:crude_oil_wti,WB-PINK,2019-03-01,2019-03-01,"Crude oil, WTI",58.15,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-04,worldbank_energy_monthly,wb:2019M04:crude_oil_wti,WB-PINK,2019-04-01,2019-04-01,"Crude oil, WTI",63.87,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-05,worldbank_energy_monthly,wb:2019M05:crude_oil_wti,WB-PINK,2019-05-01,2019-05-01,"Crude oil, WTI",60.84,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-06,worldbank_energy_monthly,wb:2019M06:crude_oil_wti,WB-PINK,2019-06-01,2019-06-01,"Crude oil, WTI",54.68,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-07,worldbank_energy_monthly,wb:2019M07:crude_oil_wti,WB-PINK,2019-07-01,2019-07-01,"Crude oil, WTI",57.52,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-08,worldbank_energy_monthly,wb:2019M08:crude_oil_wti,WB-PINK,2019-08-01,2019-08-01,"Crude oil, WTI",54.84,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-09,worldbank_energy_monthly,wb:2019M09:crude_oil_wti,WB-PINK,2019-09-01,2019-09-01,"Crude oil, WTI",56.95,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-10,worldbank_energy_monthly,wb:2019M10:crude_oil_wti,WB-PINK,2019-10-01,2019-10-01,"Crude oil, WTI",53.98,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-11,worldbank_energy_monthly,wb:2019M11:crude_oil_wti,WB-PINK,2019-11-01,2019-11-01,"Crude oil, WTI",57.06,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2019-12,worldbank_energy_monthly,wb:2019M12:crude_oil_wti,WB-PINK,2019-12-01,2019-12-01,"Crude oil, WTI",59.8,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-01,worldbank_energy_monthly,wb:2020M01:crude_oil_wti,WB-PINK,2020-01-01,2020-01-01,"Crude oil, WTI",57.52,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-02,worldbank_energy_monthly,wb:2020M02:crude_oil_wti,WB-PINK,2020-02-01,2020-02-01,"Crude oil, WTI",50.53,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-03,worldbank_energy_monthly,wb:2020M03:crude_oil_wti,WB-PINK,2020-03-01,2020-03-01,"Crude oil, WTI",29.88,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-04,worldbank_energy_monthly,wb:2020M04:crude_oil_wti,WB-PINK,2020-04-01,2020-04-01,"Crude oil, WTI",16.52,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-05,worldbank_energy_monthly,wb:2020M05:crude_oil_wti,WB-PINK,2020-05-01,2020-05-01,"Crude oil, WTI",28.56,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-06,worldbank_energy_monthly,wb:2020M06:crude_oil_wti,WB-PINK,2020-06-01,2020-06-01,"Crude oil, WTI",38.3,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-07,worldbank_energy_monthly,wb:2020M07:crude_oil_wti,WB-PINK,2020-07-01,2020-07-01,"Crude oil, WTI",40.75,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-08,worldbank_energy_monthly,wb:2020M08:crude_oil_wti,WB-PINK,2020-08-01,2020-08-01,"Crude oil, WTI",42.36,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-09,worldbank_energy_monthly,wb:2020M09:crude_oil_wti,WB-PINK,2020-09-01,2020-09-01,"Crude oil, WTI",39.6,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-10,worldbank_energy_monthly,wb:2020M10:crude_oil_wti,WB-PINK,2020-10-01,2020-10-01,"Crude oil, WTI",39.53,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-11,worldbank_energy_monthly,wb:2020M11:crude_oil_wti,WB-PINK,2020-11-01,2020-11-01,"Crude oil, WTI",41.1,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2020-12,worldbank_energy_monthly,wb:2020M12:crude_oil_wti,WB-PINK,2020-12-01,2020-12-01,"Crude oil, WTI",47.05,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-01,worldbank_energy_monthly,wb:2021M01:crude_oil_wti,WB-PINK,2021-01-01,2021-01-01,"Crude oil, WTI",52.1,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-02,worldbank_energy_monthly,wb:2021M02:crude_oil_wti,WB-PINK,2021-02-01,2021-02-01,"Crude oil, WTI",59.06,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-03,worldbank_energy_monthly,wb:2021M03:crude_oil_wti,WB-PINK,2021-03-01,2021-03-01,"Crude oil, WTI",62.35,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-04,worldbank_energy_monthly,wb:2021M04:crude_oil_wti,WB-PINK,2021-04-01,2021-04-01,"Crude oil, WTI",61.71,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-05,worldbank_energy_monthly,wb:2021M05:crude_oil_wti,WB-PINK,2021-05-01,2021-05-01,"Crude oil, WTI",65.18,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-06,worldbank_energy_monthly,wb:2021M06:crude_oil_wti,WB-PINK,2021-06-01,2021-06-01,"Crude oil, WTI",71.38,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-07,worldbank_energy_monthly,wb:2021M07:crude_oil_wti,WB-PINK,2021-07-01,2021-07-01,"Crude oil, WTI",72.46,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-08,worldbank_energy_monthly,wb:2021M08:crude_oil_wti,WB-PINK,2021-08-01,2021-08-01,"Crude oil, WTI",67.73,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-09,worldbank_energy_monthly,wb:2021M09:crude_oil_wti,WB-PINK,2021-09-01,2021-09-01,"Crude oil, WTI",71.56,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-10,worldbank_energy_monthly,wb:2021M10:crude_oil_wti,WB-PINK,2021-10-01,2021-10-01,"Crude oil, WTI",81.32,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-11,worldbank_energy_monthly,wb:2021M11:crude_oil_wti,WB-PINK,2021-11-01,2021-11-01,"Crude oil, WTI",79.18,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2021-12,worldbank_energy_monthly,wb:2021M12:crude_oil_wti,WB-PINK,2021-12-01,2021-12-01,"Crude oil, WTI",71.53,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-01,worldbank_energy_monthly,wb:2022M01:crude_oil_wti,WB-PINK,2022-01-01,2022-01-01,"Crude oil, WTI",83.12,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-02,worldbank_energy_monthly,wb:2022M02:crude_oil_wti,WB-PINK,2022-02-01,2022-02-01,"Crude oil, WTI",91.74,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-03,worldbank_energy_monthly,wb:2022M03:crude_oil_wti,WB-PINK,2022-03-01,2022-03-01,"Crude oil, WTI",108.49,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-04,worldbank_energy_monthly,wb:2022M04:crude_oil_wti,WB-PINK,2022-04-01,2022-04-01,"Crude oil, WTI",101.78,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-05,worldbank_energy_monthly,wb:2022M05:crude_oil_wti,WB-PINK,2022-05-01,2022-05-01,"Crude oil, WTI",109.6,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-06,worldbank_energy_monthly,wb:2022M06:crude_oil_wti,WB-PINK,2022-06-01,2022-06-01,"Crude oil, WTI",114.59,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-07,worldbank_energy_monthly,wb:2022M07:crude_oil_wti,WB-PINK,2022-07-01,2022-07-01,"Crude oil, WTI",99.85,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-08,worldbank_energy_monthly,wb:2022M08:crude_oil_wti,WB-PINK,2022-08-01,2022-08-01,"Crude oil, WTI",91.57,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-09,worldbank_energy_monthly,wb:2022M09:crude_oil_wti,WB-PINK,2022-09-01,2022-09-01,"Crude oil, WTI",83.87,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-10,worldbank_energy_monthly,wb:2022M10:crude_oil_wti,WB-PINK,2022-10-01,2022-10-01,"Crude oil, WTI",87.26,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-11,worldbank_energy_monthly,wb:2022M11:crude_oil_wti,WB-PINK,2022-11-01,2022-11-01,"Crude oil, WTI",84.78,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2022-12,worldbank_energy_monthly,wb:2022M12:crude_oil_wti,WB-PINK,2022-12-01,2022-12-01,"Crude oil, WTI",76.52,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-01,worldbank_energy_monthly,wb:2023M01:crude_oil_wti,WB-PINK,2023-01-01,2023-01-01,"Crude oil, WTI",78.11,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-02,worldbank_energy_monthly,wb:2023M02:crude_oil_wti,WB-PINK,2023-02-01,2023-02-01,"Crude oil, WTI",76.84,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-03,worldbank_energy_monthly,wb:2023M03:crude_oil_wti,WB-PINK,2023-03-01,2023-03-01,"Crude oil, WTI",73.37,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-04,worldbank_energy_monthly,wb:2023M04:crude_oil_wti,WB-PINK,2023-04-01,2023-04-01,"Crude oil, WTI",79.44,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-05,worldbank_energy_monthly,wb:2023M05:crude_oil_wti,WB-PINK,2023-05-01,2023-05-01,"Crude oil, WTI",71.59,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-06,worldbank_energy_monthly,wb:2023M06:crude_oil_wti,WB-PINK,2023-06-01,2023-06-01,"Crude oil, WTI",70.23,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-07,worldbank_energy_monthly,wb:2023M07:crude_oil_wti,WB-PINK,2023-07-01,2023-07-01,"Crude oil, WTI",76.39,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-08,worldbank_energy_monthly,wb:2023M08:crude_oil_wti,WB-PINK,2023-08-01,2023-08-01,"Crude oil, WTI",81.4,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-09,worldbank_energy_monthly,wb:2023M09:crude_oil_wti,WB-PINK,2023-09-01,2023-09-01,"Crude oil, WTI",89.58,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-10,worldbank_energy_monthly,wb:2023M10:crude_oil_wti,WB-PINK,2023-10-01,2023-10-01,"Crude oil, WTI",85.57,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-11,worldbank_energy_monthly,wb:2023M11:crude_oil_wti,WB-PINK,2023-11-01,2023-11-01,"Crude oil, WTI",77.43,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2023-12,worldbank_energy_monthly,wb:2023M12:crude_oil_wti,WB-PINK,2023-12-01,2023-12-01,"Crude oil, WTI",72.08,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-01,worldbank_energy_monthly,wb:2024M01:crude_oil_wti,WB-PINK,2024-01-01,2024-01-01,"Crude oil, WTI",73.93,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-02,worldbank_energy_monthly,wb:2024M02:crude_oil_wti,WB-PINK,2024-02-01,2024-02-01,"Crude oil, WTI",76.7,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-03,worldbank_energy_monthly,wb:2024M03:crude_oil_wti,WB-PINK,2024-03-01,2024-03-01,"Crude oil, WTI",80.49,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-04,worldbank_energy_monthly,wb:2024M04:crude_oil_wti,WB-PINK,2024-04-01,2024-04-01,"Crude oil, WTI",84.59,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-05,worldbank_energy_monthly,wb:2024M05:crude_oil_wti,WB-PINK,2024-05-01,2024-05-01,"Crude oil, WTI",78.81,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-06,worldbank_energy_monthly,wb:2024M06:crude_oil_wti,WB-PINK,2024-06-01,2024-06-01,"Crude oil, WTI",78.89,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-07,worldbank_energy_monthly,wb:2024M07:crude_oil_wti,WB-PINK,2024-07-01,2024-07-01,"Crude oil, WTI",80.54,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-08,worldbank_energy_monthly,wb:2024M08:crude_oil_wti,WB-PINK,2024-08-01,2024-08-01,"Crude oil, WTI",75.55,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-09,worldbank_energy_monthly,wb:2024M09:crude_oil_wti,WB-PINK,2024-09-01,2024-09-01,"Crude oil, WTI",69.55,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-10,worldbank_energy_monthly,wb:2024M10:crude_oil_wti,WB-PINK,2024-10-01,2024-10-01,"Crude oil, WTI",71.6,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-11,worldbank_energy_monthly,wb:2024M11:crude_oil_wti,WB-PINK,2024-11-01,2024-11-01,"Crude oil, WTI",69.69,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_wti-2024-12,worldbank_energy_monthly,wb:2024M12:crude_oil_wti,WB-PINK,2024-12-01,2024-12-01,"Crude oil, WTI",69.79,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-01,worldbank_energy_monthly,wb:2018M01:crude_oil_average,WB-PINK,2018-01-01,2018-01-01,"Crude oil, average",66.2267,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-02,worldbank_energy_monthly,wb:2018M02:crude_oil_average,WB-PINK,2018-02-01,2018-02-01,"Crude oil, average",63.46,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-03,worldbank_energy_monthly,wb:2018M03:crude_oil_average,WB-PINK,2018-03-01,2018-03-01,"Crude oil, average",64.1667,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-04,worldbank_energy_monthly,wb:2018M04:crude_oil_average,WB-PINK,2018-04-01,2018-04-01,"Crude oil, average",68.7933,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-05,worldbank_energy_monthly,wb:2018M05:crude_oil_average,WB-PINK,2018-05-01,2018-05-01,"Crude oil, average",73.43,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-06,worldbank_energy_monthly,wb:2018M06:crude_oil_average,WB-PINK,2018-06-01,2018-06-01,"Crude oil, average",71.9767,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-07,worldbank_energy_monthly,wb:2018M07:crude_oil_average,WB-PINK,2018-07-01,2018-07-01,"Crude oil, average",72.6667,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-08,worldbank_energy_monthly,wb:2018M08:crude_oil_average,WB-PINK,2018-08-01,2018-08-01,"Crude oil, average",71.0833,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-09,worldbank_energy_monthly,wb:2018M09:crude_oil_average,WB-PINK,2018-09-01,2018-09-01,"Crude oil, average",75.3633,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-10,worldbank_energy_monthly,wb:2018M10:crude_oil_average,WB-PINK,2018-10-01,2018-10-01,"Crude oil, average",76.7267,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-11,worldbank_energy_monthly,wb:2018M11:crude_oil_average,WB-PINK,2018-11-01,2018-11-01,"Crude oil, average",62.3167,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2018-12,worldbank_energy_monthly,wb:2018M12:crude_oil_average,WB-PINK,2018-12-01,2018-12-01,"Crude oil, average",53.96,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-01,worldbank_energy_monthly,wb:2019M01:crude_oil_average,WB-PINK,2019-01-01,2019-01-01,"Crude oil, average",56.5833,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-02,worldbank_energy_monthly,wb:2019M02:crude_oil_average,WB-PINK,2019-02-01,2019-02-01,"Crude oil, average",61.1333,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-03,worldbank_energy_monthly,wb:2019M03:crude_oil_average,WB-PINK,2019-03-01,2019-03-01,"Crude oil, average",63.7867,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-04,worldbank_energy_monthly,wb:2019M04:crude_oil_average,WB-PINK,2019-04-01,2019-04-01,"Crude oil, average",68.5767,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-05,worldbank_energy_monthly,wb:2019M05:crude_oil_average,WB-PINK,2019-05-01,2019-05-01,"Crude oil, average",66.8333,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-06,worldbank_energy_monthly,wb:2019M06:crude_oil_average,WB-PINK,2019-06-01,2019-06-01,"Crude oil, average",59.76,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-07,worldbank_energy_monthly,wb:2019M07:crude_oil_average,WB-PINK,2019-07-01,2019-07-01,"Crude oil, average",61.4767,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-08,worldbank_energy_monthly,wb:2019M08:crude_oil_average,WB-PINK,2019-08-01,2019-08-01,"Crude oil, average",57.67,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-09,worldbank_energy_monthly,wb:2019M09:crude_oil_average,WB-PINK,2019-09-01,2019-09-01,"Crude oil, average",60.04,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-10,worldbank_energy_monthly,wb:2019M10:crude_oil_average,WB-PINK,2019-10-01,2019-10-01,"Crude oil, average",57.2733,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-11,worldbank_energy_monthly,wb:2019M11:crude_oil_average,WB-PINK,2019-11-01,2019-11-01,"Crude oil, average",60.4033,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2019-12,worldbank_energy_monthly,wb:2019M12:crude_oil_average,WB-PINK,2019-12-01,2019-12-01,"Crude oil, average",63.3533,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-01,worldbank_energy_monthly,wb:2020M01:crude_oil_average,WB-PINK,2020-01-01,2020-01-01,"Crude oil, average",61.6267,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-02,worldbank_energy_monthly,wb:2020M02:crude_oil_average,WB-PINK,2020-02-01,2020-02-01,"Crude oil, average",53.3467,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-03,worldbank_energy_monthly,wb:2020M03:crude_oil_average,WB-PINK,2020-03-01,2020-03-01,"Crude oil, average",32.2033,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-04,worldbank_energy_monthly,wb:2020M04:crude_oil_average,WB-PINK,2020-04-01,2020-04-01,"Crude oil, average",21.0433,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-05,worldbank_energy_monthly,wb:2020M05:crude_oil_average,WB-PINK,2020-05-01,2020-05-01,"Crude oil, average",30.38,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-06,worldbank_energy_monthly,wb:2020M06:crude_oil_average,WB-PINK,2020-06-01,2020-06-01,"Crude oil, average",39.4567,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-07,worldbank_energy_monthly,wb:2020M07:crude_oil_average,WB-PINK,2020-07-01,2020-07-01,"Crude oil, average",42.0667,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-08,worldbank_energy_monthly,wb:2020M08:crude_oil_average,WB-PINK,2020-08-01,2020-08-01,"Crude oil, average",43.4433,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-09,worldbank_energy_monthly,wb:2020M09:crude_oil_average,WB-PINK,2020-09-01,2020-09-01,"Crude oil, average",40.5967,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-10,worldbank_energy_monthly,wb:2020M10:crude_oil_average,WB-PINK,2020-10-01,2020-10-01,"Crude oil, average",39.9,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-11,worldbank_energy_monthly,wb:2020M11:crude_oil_average,WB-PINK,2020-11-01,2020-11-01,"Crude oil, average",42.3033,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2020-12,worldbank_energy_monthly,wb:2020M12:crude_oil_average,WB-PINK,2020-12-01,2020-12-01,"Crude oil, average",48.7267,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-01,worldbank_energy_monthly,wb:2021M01:crude_oil_average,WB-PINK,2021-01-01,2021-01-01,"Crude oil, average",53.6033,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-02,worldbank_energy_monthly,wb:2021M02:crude_oil_average,WB-PINK,2021-02-01,2021-02-01,"Crude oil, average",60.4633,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-03,worldbank_energy_monthly,wb:2021M03:crude_oil_average,WB-PINK,2021-03-01,2021-03-01,"Crude oil, average",63.83,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-04,worldbank_energy_monthly,wb:2021M04:crude_oil_average,WB-PINK,2021-04-01,2021-04-01,"Crude oil, average",62.95,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-05,worldbank_energy_monthly,wb:2021M05:crude_oil_average,WB-PINK,2021-05-01,2021-05-01,"Crude oil, average",66.4,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-06,worldbank_energy_monthly,wb:2021M06:crude_oil_average,WB-PINK,2021-06-01,2021-06-01,"Crude oil, average",71.8033,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-07,worldbank_energy_monthly,wb:2021M07:crude_oil_average,WB-PINK,2021-07-01,2021-07-01,"Crude oil, average",73.2833,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-08,worldbank_energy_monthly,wb:2021M08:crude_oil_average,WB-PINK,2021-08-01,2021-08-01,"Crude oil, average",68.8667,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-09,worldbank_energy_monthly,wb:2021M09:crude_oil_average,WB-PINK,2021-09-01,2021-09-01,"Crude oil, average",72.8,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-10,worldbank_energy_monthly,wb:2021M10:crude_oil_average,WB-PINK,2021-10-01,2021-10-01,"Crude oil, average",82.0633,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-11,worldbank_energy_monthly,wb:2021M11:crude_oil_average,WB-PINK,2021-11-01,2021-11-01,"Crude oil, average",79.9167,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2021-12,worldbank_energy_monthly,wb:2021M12:crude_oil_average,WB-PINK,2021-12-01,2021-12-01,"Crude oil, average",72.8667,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-01,worldbank_energy_monthly,wb:2022M01:crude_oil_average,WB-PINK,2022-01-01,2022-01-01,"Crude oil, average",83.92,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-02,worldbank_energy_monthly,wb:2022M02:crude_oil_average,WB-PINK,2022-02-01,2022-02-01,"Crude oil, average",93.5433,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-03,worldbank_energy_monthly,wb:2022M03:crude_oil_average,WB-PINK,2022-03-01,2022-03-01,"Crude oil, average",112.3967,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-04,worldbank_energy_monthly,wb:2022M04:crude_oil_average,WB-PINK,2022-04-01,2022-04-01,"Crude oil, average",103.4133,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-05,worldbank_energy_monthly,wb:2022M05:crude_oil_average,WB-PINK,2022-05-01,2022-05-01,"Crude oil, average",110.0967,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-06,worldbank_energy_monthly,wb:2022M06:crude_oil_average,WB-PINK,2022-06-01,2022-06-01,"Crude oil, average",116.8,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-07,worldbank_energy_monthly,wb:2022M07:crude_oil_average,WB-PINK,2022-07-01,2022-07-01,"Crude oil, average",105.0833,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-08,worldbank_energy_monthly,wb:2022M08:crude_oil_average,WB-PINK,2022-08-01,2022-08-01,"Crude oil, average",95.9733,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-09,worldbank_energy_monthly,wb:2022M09:crude_oil_average,WB-PINK,2022-09-01,2022-09-01,"Crude oil, average",88.22,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-10,worldbank_energy_monthly,wb:2022M10:crude_oil_average,WB-PINK,2022-10-01,2022-10-01,"Crude oil, average",90.3267,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-11,worldbank_energy_monthly,wb:2022M11:crude_oil_average,WB-PINK,2022-11-01,2022-11-01,"Crude oil, average",87.3767,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2022-12,worldbank_energy_monthly,wb:2022M12:crude_oil_average,WB-PINK,2022-12-01,2022-12-01,"Crude oil, average",78.0667,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-01,worldbank_energy_monthly,wb:2023M01:crude_oil_average,WB-PINK,2023-01-01,2023-01-01,"Crude oil, average",80.41,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-02,worldbank_energy_monthly,wb:2023M02:crude_oil_average,WB-PINK,2023-02-01,2023-02-01,"Crude oil, average",80.2533,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-03,worldbank_energy_monthly,wb:2023M03:crude_oil_average,WB-PINK,2023-03-01,2023-03-01,"Crude oil, average",76.4733,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-04,worldbank_energy_monthly,wb:2023M04:crude_oil_average,WB-PINK,2023-04-01,2023-04-01,"Crude oil, average",82.46,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-05,worldbank_energy_monthly,wb:2023M05:crude_oil_average,WB-PINK,2023-05-01,2023-05-01,"Crude oil, average",74.1233,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-06,worldbank_energy_monthly,wb:2023M06:crude_oil_average,WB-PINK,2023-06-01,2023-06-01,"Crude oil, average",73.2633,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-07,worldbank_energy_monthly,wb:2023M07:crude_oil_average,WB-PINK,2023-07-01,2023-07-01,"Crude oil, average",78.9833,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-08,worldbank_energy_monthly,wb:2023M08:crude_oil_average,WB-PINK,2023-08-01,2023-08-01,"Crude oil, average",84.7243,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-09,worldbank_energy_monthly,wb:2023M09:crude_oil_average,WB-PINK,2023-09-01,2023-09-01,"Crude oil, average",92.22,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-10,worldbank_energy_monthly,wb:2023M10:crude_oil_average,WB-PINK,2023-10-01,2023-10-01,"Crude oil, average",89.0837,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-11,worldbank_energy_monthly,wb:2023M11:crude_oil_average,WB-PINK,2023-11-01,2023-11-01,"Crude oil, average",81.3543,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2023-12,worldbank_energy_monthly,wb:2023M12:crude_oil_average,WB-PINK,2023-12-01,2023-12-01,"Crude oil, average",75.7193,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-01,worldbank_energy_monthly,wb:2024M01:crude_oil_average,WB-PINK,2024-01-01,2024-01-01,"Crude oil, average",77.6723,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-02,worldbank_energy_monthly,wb:2024M02:crude_oil_average,WB-PINK,2024-02-01,2024-02-01,"Crude oil, average",80.548,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-03,worldbank_energy_monthly,wb:2024M03:crude_oil_average,WB-PINK,2024-03-01,2024-03-01,"Crude oil, average",83.5457,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-04,worldbank_energy_monthly,wb:2024M04:crude_oil_average,WB-PINK,2024-04-01,2024-04-01,"Crude oil, average",88.0113,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-05,worldbank_energy_monthly,wb:2024M05:crude_oil_average,WB-PINK,2024-05-01,2024-05-01,"Crude oil, average",81.445,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-06,worldbank_energy_monthly,wb:2024M06:crude_oil_average,WB-PINK,2024-06-01,2024-06-01,"Crude oil, average",81.205,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-07,worldbank_energy_monthly,wb:2024M07:crude_oil_average,WB-PINK,2024-07-01,2024-07-01,"Crude oil, average",83.2587,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-08,worldbank_energy_monthly,wb:2024M08:crude_oil_average,WB-PINK,2024-08-01,2024-08-01,"Crude oil, average",78.121,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-09,worldbank_energy_monthly,wb:2024M09:crude_oil_average,WB-PINK,2024-09-01,2024-09-01,"Crude oil, average",72.4243,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-10,worldbank_energy_monthly,wb:2024M10:crude_oil_average,WB-PINK,2024-10-01,2024-10-01,"Crude oil, average",73.9707,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-11,worldbank_energy_monthly,wb:2024M11:crude_oil_average,WB-PINK,2024-11-01,2024-11-01,"Crude oil, average",72.2917,($/bbl),World Bank Pink Sheet monthly price
+WB-crude_oil_average-2024-12,worldbank_energy_monthly,wb:2024M12:crude_oil_average,WB-PINK,2024-12-01,2024-12-01,"Crude oil, average",72.311,($/bbl),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-01,worldbank_energy_monthly,wb:2018M01:liquefied_natural_gas_japan,WB-PINK,2018-01-01,2018-01-01,"Liquefied natural gas, Japan",9.3425,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-02,worldbank_energy_monthly,wb:2018M02:liquefied_natural_gas_japan,WB-PINK,2018-02-01,2018-02-01,"Liquefied natural gas, Japan",9.8257,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-03,worldbank_energy_monthly,wb:2018M03:liquefied_natural_gas_japan,WB-PINK,2018-03-01,2018-03-01,"Liquefied natural gas, Japan",10.1101,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-04,worldbank_energy_monthly,wb:2018M04:liquefied_natural_gas_japan,WB-PINK,2018-04-01,2018-04-01,"Liquefied natural gas, Japan",10.0905,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-05,worldbank_energy_monthly,wb:2018M05:liquefied_natural_gas_japan,WB-PINK,2018-05-01,2018-05-01,"Liquefied natural gas, Japan",10.2515,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-06,worldbank_energy_monthly,wb:2018M06:liquefied_natural_gas_japan,WB-PINK,2018-06-01,2018-06-01,"Liquefied natural gas, Japan",10.443,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-07,worldbank_energy_monthly,wb:2018M07:liquefied_natural_gas_japan,WB-PINK,2018-07-01,2018-07-01,"Liquefied natural gas, Japan",10.4408,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-08,worldbank_energy_monthly,wb:2018M08:liquefied_natural_gas_japan,WB-PINK,2018-08-01,2018-08-01,"Liquefied natural gas, Japan",10.875,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-09,worldbank_energy_monthly,wb:2018M09:liquefied_natural_gas_japan,WB-PINK,2018-09-01,2018-09-01,"Liquefied natural gas, Japan",11.3033,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-10,worldbank_energy_monthly,wb:2018M10:liquefied_natural_gas_japan,WB-PINK,2018-10-01,2018-10-01,"Liquefied natural gas, Japan",11.6606,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-11,worldbank_energy_monthly,wb:2018M11:liquefied_natural_gas_japan,WB-PINK,2018-11-01,2018-11-01,"Liquefied natural gas, Japan",11.7003,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2018-12,worldbank_energy_monthly,wb:2018M12:liquefied_natural_gas_japan,WB-PINK,2018-12-01,2018-12-01,"Liquefied natural gas, Japan",11.9953,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-01,worldbank_energy_monthly,wb:2019M01:liquefied_natural_gas_japan,WB-PINK,2019-01-01,2019-01-01,"Liquefied natural gas, Japan",12.0073,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-02,worldbank_energy_monthly,wb:2019M02:liquefied_natural_gas_japan,WB-PINK,2019-02-01,2019-02-01,"Liquefied natural gas, Japan",11.8066,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-03,worldbank_energy_monthly,wb:2019M03:liquefied_natural_gas_japan,WB-PINK,2019-03-01,2019-03-01,"Liquefied natural gas, Japan",11.2942,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-04,worldbank_energy_monthly,wb:2019M04:liquefied_natural_gas_japan,WB-PINK,2019-04-01,2019-04-01,"Liquefied natural gas, Japan",10.2655,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-05,worldbank_energy_monthly,wb:2019M05:liquefied_natural_gas_japan,WB-PINK,2019-05-01,2019-05-01,"Liquefied natural gas, Japan",10.1455,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-06,worldbank_energy_monthly,wb:2019M06:liquefied_natural_gas_japan,WB-PINK,2019-06-01,2019-06-01,"Liquefied natural gas, Japan",10.0424,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-07,worldbank_energy_monthly,wb:2019M07:liquefied_natural_gas_japan,WB-PINK,2019-07-01,2019-07-01,"Liquefied natural gas, Japan",10.1278,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-08,worldbank_energy_monthly,wb:2019M08:liquefied_natural_gas_japan,WB-PINK,2019-08-01,2019-08-01,"Liquefied natural gas, Japan",10.861,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-09,worldbank_energy_monthly,wb:2019M09:liquefied_natural_gas_japan,WB-PINK,2019-09-01,2019-09-01,"Liquefied natural gas, Japan",10.1417,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-10,worldbank_energy_monthly,wb:2019M10:liquefied_natural_gas_japan,WB-PINK,2019-10-01,2019-10-01,"Liquefied natural gas, Japan",9.9835,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-11,worldbank_energy_monthly,wb:2019M11:liquefied_natural_gas_japan,WB-PINK,2019-11-01,2019-11-01,"Liquefied natural gas, Japan",10.0395,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2019-12,worldbank_energy_monthly,wb:2019M12:liquefied_natural_gas_japan,WB-PINK,2019-12-01,2019-12-01,"Liquefied natural gas, Japan",10.0567,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-01,worldbank_energy_monthly,wb:2020M01:liquefied_natural_gas_japan,WB-PINK,2020-01-01,2020-01-01,"Liquefied natural gas, Japan",9.887,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-02,worldbank_energy_monthly,wb:2020M02:liquefied_natural_gas_japan,WB-PINK,2020-02-01,2020-02-01,"Liquefied natural gas, Japan",9.8944,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-03,worldbank_energy_monthly,wb:2020M03:liquefied_natural_gas_japan,WB-PINK,2020-03-01,2020-03-01,"Liquefied natural gas, Japan",10.213,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-04,worldbank_energy_monthly,wb:2020M04:liquefied_natural_gas_japan,WB-PINK,2020-04-01,2020-04-01,"Liquefied natural gas, Japan",10.0099,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-05,worldbank_energy_monthly,wb:2020M05:liquefied_natural_gas_japan,WB-PINK,2020-05-01,2020-05-01,"Liquefied natural gas, Japan",10.0755,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-06,worldbank_energy_monthly,wb:2020M06:liquefied_natural_gas_japan,WB-PINK,2020-06-01,2020-06-01,"Liquefied natural gas, Japan",8.9708,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-07,worldbank_energy_monthly,wb:2020M07:liquefied_natural_gas_japan,WB-PINK,2020-07-01,2020-07-01,"Liquefied natural gas, Japan",7.7864,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-08,worldbank_energy_monthly,wb:2020M08:liquefied_natural_gas_japan,WB-PINK,2020-08-01,2020-08-01,"Liquefied natural gas, Japan",6.3436,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-09,worldbank_energy_monthly,wb:2020M09:liquefied_natural_gas_japan,WB-PINK,2020-09-01,2020-09-01,"Liquefied natural gas, Japan",5.8838,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-10,worldbank_energy_monthly,wb:2020M10:liquefied_natural_gas_japan,WB-PINK,2020-10-01,2020-10-01,"Liquefied natural gas, Japan",6.1792,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-11,worldbank_energy_monthly,wb:2020M11:liquefied_natural_gas_japan,WB-PINK,2020-11-01,2020-11-01,"Liquefied natural gas, Japan",6.8555,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2020-12,worldbank_energy_monthly,wb:2020M12:liquefied_natural_gas_japan,WB-PINK,2020-12-01,2020-12-01,"Liquefied natural gas, Japan",7.661,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-01,worldbank_energy_monthly,wb:2021M01:liquefied_natural_gas_japan,WB-PINK,2021-01-01,2021-01-01,"Liquefied natural gas, Japan",9.0038,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-02,worldbank_energy_monthly,wb:2021M02:liquefied_natural_gas_japan,WB-PINK,2021-02-01,2021-02-01,"Liquefied natural gas, Japan",9.8794,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-03,worldbank_energy_monthly,wb:2021M03:liquefied_natural_gas_japan,WB-PINK,2021-03-01,2021-03-01,"Liquefied natural gas, Japan",7.8951,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-04,worldbank_energy_monthly,wb:2021M04:liquefied_natural_gas_japan,WB-PINK,2021-04-01,2021-04-01,"Liquefied natural gas, Japan",8.2768,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-05,worldbank_energy_monthly,wb:2021M05:liquefied_natural_gas_japan,WB-PINK,2021-05-01,2021-05-01,"Liquefied natural gas, Japan",8.9157,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-06,worldbank_energy_monthly,wb:2021M06:liquefied_natural_gas_japan,WB-PINK,2021-06-01,2021-06-01,"Liquefied natural gas, Japan",9.616,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-07,worldbank_energy_monthly,wb:2021M07:liquefied_natural_gas_japan,WB-PINK,2021-07-01,2021-07-01,"Liquefied natural gas, Japan",10.3592,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-08,worldbank_energy_monthly,wb:2021M08:liquefied_natural_gas_japan,WB-PINK,2021-08-01,2021-08-01,"Liquefied natural gas, Japan",10.8014,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-09,worldbank_energy_monthly,wb:2021M09:liquefied_natural_gas_japan,WB-PINK,2021-09-01,2021-09-01,"Liquefied natural gas, Japan",11.439,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-10,worldbank_energy_monthly,wb:2021M10:liquefied_natural_gas_japan,WB-PINK,2021-10-01,2021-10-01,"Liquefied natural gas, Japan",12.3769,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-11,worldbank_energy_monthly,wb:2021M11:liquefied_natural_gas_japan,WB-PINK,2021-11-01,2021-11-01,"Liquefied natural gas, Japan",15.254,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2021-12,worldbank_energy_monthly,wb:2021M12:liquefied_natural_gas_japan,WB-PINK,2021-12-01,2021-12-01,"Liquefied natural gas, Japan",15.3225,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-01,worldbank_energy_monthly,wb:2022M01:liquefied_natural_gas_japan,WB-PINK,2022-01-01,2022-01-01,"Liquefied natural gas, Japan",14.6858,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-02,worldbank_energy_monthly,wb:2022M02:liquefied_natural_gas_japan,WB-PINK,2022-02-01,2022-02-01,"Liquefied natural gas, Japan",16.9952,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-03,worldbank_energy_monthly,wb:2022M03:liquefied_natural_gas_japan,WB-PINK,2022-03-01,2022-03-01,"Liquefied natural gas, Japan",15.1114,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-04,worldbank_energy_monthly,wb:2022M04:liquefied_natural_gas_japan,WB-PINK,2022-04-01,2022-04-01,"Liquefied natural gas, Japan",16.2875,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-05,worldbank_energy_monthly,wb:2022M05:liquefied_natural_gas_japan,WB-PINK,2022-05-01,2022-05-01,"Liquefied natural gas, Japan",16.6791,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-06,worldbank_energy_monthly,wb:2022M06:liquefied_natural_gas_japan,WB-PINK,2022-06-01,2022-06-01,"Liquefied natural gas, Japan",15.5339,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-07,worldbank_energy_monthly,wb:2022M07:liquefied_natural_gas_japan,WB-PINK,2022-07-01,2022-07-01,"Liquefied natural gas, Japan",18.8808,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-08,worldbank_energy_monthly,wb:2022M08:liquefied_natural_gas_japan,WB-PINK,2022-08-01,2022-08-01,"Liquefied natural gas, Japan",21.2108,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-09,worldbank_energy_monthly,wb:2022M09:liquefied_natural_gas_japan,WB-PINK,2022-09-01,2022-09-01,"Liquefied natural gas, Japan",23.7338,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-10,worldbank_energy_monthly,wb:2022M10:liquefied_natural_gas_japan,WB-PINK,2022-10-01,2022-10-01,"Liquefied natural gas, Japan",21.8418,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-11,worldbank_energy_monthly,wb:2022M11:liquefied_natural_gas_japan,WB-PINK,2022-11-01,2022-11-01,"Liquefied natural gas, Japan",19.5863,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2022-12,worldbank_energy_monthly,wb:2022M12:liquefied_natural_gas_japan,WB-PINK,2022-12-01,2022-12-01,"Liquefied natural gas, Japan",20.5767,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-01,worldbank_energy_monthly,wb:2023M01:liquefied_natural_gas_japan,WB-PINK,2023-01-01,2023-01-01,"Liquefied natural gas, Japan",20.1948,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-02,worldbank_energy_monthly,wb:2023M02:liquefied_natural_gas_japan,WB-PINK,2023-02-01,2023-02-01,"Liquefied natural gas, Japan",18.4153,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-03,worldbank_energy_monthly,wb:2023M03:liquefied_natural_gas_japan,WB-PINK,2023-03-01,2023-03-01,"Liquefied natural gas, Japan",16.0331,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-04,worldbank_energy_monthly,wb:2023M04:liquefied_natural_gas_japan,WB-PINK,2023-04-01,2023-04-01,"Liquefied natural gas, Japan",14.3661,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-05,worldbank_energy_monthly,wb:2023M05:liquefied_natural_gas_japan,WB-PINK,2023-05-01,2023-05-01,"Liquefied natural gas, Japan",13.4303,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-06,worldbank_energy_monthly,wb:2023M06:liquefied_natural_gas_japan,WB-PINK,2023-06-01,2023-06-01,"Liquefied natural gas, Japan",12.6792,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-07,worldbank_energy_monthly,wb:2023M07:liquefied_natural_gas_japan,WB-PINK,2023-07-01,2023-07-01,"Liquefied natural gas, Japan",12.9889,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-08,worldbank_energy_monthly,wb:2023M08:liquefied_natural_gas_japan,WB-PINK,2023-08-01,2023-08-01,"Liquefied natural gas, Japan",12.5441,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-09,worldbank_energy_monthly,wb:2023M09:liquefied_natural_gas_japan,WB-PINK,2023-09-01,2023-09-01,"Liquefied natural gas, Japan",12.2106,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-10,worldbank_energy_monthly,wb:2023M10:liquefied_natural_gas_japan,WB-PINK,2023-10-01,2023-10-01,"Liquefied natural gas, Japan",12.6199,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-11,worldbank_energy_monthly,wb:2023M11:liquefied_natural_gas_japan,WB-PINK,2023-11-01,2023-11-01,"Liquefied natural gas, Japan",12.7234,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2023-12,worldbank_energy_monthly,wb:2023M12:liquefied_natural_gas_japan,WB-PINK,2023-12-01,2023-12-01,"Liquefied natural gas, Japan",14.4395,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-01,worldbank_energy_monthly,wb:2024M01:liquefied_natural_gas_japan,WB-PINK,2024-01-01,2024-01-01,"Liquefied natural gas, Japan",14.3442,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-02,worldbank_energy_monthly,wb:2024M02:liquefied_natural_gas_japan,WB-PINK,2024-02-01,2024-02-01,"Liquefied natural gas, Japan",13.645,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-03,worldbank_energy_monthly,wb:2024M03:liquefied_natural_gas_japan,WB-PINK,2024-03-01,2024-03-01,"Liquefied natural gas, Japan",13.1856,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-04,worldbank_energy_monthly,wb:2024M04:liquefied_natural_gas_japan,WB-PINK,2024-04-01,2024-04-01,"Liquefied natural gas, Japan",11.8778,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-05,worldbank_energy_monthly,wb:2024M05:liquefied_natural_gas_japan,WB-PINK,2024-05-01,2024-05-01,"Liquefied natural gas, Japan",12.1629,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-06,worldbank_energy_monthly,wb:2024M06:liquefied_natural_gas_japan,WB-PINK,2024-06-01,2024-06-01,"Liquefied natural gas, Japan",12.131,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-07,worldbank_energy_monthly,wb:2024M07:liquefied_natural_gas_japan,WB-PINK,2024-07-01,2024-07-01,"Liquefied natural gas, Japan",12.491,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-08,worldbank_energy_monthly,wb:2024M08:liquefied_natural_gas_japan,WB-PINK,2024-08-01,2024-08-01,"Liquefied natural gas, Japan",13.3196,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-09,worldbank_energy_monthly,wb:2024M09:liquefied_natural_gas_japan,WB-PINK,2024-09-01,2024-09-01,"Liquefied natural gas, Japan",12.9692,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-10,worldbank_energy_monthly,wb:2024M10:liquefied_natural_gas_japan,WB-PINK,2024-10-01,2024-10-01,"Liquefied natural gas, Japan",12.541,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-11,worldbank_energy_monthly,wb:2024M11:liquefied_natural_gas_japan,WB-PINK,2024-11-01,2024-11-01,"Liquefied natural gas, Japan",12.8227,($/mmbtu),World Bank Pink Sheet monthly price
+WB-liquefied_natural_gas_japan-2024-12,worldbank_energy_monthly,wb:2024M12:liquefied_natural_gas_japan,WB-PINK,2024-12-01,2024-12-01,"Liquefied natural gas, Japan",12.76,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-01,worldbank_energy_monthly,wb:2018M01:natural_gas_index,WB-PINK,2018-01-01,2018-01-01,Natural gas index,84.8216,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-02,worldbank_energy_monthly,wb:2018M02:natural_gas_index,WB-PINK,2018-02-01,2018-02-01,Natural gas index,71.0301,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-03,worldbank_energy_monthly,wb:2018M03:natural_gas_index,WB-PINK,2018-03-01,2018-03-01,Natural gas index,71.4625,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-04,worldbank_energy_monthly,wb:2018M04:natural_gas_index,WB-PINK,2018-04-01,2018-04-01,Natural gas index,73.5187,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-05,worldbank_energy_monthly,wb:2018M05:natural_gas_index,WB-PINK,2018-05-01,2018-05-01,Natural gas index,76.5075,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-06,worldbank_energy_monthly,wb:2018M06:natural_gas_index,WB-PINK,2018-06-01,2018-06-01,Natural gas index,78.338,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-07,worldbank_energy_monthly,wb:2018M07:natural_gas_index,WB-PINK,2018-07-01,2018-07-01,Natural gas index,77.5045,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-08,worldbank_energy_monthly,wb:2018M08:natural_gas_index,WB-PINK,2018-08-01,2018-08-01,Natural gas index,81.7136,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-09,worldbank_energy_monthly,wb:2018M09:natural_gas_index,WB-PINK,2018-09-01,2018-09-01,Natural gas index,89.1676,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-10,worldbank_energy_monthly,wb:2018M10:natural_gas_index,WB-PINK,2018-10-01,2018-10-01,Natural gas index,89.5708,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-11,worldbank_energy_monthly,wb:2018M11:natural_gas_index,WB-PINK,2018-11-01,2018-11-01,Natural gas index,97.3625,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2018-12,worldbank_energy_monthly,wb:2018M12:natural_gas_index,WB-PINK,2018-12-01,2018-12-01,Natural gas index,94.4066,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-01,worldbank_energy_monthly,wb:2019M01:natural_gas_index,WB-PINK,2019-01-01,2019-01-01,Natural gas index,80.0554,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-02,worldbank_energy_monthly,wb:2019M02:natural_gas_index,WB-PINK,2019-02-01,2019-02-01,Natural gas index,69.545,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-03,worldbank_energy_monthly,wb:2019M03:natural_gas_index,WB-PINK,2019-03-01,2019-03-01,Natural gas index,67.9121,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-04,worldbank_energy_monthly,wb:2019M04:natural_gas_index,WB-PINK,2019-04-01,2019-04-01,Natural gas index,62.4861,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-05,worldbank_energy_monthly,wb:2019M05:natural_gas_index,WB-PINK,2019-05-01,2019-05-01,Natural gas index,59.4223,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-06,worldbank_energy_monthly,wb:2019M06:natural_gas_index,WB-PINK,2019-06-01,2019-06-01,Natural gas index,52.9625,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-07,worldbank_energy_monthly,wb:2019M07:natural_gas_index,WB-PINK,2019-07-01,2019-07-01,Natural gas index,52.731,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-08,worldbank_energy_monthly,wb:2019M08:natural_gas_index,WB-PINK,2019-08-01,2019-08-01,Natural gas index,51.8481,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-09,worldbank_energy_monthly,wb:2019M09:natural_gas_index,WB-PINK,2019-09-01,2019-09-01,Natural gas index,58.1925,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-10,worldbank_energy_monthly,wb:2019M10:natural_gas_index,WB-PINK,2019-10-01,2019-10-01,Natural gas index,59.1155,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-11,worldbank_energy_monthly,wb:2019M11:natural_gas_index,WB-PINK,2019-11-01,2019-11-01,Natural gas index,63.4707,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2019-12,worldbank_energy_monthly,wb:2019M12:natural_gas_index,WB-PINK,2019-12-01,2019-12-01,Natural gas index,56.0105,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-01,worldbank_energy_monthly,wb:2020M01:natural_gas_index,WB-PINK,2020-01-01,2020-01-01,Natural gas index,48.6285,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-02,worldbank_energy_monthly,wb:2020M02:natural_gas_index,WB-PINK,2020-02-01,2020-02-01,Natural gas index,43.7912,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-03,worldbank_energy_monthly,wb:2020M03:natural_gas_index,WB-PINK,2020-03-01,2020-03-01,Natural gas index,41.6141,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-04,worldbank_energy_monthly,wb:2020M04:natural_gas_index,WB-PINK,2020-04-01,2020-04-01,Natural gas index,37.974,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-05,worldbank_energy_monthly,wb:2020M05:natural_gas_index,WB-PINK,2020-05-01,2020-05-01,Natural gas index,35.5957,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-06,worldbank_energy_monthly,wb:2020M06:natural_gas_index,WB-PINK,2020-06-01,2020-06-01,Natural gas index,33.9923,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-07,worldbank_energy_monthly,wb:2020M07:natural_gas_index,WB-PINK,2020-07-01,2020-07-01,Natural gas index,34.9085,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-08,worldbank_energy_monthly,wb:2020M08:natural_gas_index,WB-PINK,2020-08-01,2020-08-01,Natural gas index,45.8535,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-09,worldbank_energy_monthly,wb:2020M09:natural_gas_index,WB-PINK,2020-09-01,2020-09-01,Natural gas index,46.0729,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-10,worldbank_energy_monthly,wb:2020M10:natural_gas_index,WB-PINK,2020-10-01,2020-10-01,Natural gas index,54.7212,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-11,worldbank_energy_monthly,wb:2020M11:natural_gas_index,WB-PINK,2020-11-01,2020-11-01,Natural gas index,59.0623,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2020-12,worldbank_energy_monthly,wb:2020M12:natural_gas_index,WB-PINK,2020-12-01,2020-12-01,Natural gas index,63.8584,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-01,worldbank_energy_monthly,wb:2021M01:natural_gas_index,WB-PINK,2021-01-01,2021-01-01,Natural gas index,73.0215,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-02,worldbank_energy_monthly,wb:2021M02:natural_gas_index,WB-PINK,2021-02-01,2021-02-01,Natural gas index,97.478,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-03,worldbank_energy_monthly,wb:2021M03:natural_gas_index,WB-PINK,2021-03-01,2021-03-01,Natural gas index,65.6185,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-04,worldbank_energy_monthly,wb:2021M04:natural_gas_index,WB-PINK,2021-04-01,2021-04-01,Natural gas index,71.2774,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-05,worldbank_energy_monthly,wb:2021M05:natural_gas_index,WB-PINK,2021-05-01,2021-05-01,Natural gas index,83.4672,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-06,worldbank_energy_monthly,wb:2021M06:natural_gas_index,WB-PINK,2021-06-01,2021-06-01,Natural gas index,94.7307,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-07,worldbank_energy_monthly,wb:2021M07:natural_gas_index,WB-PINK,2021-07-01,2021-07-01,Natural gas index,112.6787,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-08,worldbank_energy_monthly,wb:2021M08:natural_gas_index,WB-PINK,2021-08-01,2021-08-01,Natural gas index,129.8186,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-09,worldbank_energy_monthly,wb:2021M09:natural_gas_index,WB-PINK,2021-09-01,2021-09-01,Natural gas index,178.3994,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-10,worldbank_energy_monthly,wb:2021M10:natural_gas_index,WB-PINK,2021-10-01,2021-10-01,Natural gas index,222.5293,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-11,worldbank_energy_monthly,wb:2021M11:natural_gas_index,WB-PINK,2021-11-01,2021-11-01,Natural gas index,202.5861,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2021-12,worldbank_energy_monthly,wb:2021M12:natural_gas_index,WB-PINK,2021-12-01,2021-12-01,Natural gas index,236.4884,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-01,worldbank_energy_monthly,wb:2022M01:natural_gas_index,WB-PINK,2022-01-01,2022-01-01,Natural gas index,196.9111,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-02,worldbank_energy_monthly,wb:2022M02:natural_gas_index,WB-PINK,2022-02-01,2022-02-01,Natural gas index,197.5237,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-03,worldbank_energy_monthly,wb:2022M03:natural_gas_index,WB-PINK,2022-03-01,2022-03-01,Natural gas index,271.0799,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-04,worldbank_energy_monthly,wb:2022M04:natural_gas_index,WB-PINK,2022-04-01,2022-04-01,Natural gas index,243.436,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-05,worldbank_energy_monthly,wb:2022M05:natural_gas_index,WB-PINK,2022-05-01,2022-05-01,Natural gas index,248.7911,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-06,worldbank_energy_monthly,wb:2022M06:natural_gas_index,WB-PINK,2022-06-01,2022-06-01,Natural gas index,263.2449,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-07,worldbank_energy_monthly,wb:2022M07:natural_gas_index,WB-PINK,2022-07-01,2022-07-01,Natural gas index,344.9267,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-08,worldbank_energy_monthly,wb:2022M08:natural_gas_index,WB-PINK,2022-08-01,2022-08-01,Natural gas index,454.0401,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-09,worldbank_energy_monthly,wb:2022M09:natural_gas_index,WB-PINK,2022-09-01,2022-09-01,Natural gas index,391.3195,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-10,worldbank_energy_monthly,wb:2022M10:natural_gas_index,WB-PINK,2022-10-01,2022-10-01,Natural gas index,268.5471,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-11,worldbank_energy_monthly,wb:2022M11:natural_gas_index,WB-PINK,2022-11-01,2022-11-01,Natural gas index,247.1764,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2022-12,worldbank_energy_monthly,wb:2022M12:natural_gas_index,WB-PINK,2022-12-01,2022-12-01,Natural gas index,252.119,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-01,worldbank_energy_monthly,wb:2023M01:natural_gas_index,WB-PINK,2023-01-01,2023-01-01,Natural gas index,149.3787,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-02,worldbank_energy_monthly,wb:2023M02:natural_gas_index,WB-PINK,2023-02-01,2023-02-01,Natural gas index,120.0383,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-03,worldbank_energy_monthly,wb:2023M03:natural_gas_index,WB-PINK,2023-03-01,2023-03-01,Natural gas index,104.5138,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-04,worldbank_energy_monthly,wb:2023M04:natural_gas_index,WB-PINK,2023-04-01,2023-04-01,Natural gas index,100.2522,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-05,worldbank_energy_monthly,wb:2023M05:natural_gas_index,WB-PINK,2023-05-01,2023-05-01,Natural gas index,83.2202,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-06,worldbank_energy_monthly,wb:2023M06:natural_gas_index,WB-PINK,2023-06-01,2023-06-01,Natural gas index,84.3105,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-07,worldbank_energy_monthly,wb:2023M07:natural_gas_index,WB-PINK,2023-07-01,2023-07-01,Natural gas index,85.1921,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-08,worldbank_energy_monthly,wb:2023M08:natural_gas_index,WB-PINK,2023-08-01,2023-08-01,Natural gas index,93.0893,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-09,worldbank_energy_monthly,wb:2023M09:natural_gas_index,WB-PINK,2023-09-01,2023-09-01,Natural gas index,95.2301,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-10,worldbank_energy_monthly,wb:2023M10:natural_gas_index,WB-PINK,2023-10-01,2023-10-01,Natural gas index,114.1046,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-11,worldbank_energy_monthly,wb:2023M11:natural_gas_index,WB-PINK,2023-11-01,2023-11-01,Natural gas index,110.3707,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2023-12,worldbank_energy_monthly,wb:2023M12:natural_gas_index,WB-PINK,2023-12-01,2023-12-01,Natural gas index,95.1653,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-01,worldbank_energy_monthly,wb:2024M01:natural_gas_index,WB-PINK,2024-01-01,2024-01-01,Natural gas index,93.7874,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-02,worldbank_energy_monthly,wb:2024M02:natural_gas_index,WB-PINK,2024-02-01,2024-02-01,Natural gas index,68.8815,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-03,worldbank_energy_monthly,wb:2024M03:natural_gas_index,WB-PINK,2024-03-01,2024-03-01,Natural gas index,67.8112,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-04,worldbank_energy_monthly,wb:2024M04:natural_gas_index,WB-PINK,2024-04-01,2024-04-01,Natural gas index,70.6268,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-05,worldbank_energy_monthly,wb:2024M05:natural_gas_index,WB-PINK,2024-05-01,2024-05-01,Natural gas index,82.2474,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-06,worldbank_energy_monthly,wb:2024M06:natural_gas_index,WB-PINK,2024-06-01,2024-06-01,Natural gas index,90.3973,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-07,worldbank_energy_monthly,wb:2024M07:natural_gas_index,WB-PINK,2024-07-01,2024-07-01,Natural gas index,82.8498,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-08,worldbank_energy_monthly,wb:2024M08:natural_gas_index,WB-PINK,2024-08-01,2024-08-01,Natural gas index,92.0214,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-09,worldbank_energy_monthly,wb:2024M09:natural_gas_index,WB-PINK,2024-09-01,2024-09-01,Natural gas index,92.1409,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-10,worldbank_energy_monthly,wb:2024M10:natural_gas_index,WB-PINK,2024-10-01,2024-10-01,Natural gas index,96.7273,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-11,worldbank_energy_monthly,wb:2024M11:natural_gas_index,WB-PINK,2024-11-01,2024-11-01,Natural gas index,100.4488,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_index-2024-12,worldbank_energy_monthly,wb:2024M12:natural_gas_index,WB-PINK,2024-12-01,2024-12-01,Natural gas index,111.227,(2010=100),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-01,worldbank_energy_monthly,wb:2018M01:natural_gas_europe,WB-PINK,2018-01-01,2018-01-01,"Natural gas, Europe",6.6623,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-02,worldbank_energy_monthly,wb:2018M02:natural_gas_europe,WB-PINK,2018-02-01,2018-02-01,"Natural gas, Europe",6.7187,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-03,worldbank_energy_monthly,wb:2018M03:natural_gas_europe,WB-PINK,2018-03-01,2018-03-01,"Natural gas, Europe",6.6974,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-04,worldbank_energy_monthly,wb:2018M04:natural_gas_europe,WB-PINK,2018-04-01,2018-04-01,"Natural gas, Europe",6.9279,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-05,worldbank_energy_monthly,wb:2018M05:natural_gas_europe,WB-PINK,2018-05-01,2018-05-01,"Natural gas, Europe",7.4874,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-06,worldbank_energy_monthly,wb:2018M06:natural_gas_europe,WB-PINK,2018-06-01,2018-06-01,"Natural gas, Europe",7.4489,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-07,worldbank_energy_monthly,wb:2018M07:natural_gas_europe,WB-PINK,2018-07-01,2018-07-01,"Natural gas, Europe",7.5988,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-08,worldbank_energy_monthly,wb:2018M08:natural_gas_europe,WB-PINK,2018-08-01,2018-08-01,"Natural gas, Europe",8.0849,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-09,worldbank_energy_monthly,wb:2018M09:natural_gas_europe,WB-PINK,2018-09-01,2018-09-01,"Natural gas, Europe",9.5216,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-10,worldbank_energy_monthly,wb:2018M10:natural_gas_europe,WB-PINK,2018-10-01,2018-10-01,"Natural gas, Europe",8.791,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-11,worldbank_energy_monthly,wb:2018M11:natural_gas_europe,WB-PINK,2018-11-01,2018-11-01,"Natural gas, Europe",8.2651,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2018-12,worldbank_energy_monthly,wb:2018M12:natural_gas_europe,WB-PINK,2018-12-01,2018-12-01,"Natural gas, Europe",7.9762,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-01,worldbank_energy_monthly,wb:2019M01:natural_gas_europe,WB-PINK,2019-01-01,2019-01-01,"Natural gas, Europe",7.2623,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-02,worldbank_energy_monthly,wb:2019M02:natural_gas_europe,WB-PINK,2019-02-01,2019-02-01,"Natural gas, Europe",6.0058,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-03,worldbank_energy_monthly,wb:2019M03:natural_gas_europe,WB-PINK,2019-03-01,2019-03-01,"Natural gas, Europe",5.1787,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-04,worldbank_energy_monthly,wb:2019M04:natural_gas_europe,WB-PINK,2019-04-01,2019-04-01,"Natural gas, Europe",4.9222,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-05,worldbank_energy_monthly,wb:2019M05:natural_gas_europe,WB-PINK,2019-05-01,2019-05-01,"Natural gas, Europe",4.3411,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-06,worldbank_energy_monthly,wb:2019M06:natural_gas_europe,WB-PINK,2019-06-01,2019-06-01,"Natural gas, Europe",3.588,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-07,worldbank_energy_monthly,wb:2019M07:natural_gas_europe,WB-PINK,2019-07-01,2019-07-01,"Natural gas, Europe",3.6204,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-08,worldbank_energy_monthly,wb:2019M08:natural_gas_europe,WB-PINK,2019-08-01,2019-08-01,"Natural gas, Europe",3.6768,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-09,worldbank_energy_monthly,wb:2019M09:natural_gas_europe,WB-PINK,2019-09-01,2019-09-01,"Natural gas, Europe",4.2053,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-10,worldbank_energy_monthly,wb:2019M10:natural_gas_europe,WB-PINK,2019-10-01,2019-10-01,"Natural gas, Europe",5.0572,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-11,worldbank_energy_monthly,wb:2019M11:natural_gas_europe,WB-PINK,2019-11-01,2019-11-01,"Natural gas, Europe",5.15,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2019-12,worldbank_energy_monthly,wb:2019M12:natural_gas_europe,WB-PINK,2019-12-01,2019-12-01,"Natural gas, Europe",4.6205,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-01,worldbank_energy_monthly,wb:2020M01:natural_gas_europe,WB-PINK,2020-01-01,2020-01-01,"Natural gas, Europe",3.6334,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-02,worldbank_energy_monthly,wb:2020M02:natural_gas_europe,WB-PINK,2020-02-01,2020-02-01,"Natural gas, Europe",2.9078,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-03,worldbank_energy_monthly,wb:2020M03:natural_gas_europe,WB-PINK,2020-03-01,2020-03-01,"Natural gas, Europe",2.7189,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-04,worldbank_energy_monthly,wb:2020M04:natural_gas_europe,WB-PINK,2020-04-01,2020-04-01,"Natural gas, Europe",2.1203,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-05,worldbank_energy_monthly,wb:2020M05:natural_gas_europe,WB-PINK,2020-05-01,2020-05-01,"Natural gas, Europe",1.5752,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-06,worldbank_energy_monthly,wb:2020M06:natural_gas_europe,WB-PINK,2020-06-01,2020-06-01,"Natural gas, Europe",1.7522,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-07,worldbank_energy_monthly,wb:2020M07:natural_gas_europe,WB-PINK,2020-07-01,2020-07-01,"Natural gas, Europe",1.801,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-08,worldbank_energy_monthly,wb:2020M08:natural_gas_europe,WB-PINK,2020-08-01,2020-08-01,"Natural gas, Europe",2.8619,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-09,worldbank_energy_monthly,wb:2020M09:natural_gas_europe,WB-PINK,2020-09-01,2020-09-01,"Natural gas, Europe",3.9521,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-10,worldbank_energy_monthly,wb:2020M10:natural_gas_europe,WB-PINK,2020-10-01,2020-10-01,"Natural gas, Europe",4.8896,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-11,worldbank_energy_monthly,wb:2020M11:natural_gas_europe,WB-PINK,2020-11-01,2020-11-01,"Natural gas, Europe",4.8358,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2020-12,worldbank_energy_monthly,wb:2020M12:natural_gas_europe,WB-PINK,2020-12-01,2020-12-01,"Natural gas, Europe",5.8561,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-01,worldbank_energy_monthly,wb:2021M01:natural_gas_europe,WB-PINK,2021-01-01,2021-01-01,"Natural gas, Europe",7.2683,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-02,worldbank_energy_monthly,wb:2021M02:natural_gas_europe,WB-PINK,2021-02-01,2021-02-01,"Natural gas, Europe",6.1585,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-03,worldbank_energy_monthly,wb:2021M03:natural_gas_europe,WB-PINK,2021-03-01,2021-03-01,"Natural gas, Europe",6.1271,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-04,worldbank_energy_monthly,wb:2021M04:natural_gas_europe,WB-PINK,2021-04-01,2021-04-01,"Natural gas, Europe",7.1468,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-05,worldbank_energy_monthly,wb:2021M05:natural_gas_europe,WB-PINK,2021-05-01,2021-05-01,"Natural gas, Europe",8.9088,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-06,worldbank_energy_monthly,wb:2021M06:natural_gas_europe,WB-PINK,2021-06-01,2021-06-01,"Natural gas, Europe",10.3011,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-07,worldbank_energy_monthly,wb:2021M07:natural_gas_europe,WB-PINK,2021-07-01,2021-07-01,"Natural gas, Europe",12.5099,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-08,worldbank_energy_monthly,wb:2021M08:natural_gas_europe,WB-PINK,2021-08-01,2021-08-01,"Natural gas, Europe",15.4265,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-09,worldbank_energy_monthly,wb:2021M09:natural_gas_europe,WB-PINK,2021-09-01,2021-09-01,"Natural gas, Europe",22.8406,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-10,worldbank_energy_monthly,wb:2021M10:natural_gas_europe,WB-PINK,2021-10-01,2021-10-01,"Natural gas, Europe",31.0525,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-11,worldbank_energy_monthly,wb:2021M11:natural_gas_europe,WB-PINK,2021-11-01,2021-11-01,"Natural gas, Europe",27.6234,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2021-12,worldbank_energy_monthly,wb:2021M12:natural_gas_europe,WB-PINK,2021-12-01,2021-12-01,"Natural gas, Europe",38.0271,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-01,worldbank_energy_monthly,wb:2022M01:natural_gas_europe,WB-PINK,2022-01-01,2022-01-01,"Natural gas, Europe",28.2607,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-02,worldbank_energy_monthly,wb:2022M02:natural_gas_europe,WB-PINK,2022-02-01,2022-02-01,"Natural gas, Europe",27.2297,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-03,worldbank_energy_monthly,wb:2022M03:natural_gas_europe,WB-PINK,2022-03-01,2022-03-01,"Natural gas, Europe",42.393,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-04,worldbank_energy_monthly,wb:2022M04:natural_gas_europe,WB-PINK,2022-04-01,2022-04-01,"Natural gas, Europe",32.2042,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-05,worldbank_energy_monthly,wb:2022M05:natural_gas_europe,WB-PINK,2022-05-01,2022-05-01,"Natural gas, Europe",29.1707,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-06,worldbank_energy_monthly,wb:2022M06:natural_gas_europe,WB-PINK,2022-06-01,2022-06-01,"Natural gas, Europe",33.5577,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-07,worldbank_energy_monthly,wb:2022M07:natural_gas_europe,WB-PINK,2022-07-01,2022-07-01,"Natural gas, Europe",51.33,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-08,worldbank_energy_monthly,wb:2022M08:natural_gas_europe,WB-PINK,2022-08-01,2022-08-01,"Natural gas, Europe",70.0436,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-09,worldbank_energy_monthly,wb:2022M09:natural_gas_europe,WB-PINK,2022-09-01,2022-09-01,"Natural gas, Europe",59.1026,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-10,worldbank_energy_monthly,wb:2022M10:natural_gas_europe,WB-PINK,2022-10-01,2022-10-01,"Natural gas, Europe",39.022,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-11,worldbank_energy_monthly,wb:2022M11:natural_gas_europe,WB-PINK,2022-11-01,2022-11-01,"Natural gas, Europe",35.7233,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2022-12,worldbank_energy_monthly,wb:2022M12:natural_gas_europe,WB-PINK,2022-12-01,2022-12-01,"Natural gas, Europe",36.0443,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-01,worldbank_energy_monthly,wb:2023M01:natural_gas_europe,WB-PINK,2023-01-01,2023-01-01,"Natural gas, Europe",20.184,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-02,worldbank_energy_monthly,wb:2023M02:natural_gas_europe,WB-PINK,2023-02-01,2023-02-01,"Natural gas, Europe",16.5371,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-03,worldbank_energy_monthly,wb:2023M03:natural_gas_europe,WB-PINK,2023-03-01,2023-03-01,"Natural gas, Europe",13.8121,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-04,worldbank_energy_monthly,wb:2023M04:natural_gas_europe,WB-PINK,2023-04-01,2023-04-01,"Natural gas, Europe",13.5205,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-05,worldbank_energy_monthly,wb:2023M05:natural_gas_europe,WB-PINK,2023-05-01,2023-05-01,"Natural gas, Europe",10.1088,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-06,worldbank_energy_monthly,wb:2023M06:natural_gas_europe,WB-PINK,2023-06-01,2023-06-01,"Natural gas, Europe",10.3506,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-07,worldbank_energy_monthly,wb:2023M07:natural_gas_europe,WB-PINK,2023-07-01,2023-07-01,"Natural gas, Europe",9.5453,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-08,worldbank_energy_monthly,wb:2023M08:natural_gas_europe,WB-PINK,2023-08-01,2023-08-01,"Natural gas, Europe",11.1919,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-09,worldbank_energy_monthly,wb:2023M09:natural_gas_europe,WB-PINK,2023-09-01,2023-09-01,"Natural gas, Europe",11.5493,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-10,worldbank_energy_monthly,wb:2023M10:natural_gas_europe,WB-PINK,2023-10-01,2023-10-01,"Natural gas, Europe",14.5695,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-11,worldbank_energy_monthly,wb:2023M11:natural_gas_europe,WB-PINK,2023-11-01,2023-11-01,"Natural gas, Europe",14.4851,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2023-12,worldbank_energy_monthly,wb:2023M12:natural_gas_europe,WB-PINK,2023-12-01,2023-12-01,"Natural gas, Europe",11.5067,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-01,worldbank_energy_monthly,wb:2024M01:natural_gas_europe,WB-PINK,2024-01-01,2024-01-01,"Natural gas, Europe",9.5596,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-02,worldbank_energy_monthly,wb:2024M02:natural_gas_europe,WB-PINK,2024-02-01,2024-02-01,"Natural gas, Europe",8.1484,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-03,worldbank_energy_monthly,wb:2024M03:natural_gas_europe,WB-PINK,2024-03-01,2024-03-01,"Natural gas, Europe",8.5537,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-04,worldbank_energy_monthly,wb:2024M04:natural_gas_europe,WB-PINK,2024-04-01,2024-04-01,"Natural gas, Europe",9.0851,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-05,worldbank_energy_monthly,wb:2024M05:natural_gas_europe,WB-PINK,2024-05-01,2024-05-01,"Natural gas, Europe",10.1231,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-06,worldbank_energy_monthly,wb:2024M06:natural_gas_europe,WB-PINK,2024-06-01,2024-06-01,"Natural gas, Europe",10.869,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-07,worldbank_energy_monthly,wb:2024M07:natural_gas_europe,WB-PINK,2024-07-01,2024-07-01,"Natural gas, Europe",10.3468,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-08,worldbank_energy_monthly,wb:2024M08:natural_gas_europe,WB-PINK,2024-08-01,2024-08-01,"Natural gas, Europe",12.3746,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-09,worldbank_energy_monthly,wb:2024M09:natural_gas_europe,WB-PINK,2024-09-01,2024-09-01,"Natural gas, Europe",11.7843,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-10,worldbank_energy_monthly,wb:2024M10:natural_gas_europe,WB-PINK,2024-10-01,2024-10-01,"Natural gas, Europe",12.9201,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-11,worldbank_energy_monthly,wb:2024M11:natural_gas_europe,WB-PINK,2024-11-01,2024-11-01,"Natural gas, Europe",13.9264,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_europe-2024-12,worldbank_energy_monthly,wb:2024M12:natural_gas_europe,WB-PINK,2024-12-01,2024-12-01,"Natural gas, Europe",13.8566,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-01,worldbank_energy_monthly,wb:2018M01:natural_gas_us,WB-PINK,2018-01-01,2018-01-01,"Natural gas, US",3.8556,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-02,worldbank_energy_monthly,wb:2018M02:natural_gas_us,WB-PINK,2018-02-01,2018-02-01,"Natural gas, US",2.6708,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-03,worldbank_energy_monthly,wb:2018M03:natural_gas_us,WB-PINK,2018-03-01,2018-03-01,"Natural gas, US",2.6989,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-04,worldbank_energy_monthly,wb:2018M04:natural_gas_us,WB-PINK,2018-04-01,2018-04-01,"Natural gas, US",2.7791,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-05,worldbank_energy_monthly,wb:2018M05:natural_gas_us,WB-PINK,2018-05-01,2018-05-01,"Natural gas, US",2.7972,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-06,worldbank_energy_monthly,wb:2018M06:natural_gas_us,WB-PINK,2018-06-01,2018-06-01,"Natural gas, US",2.9523,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-07,worldbank_energy_monthly,wb:2018M07:natural_gas_us,WB-PINK,2018-07-01,2018-07-01,"Natural gas, US",2.8251,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-08,worldbank_energy_monthly,wb:2018M08:natural_gas_us,WB-PINK,2018-08-01,2018-08-01,"Natural gas, US",2.9572,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-09,worldbank_energy_monthly,wb:2018M09:natural_gas_us,WB-PINK,2018-09-01,2018-09-01,"Natural gas, US",2.9847,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-10,worldbank_energy_monthly,wb:2018M10:natural_gas_us,WB-PINK,2018-10-01,2018-10-01,"Natural gas, US",3.284,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-11,worldbank_energy_monthly,wb:2018M11:natural_gas_us,WB-PINK,2018-11-01,2018-11-01,"Natural gas, US",4.1293,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2018-12,worldbank_energy_monthly,wb:2018M12:natural_gas_us,WB-PINK,2018-12-01,2018-12-01,"Natural gas, US",3.9825,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-01,worldbank_energy_monthly,wb:2019M01:natural_gas_us,WB-PINK,2019-01-01,2019-01-01,"Natural gas, US",3.0795,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-02,worldbank_energy_monthly,wb:2019M02:natural_gas_us,WB-PINK,2019-02-01,2019-02-01,"Natural gas, US",2.7171,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-03,worldbank_energy_monthly,wb:2019M03:natural_gas_us,WB-PINK,2019-03-01,2019-03-01,"Natural gas, US",2.935,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-04,worldbank_energy_monthly,wb:2019M04:natural_gas_us,WB-PINK,2019-04-01,2019-04-01,"Natural gas, US",2.646,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-05,worldbank_energy_monthly,wb:2019M05:natural_gas_us,WB-PINK,2019-05-01,2019-05-01,"Natural gas, US",2.6279,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-06,worldbank_energy_monthly,wb:2019M06:natural_gas_us,WB-PINK,2019-06-01,2019-06-01,"Natural gas, US",2.3965,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-07,worldbank_energy_monthly,wb:2019M07:natural_gas_us,WB-PINK,2019-07-01,2019-07-01,"Natural gas, US",2.36,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-08,worldbank_energy_monthly,wb:2019M08:natural_gas_us,WB-PINK,2019-08-01,2019-08-01,"Natural gas, US",2.2243,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-09,worldbank_energy_monthly,wb:2019M09:natural_gas_us,WB-PINK,2019-09-01,2019-09-01,"Natural gas, US",2.58,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-10,worldbank_energy_monthly,wb:2019M10:natural_gas_us,WB-PINK,2019-10-01,2019-10-01,"Natural gas, US",2.3313,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-11,worldbank_energy_monthly,wb:2019M11:natural_gas_us,WB-PINK,2019-11-01,2019-11-01,"Natural gas, US",2.6505,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2019-12,worldbank_energy_monthly,wb:2019M12:natural_gas_us,WB-PINK,2019-12-01,2019-12-01,"Natural gas, US",2.2425,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-01,worldbank_energy_monthly,wb:2020M01:natural_gas_us,WB-PINK,2020-01-01,2020-01-01,"Natural gas, US",2.0305,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-02,worldbank_energy_monthly,wb:2020M02:natural_gas_us,WB-PINK,2020-02-01,2020-02-01,"Natural gas, US",1.9158,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-03,worldbank_energy_monthly,wb:2020M03:natural_gas_us,WB-PINK,2020-03-01,2020-03-01,"Natural gas, US",1.7927,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-04,worldbank_energy_monthly,wb:2020M04:natural_gas_us,WB-PINK,2020-04-01,2020-04-01,"Natural gas, US",1.7386,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-05,worldbank_energy_monthly,wb:2020M05:natural_gas_us,WB-PINK,2020-05-01,2020-05-01,"Natural gas, US",1.7525,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-06,worldbank_energy_monthly,wb:2020M06:natural_gas_us,WB-PINK,2020-06-01,2020-06-01,"Natural gas, US",1.6128,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-07,worldbank_energy_monthly,wb:2020M07:natural_gas_us,WB-PINK,2020-07-01,2020-07-01,"Natural gas, US",1.7352,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-08,worldbank_energy_monthly,wb:2020M08:natural_gas_us,WB-PINK,2020-08-01,2020-08-01,"Natural gas, US",2.3017,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-09,worldbank_energy_monthly,wb:2020M09:natural_gas_us,WB-PINK,2020-09-01,2020-09-01,"Natural gas, US",1.9186,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-10,worldbank_energy_monthly,wb:2020M10:natural_gas_us,WB-PINK,2020-10-01,2020-10-01,"Natural gas, US",2.2473,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-11,worldbank_energy_monthly,wb:2020M11:natural_gas_us,WB-PINK,2020-11-01,2020-11-01,"Natural gas, US",2.5881,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2020-12,worldbank_energy_monthly,wb:2020M12:natural_gas_us,WB-PINK,2020-12-01,2020-12-01,"Natural gas, US",2.5387,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-01,worldbank_energy_monthly,wb:2021M01:natural_gas_us,WB-PINK,2021-01-01,2021-01-01,"Natural gas, US",2.6655,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-02,worldbank_energy_monthly,wb:2021M02:natural_gas_us,WB-PINK,2021-02-01,2021-02-01,"Natural gas, US",5.0651,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-03,worldbank_energy_monthly,wb:2021M03:natural_gas_us,WB-PINK,2021-03-01,2021-03-01,"Natural gas, US",2.5645,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-04,worldbank_energy_monthly,wb:2021M04:natural_gas_us,WB-PINK,2021-04-01,2021-04-01,"Natural gas, US",2.61,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-05,worldbank_energy_monthly,wb:2021M05:natural_gas_us,WB-PINK,2021-05-01,2021-05-01,"Natural gas, US",2.8884,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-06,worldbank_energy_monthly,wb:2021M06:natural_gas_us,WB-PINK,2021-06-01,2021-06-01,"Natural gas, US",3.2318,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-07,worldbank_energy_monthly,wb:2021M07:natural_gas_us,WB-PINK,2021-07-01,2021-07-01,"Natural gas, US",3.8036,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-08,worldbank_energy_monthly,wb:2021M08:natural_gas_us,WB-PINK,2021-08-01,2021-08-01,"Natural gas, US",4.0486,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-09,worldbank_energy_monthly,wb:2021M09:natural_gas_us,WB-PINK,2021-09-01,2021-09-01,"Natural gas, US",5.1111,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-10,worldbank_energy_monthly,wb:2021M10:natural_gas_us,WB-PINK,2021-10-01,2021-10-01,"Natural gas, US",5.478,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-11,worldbank_energy_monthly,wb:2021M11:natural_gas_us,WB-PINK,2021-11-01,2021-11-01,"Natural gas, US",5.0176,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2021-12,worldbank_energy_monthly,wb:2021M12:natural_gas_us,WB-PINK,2021-12-01,2021-12-01,"Natural gas, US",3.7327,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-01,worldbank_energy_monthly,wb:2022M01:natural_gas_us,WB-PINK,2022-01-01,2022-01-01,"Natural gas, US",4.3325,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-02,worldbank_energy_monthly,wb:2022M02:natural_gas_us,WB-PINK,2022-02-01,2022-02-01,"Natural gas, US",4.6577,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-03,worldbank_energy_monthly,wb:2022M03:natural_gas_us,WB-PINK,2022-03-01,2022-03-01,"Natural gas, US",4.8839,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-04,worldbank_energy_monthly,wb:2022M04:natural_gas_us,WB-PINK,2022-04-01,2022-04-01,"Natural gas, US",6.5306,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-05,worldbank_energy_monthly,wb:2022M05:natural_gas_us,WB-PINK,2022-05-01,2022-05-01,"Natural gas, US",8.1373,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-06,worldbank_energy_monthly,wb:2022M06:natural_gas_us,WB-PINK,2022-06-01,2022-06-01,"Natural gas, US",7.674,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-07,worldbank_energy_monthly,wb:2022M07:natural_gas_us,WB-PINK,2022-07-01,2022-07-01,"Natural gas, US",7.2561,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-08,worldbank_energy_monthly,wb:2022M08:natural_gas_us,WB-PINK,2022-08-01,2022-08-01,"Natural gas, US",8.7854,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-09,worldbank_energy_monthly,wb:2022M09:natural_gas_us,WB-PINK,2022-09-01,2022-09-01,"Natural gas, US",7.7629,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-10,worldbank_energy_monthly,wb:2022M10:natural_gas_us,WB-PINK,2022-10-01,2022-10-01,"Natural gas, US",5.6195,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-11,worldbank_energy_monthly,wb:2022M11:natural_gas_us,WB-PINK,2022-11-01,2022-11-01,"Natural gas, US",5.2769,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2022-12,worldbank_energy_monthly,wb:2022M12:natural_gas_us,WB-PINK,2022-12-01,2022-12-01,"Natural gas, US",5.503,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-01,worldbank_energy_monthly,wb:2023M01:natural_gas_us,WB-PINK,2023-01-01,2023-01-01,"Natural gas, US",3.2728,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-02,worldbank_energy_monthly,wb:2023M02:natural_gas_us,WB-PINK,2023-02-01,2023-02-01,"Natural gas, US",2.3836,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-03,worldbank_energy_monthly,wb:2023M03:natural_gas_us,WB-PINK,2023-03-01,2023-03-01,"Natural gas, US",2.3049,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-04,worldbank_energy_monthly,wb:2023M04:natural_gas_us,WB-PINK,2023-04-01,2023-04-01,"Natural gas, US",2.1611,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-05,worldbank_energy_monthly,wb:2023M05:natural_gas_us,WB-PINK,2023-05-01,2023-05-01,"Natural gas, US",2.1464,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-06,worldbank_energy_monthly,wb:2023M06:natural_gas_us,WB-PINK,2023-06-01,2023-06-01,"Natural gas, US",2.1834,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-07,worldbank_energy_monthly,wb:2023M07:natural_gas_us,WB-PINK,2023-07-01,2023-07-01,"Natural gas, US",2.554,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-08,worldbank_energy_monthly,wb:2023M08:natural_gas_us,WB-PINK,2023-08-01,2023-08-01,"Natural gas, US",2.5845,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-09,worldbank_energy_monthly,wb:2023M09:natural_gas_us,WB-PINK,2023-09-01,2023-09-01,"Natural gas, US",2.6395,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-10,worldbank_energy_monthly,wb:2023M10:natural_gas_us,WB-PINK,2023-10-01,2023-10-01,"Natural gas, US",2.9886,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-11,worldbank_energy_monthly,wb:2023M11:natural_gas_us,WB-PINK,2023-11-01,2023-11-01,"Natural gas, US",2.7084,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2023-12,worldbank_energy_monthly,wb:2023M12:natural_gas_us,WB-PINK,2023-12-01,2023-12-01,"Natural gas, US",2.5265,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-01,worldbank_energy_monthly,wb:2024M01:natural_gas_us,WB-PINK,2024-01-01,2024-01-01,"Natural gas, US",3.1806,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-02,worldbank_energy_monthly,wb:2024M02:natural_gas_us,WB-PINK,2024-02-01,2024-02-01,"Natural gas, US",1.7211,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-03,worldbank_energy_monthly,wb:2024M03:natural_gas_us,WB-PINK,2024-03-01,2024-03-01,"Natural gas, US",1.4999,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-04,worldbank_energy_monthly,wb:2024M04:natural_gas_us,WB-PINK,2024-04-01,2024-04-01,"Natural gas, US",1.5967,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-05,worldbank_energy_monthly,wb:2024M05:natural_gas_us,WB-PINK,2024-05-01,2024-05-01,"Natural gas, US",2.1314,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-06,worldbank_energy_monthly,wb:2024M06:natural_gas_us,WB-PINK,2024-06-01,2024-06-01,"Natural gas, US",2.5123,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-07,worldbank_energy_monthly,wb:2024M07:natural_gas_us,WB-PINK,2024-07-01,2024-07-01,"Natural gas, US",2.0751,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-08,worldbank_energy_monthly,wb:2024M08:natural_gas_us,WB-PINK,2024-08-01,2024-08-01,"Natural gas, US",1.9903,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-09,worldbank_energy_monthly,wb:2024M09:natural_gas_us,WB-PINK,2024-09-01,2024-09-01,"Natural gas, US",2.2508,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-10,worldbank_energy_monthly,wb:2024M10:natural_gas_us,WB-PINK,2024-10-01,2024-10-01,"Natural gas, US",2.2077,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-11,worldbank_energy_monthly,wb:2024M11:natural_gas_us,WB-PINK,2024-11-01,2024-11-01,"Natural gas, US",2.1045,($/mmbtu),World Bank Pink Sheet monthly price
+WB-natural_gas_us-2024-12,worldbank_energy_monthly,wb:2024M12:natural_gas_us,WB-PINK,2024-12-01,2024-12-01,"Natural gas, US",3.0229,($/mmbtu),World Bank Pink Sheet monthly price

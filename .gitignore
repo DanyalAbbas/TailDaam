@@ -2,7 +2,9 @@
 .playwright-mcp/
 data/chroma/
 data/mock/gold/
-artifacts/
 __pycache__/
 *.pyc
 .env
+.fastapicloud/
+.pytest_cache/
+*.egg-info/

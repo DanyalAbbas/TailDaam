@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-10-21T11:31:39.192203+00:00",
+  "tables": {
+    "eia_daily": {
+      "status": "WARN",
+      "rows": 84546,
+      "columns": [
+        "row_id",
+        "date",
+        "series_id",
+        "series_name",
+        "value",
+        "unit",
+        "source_file"
+      ]
+    },
+    "pbs_weekly_pk": {
+      "status": "WARN",
+      "rows": 82,
+      "columns": [
+        "row_id",
+        "week_end",
+        "product",
+        "price_pkr_l",
+        "prev_week_pkr_l",
+        "year_ago_pkr_l",
+        "source_file",
+        "flagged_range"
+      ]
+    },
+    "wb_monthly_energy": {
+      "status": "PASS",
+      "rows": 6720,
+      "columns": [
+        "row_id",
+        "month",
+        "commodity",
+        "value",
+        "unit",
+        "source_file"
+      ]
+    }
+  },
+  "status": "WARN",
+  "decisions": {
+    "total": 13,
+    "fix": 1,
+    "flag": 3,
+    "fail": 0
+  }
+}

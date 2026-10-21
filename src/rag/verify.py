@@ -49,6 +49,32 @@ def _numbers_in_evidence(evidence_texts: list[str]) -> set[str]:
     return tokens
 
 
+def _as_float(token: str) -> float | None:
+    try:
+        return float(token.replace(",", ""))
+    except ValueError:
+        return None
+
+
+def _is_supported_number(token: str, ev_tokens: set[str],
+                         ev_values: list[float]) -> bool:
+    """Exact match, or a correctly rounded rendering of an evidence value.
+
+    The extractive answer formats 402.5 as 402.50 and 7.269 as 7.27. Those are
+    the same number, not a new claim, so allow half a unit in the last printed
+    decimal place. A number that cannot be rounded from a retrieved fact still
+    fails the gate.
+    """
+    if token in ev_tokens or token.replace(",", "") in ev_tokens:
+        return True
+    value = _as_float(token)
+    if value is None:
+        return False
+    decimals = len(token.split(".", 1)[1]) if "." in token else 0
+    tolerance = 0.5 * (10 ** -decimals) + 1e-12
+    return any(abs(value - ev) <= tolerance for ev in ev_values)
+
+
 def verify_answer(
     answer: str,
     evidence_texts: list[str],
@@ -56,11 +82,12 @@ def verify_answer(
     refusal: bool,
 ) -> Verification:
     ev_numbers = _numbers_in_evidence(evidence_texts)
+    ev_values = [v for v in (_as_float(t) for t in ev_numbers) if v is not None]
     answer_numbers = NUMBER_RE.findall(answer)
 
     unverified = [
         n for n in answer_numbers
-        if n not in ev_numbers and n.replace(",", "") not in ev_numbers
+        if not _is_supported_number(n, ev_numbers, ev_values)
     ]
     # Dates mentioned like 2026-10-19 or years are numbers too; strip common
     # non-fact numbers: pure years 19xx/20xx are allowed only with context,

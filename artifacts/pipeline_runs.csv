@@ -1,0 +1,2 @@
+run_id,flow_name,started_utc,finished_utc,duration_s,status,rows_gold,quality_status,notes
+20261021T113111Z,hack-insight-hourly,2026-10-21T11:31:11+00:00,2026-10-21T11:31:45+00:00,34.8,WARN,2129,WARN,indexed 2129 gold facts

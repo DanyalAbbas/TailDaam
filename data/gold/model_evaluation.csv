@@ -1,0 +1,6 @@
+doc_id,table_name,row_ids,citation_tag,period_begin,period_end,entity,value,unit,notes
+model-baseline-mae,model_evaluation,artifacts/model_metrics.json,MODEL-CARD,2019-02-01,2026-10-01,Baseline persistence MAE (annualised volatility points),17.8044,annualised vol points,Declared baseline (persistence) mean absolute error for next-month Brent realised volatility on the held-out test set
+model-challenger-mae,model_evaluation,artifacts/model_metrics.json,MODEL-CARD,2019-02-01,2026-10-01,Challenger HAR ridge MAE (annualised volatility points),16.5102,annualised vol points,HAR-style ridge challenger mean absolute error on the held-out test set
+model-improvement,model_evaluation,artifacts/model_metrics.json,MODEL-CARD,2019-02-01,2026-10-01,Model MAE improvement over baseline,7.269,%,Relative MAE improvement of the challenger over the declared baseline for next-month Brent volatility
+model-coverage,model_evaluation,artifacts/model_metrics.json,MODEL-CARD,2019-02-01,2026-10-01,Empirical coverage of the 90% prediction interval,89.25,%,Empirical coverage of the nominal 90% prediction interval
+model-passthrough-corr,model_evaluation,artifacts/model_metrics.json,MODEL-CARD,2019-02-01,2026-10-01,Correlation of weekly Pakistani petrol change with Brent change,0.6928,corr,Correlation between weekly Pakistani petrol price changes and weekly Brent changes

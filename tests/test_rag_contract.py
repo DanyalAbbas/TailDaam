@@ -1,4 +1,4 @@
-""" mínimo tests for the honesty gate and gold-table contract.
+"""Minimal tests for the honesty gate and gold-table contract.
 Model calls are mocked — the point is plumbing correctness, not LLM quality.
 """
 
@@ -71,6 +71,16 @@ def test_verify_passes_cited_answer():
     ]
     answer = "Petrol is PKR 271.9/L [PBS-SPI]."
     ver = verify_answer(answer, evidence, valid_tags={"PBS-SPI"}, refusal=False)
+    assert ver.ok, ver
+
+
+def test_verify_allows_correctly_rounded_number():
+    evidence = [
+        "Fact: model MAE improvement was 7.269 % and diesel was 402.5 PKR/L "
+        "(citation: MODEL-CARD)."
+    ]
+    answer = "Improvement is 7.27 % [MODEL-CARD]; diesel is 402.50 PKR/L [MODEL-CARD]."
+    ver = verify_answer(answer, evidence, valid_tags={"MODEL-CARD"}, refusal=False)
     assert ver.ok, ver
 
 

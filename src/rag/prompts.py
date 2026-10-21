@@ -37,7 +37,7 @@ User question: {question}
 
 REFUSAL_EN = (
     "I don't know — the current dataset does not contain evidence for this. "
-    "What I can tell you about: {coverage}"
+    "What I can tell you about: {coverage}."
 )
 
 MAIN_TEMPLATE_URDU = """آپ ایک ڈیٹا انسائٹ ایجنٹ ہیں جو پاکستان کے پیٹرول کی قیمتوں کے ڈیٹا سے جواب دیتا ہے۔

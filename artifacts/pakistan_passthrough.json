@@ -1,0 +1,9 @@
+{
+  "available": true,
+  "note": "Small-sample domestic pass-through; not used to claim a beat-the-baseline result.",
+  "n_overlapping_weeks": 39,
+  "correlation_d_petrol_d_brent": 0.6928,
+  "slope_pkr_per_usd": 0.5821,
+  "baseline_mae_pkr": 11.2225,
+  "passthrough_mae_pkr": 13.139
+}

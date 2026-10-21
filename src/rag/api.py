@@ -1,47 +1,71 @@
-"""FastAPI service for the Insight Agent.
+"""FastAPI service for the Insight Agent + the static frontend.
 
-Endpoints:
-- GET  /health          -> {"status": "ok", "facts_indexed": N}
-- POST /ask             -> {"answer": ..., "refused": bool, "citations": [...], "row_ids": [...]}
-- POST /ask/stream      -> Server-Sent Events stream of the final verified text
-- GET  /index/status    -> how many gold facts are indexed
+API
+---
+GET  /health                 status, embedding mode, facts indexed
+GET  /api/overview           latest prices, weekly series, city table, data health
+GET  /api/model              metrics, predictions, group errors, model card
+POST /ask                    answer + citations + row_ids + confidence
+POST /ask/stream             Server-Sent Events stream of the verified answer
 
-Environment:
-    GROQ_API_KEY, MISTRAL_API_KEY (required)
-    GROQ_MODEL, GROQ_URDU_MODEL, RAG_TOP_K, RAG_MIN_RELEVANCE (optional)
-
-Run (dev):
-    uvicorn rag.api:app --reload --port 8000  (from src/)
-Or:
-    python -m rag.api  (from src/)
-
-HF Space deploy runs this with `uvicorn` or `fastapi run`; the React build can
-be mounted later via app.frontend("/", directory="frontend/dist")
-(FastAPI >= 0.138) once the UI teammate lands their build.
+The single-page frontend in ``frontend/dist`` is served with ``app.frontend()``
+(FastAPI >= 0.147). API routes always win; the frontend handles everything else.
+This is the same app that runs on FastAPI Cloud.
 """
 
 from __future__ import annotations
 
-import asyncio
-from dataclasses import asdict
+import json
+import os
+from contextlib import asynccontextmanager
+from functools import lru_cache
+from pathlib import Path
 from typing import Literal
 
+import pandas as pd
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.sse import EventSourceResponse, ServerSentEvent
 from pydantic import BaseModel, Field
 
-from rag.rag import generate_answer, ask_async
-from rag.retrieval import get_vectorstore
+from rag.config import GROQ_API_KEY, GROQ_MODEL
+from rag.rag import generate_answer
+from rag.retrieval import build_index, embedding_mode, get_vectorstore
+
+APP_VERSION = "1.0.0"
+ROOT = Path(__file__).resolve().parents[2]
+GOLD = ROOT / "data" / "gold"
+ARTIFACTS = ROOT / "artifacts"
+FRONTEND = ROOT / "frontend" / "dist"
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    """Build the offline index on a fresh deploy where data/chroma is ignored."""
+    index_file = ROOT / "data" / "chroma" / "chroma.sqlite3"
+    if not index_file.exists():
+        try:
+            build_index()
+            print("Built the local TF-IDF index from data/gold")
+        except Exception as exc:  # keep overview/model available even if this fails
+            print(f"WARNING: could not build the retrieval index: {exc}")
+    yield
 
 
 app = FastAPI(
-    title="HackInsight Insight Agent",
+    title="HACK INSIGHT — Pakistan fuel prices",
+    lifespan=lifespan,
     description=(
-        "RAG over verified gold tables. Every number is traceable to row ids "
-        "and a licence; the agent refuses when evidence is missing."
+        "Grounded insight agent over governed gold tables. Every number is "
+        "traceable to row ids and a licence; the agent refuses when evidence "
+        "is missing."
     ),
-    version="0.1.0",
+    version=APP_VERSION,
+)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 
@@ -51,63 +75,260 @@ class AskRequest(BaseModel):
     history: list[str] | None = None
 
 
+def _records(df: pd.DataFrame) -> list[dict]:
+    if df.empty:
+        return []
+    return json.loads(df.to_json(orient="records", date_format="iso"))
+
+
+@lru_cache(maxsize=4)
+def _read_csv(name: str) -> pd.DataFrame:
+    path = GOLD / name
+    return pd.read_csv(path) if path.exists() else pd.DataFrame()
+
+
+@lru_cache(maxsize=4)
+def _read_json(name: str) -> dict:
+    path = ARTIFACTS / name
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
+@lru_cache(maxsize=4)
+def _read_artifact_csv(name: str) -> pd.DataFrame:
+    path = ARTIFACTS / name
+    return pd.read_csv(path) if path.exists() else pd.DataFrame()
+
+
+def _latest_prices() -> list[dict]:
+    df = _read_csv("pk_petrol_weekly.csv")
+    if df.empty:
+        return []
+    df = df.copy()
+    df["period_end"] = pd.to_datetime(df["period_end"])
+    out = []
+    for entity, g in df.groupby("entity"):
+        g = g.sort_values("period_end")
+        last = g.iloc[-1]
+        prev = g.iloc[-2] if len(g) > 1 else last
+        out.append({
+            "entity": entity,
+            "latest_date": last["period_end"].date().isoformat(),
+            "latest_pkr": round(float(last["value"]), 2),
+            "previous_pkr": round(float(prev["value"]), 2),
+            "change_pkr": round(float(last["value"] - prev["value"]), 2),
+            "change_pct": round(float((last["value"] - prev["value"]) /
+                                      prev["value"] * 100), 2),
+            "citation_tag": last["citation_tag"],
+        })
+    return out
+
+
+def _weekly_series() -> dict:
+    df = _read_csv("pk_petrol_weekly.csv")
+    if df.empty:
+        return {"dates": [], "series": []}
+    df = df.copy()
+    df["period_end"] = pd.to_datetime(df["period_end"])
+    pivot = df.pivot_table(index="period_end", columns="entity", values="value")
+    pivot = pivot.sort_index()
+    dates = [d.date().isoformat() for d in pivot.index]
+    series = []
+    for col in pivot.columns:
+        vals = [None if pd.isna(v) else round(float(v), 2) for v in pivot[col]]
+        series.append({"name": str(col), "values": vals})
+    return {"dates": dates, "series": series}
+
+
+def _coverage() -> list[dict]:
+    weekly = _read_csv("pk_petrol_weekly.csv")
+    city = _read_csv("pk_city_prices_monthly.csv")
+    glob = _read_csv("global_petroleum_monthly.csv")
+    wb = _read_csv("worldbank_energy_monthly.csv")
+    model = _read_csv("model_evaluation.csv")
+    weeks = weekly["period_end"].nunique() if not weekly.empty else 0
+    cities = city["entity"].nunique() if not city.empty else 0
+    return [
+        {
+            "label": "National weekly prices",
+            "detail": f"{weeks} weeks · PBS",
+            "rows": int(len(weekly)),
+        },
+        {
+            "label": "City monthly prices",
+            "detail": f"{cities // 2} cities · PBS annex",
+            "rows": int(len(city)),
+        },
+        {
+            "label": "Global benchmarks",
+            "detail": "11 EIA series · World Bank",
+            "rows": int(len(glob) + len(wb)),
+        },
+        {
+            "label": "Model evaluation",
+            "detail": "metrics · errors · intervals",
+            "rows": int(len(model)),
+        },
+    ]
+
+
+def _city_table() -> dict:
+    df = _read_csv("pk_city_prices_monthly.csv")
+    if df.empty:
+        return {"cities": [], "petrol": [], "diesel": [], "month": None}
+    df = df.copy()
+    df["city"] = df["entity"].str.rsplit(" in ", n=1).str[-1]
+    df["product"] = df["entity"].str.contains("diesel", case=False).map(
+        {True: "diesel", False: "petrol"})
+    pivot = df.pivot_table(index="city", columns="product", values="value")
+    pivot = pivot.sort_index()
+    month = str(df["period_begin"].iloc[0])[:7]
+    return {
+        "cities": [str(c) for c in pivot.index],
+        "petrol": [round(float(v), 2) for v in pivot.get("petrol", pd.Series())],
+        "diesel": [round(float(v), 2) for v in pivot.get("diesel", pd.Series())],
+        "month": month,
+    }
+
+
 @app.get("/health")
+@app.get("/api/health")
 async def health():
     try:
-        vs = get_vectorstore()
-        n_facts = vs._collection.count()
+        n_facts = get_vectorstore()._collection.count()
     except Exception:
         n_facts = 0
-    return {"status": "ok", "facts_indexed": n_facts}
+    return {
+        "status": "ok",
+        "version": APP_VERSION,
+        "facts_indexed": n_facts,
+        "embedding_mode": embedding_mode(),
+        "generation_mode": "groq" if (GROQ_MODEL and GROQ_API_KEY)
+        else "extractive",
+    }
+
+
+@app.get("/api/overview")
+async def overview():
+    quality = _read_json("quality_report.json")
+    metrics = _read_json("model_metrics.json")
+    manifest_path = ROOT / "data" / "manifest.csv"
+    manifest = pd.read_csv(manifest_path) if manifest_path.exists() else pd.DataFrame()
+    by_publisher = []
+    if not manifest.empty and "publisher" in manifest:
+        for publisher, g in manifest.groupby("publisher"):
+            licences = sorted({str(x) for x in g.get("licence", []).dropna()})
+            by_publisher.append({
+                "publisher": str(publisher),
+                "files": int(len(g)),
+                "licences": licences[:2],
+            })
+        by_publisher.sort(key=lambda r: r["files"], reverse=True)
+    return {
+        "latest": _latest_prices(),
+        "weekly": _weekly_series(),
+        "city": _city_table(),
+        "quality": quality,
+        "model": {
+            "improvement": metrics.get("improvement_vs_baseline_pct"),
+            "baseline_mae": metrics.get("baseline", {}).get("mae"),
+            "challenger_mae": metrics.get("challenger", {}).get("mae"),
+        },
+        "coverage": _coverage(),
+        "sources": {
+            "files": int(len(manifest)),
+            "publishers": int(manifest["publisher"].nunique())
+            if not manifest.empty else 0,
+            "names": sorted(manifest["publisher"].dropna().unique().tolist())
+            if not manifest.empty else [],
+            "by_publisher": by_publisher,
+        },
+    }
+
+
+@app.get("/api/model")
+async def model():
+    metrics = _read_json("model_metrics.json")
+    pred = _read_artifact_csv("predictions.csv")
+    groups = _read_artifact_csv("group_errors.csv")
+    card_path = ARTIFACTS / "model_card.md"
+    return {
+        "metrics": metrics,
+        "predictions": _records(pred),
+        "groups": _records(groups),
+        "model_card": card_path.read_text() if card_path.exists() else "",
+    }
+
+
+def _row_id_preview(value: str, limit: int = 8) -> tuple[str, int]:
+    ids = [rid for rid in str(value).split(";") if rid]
+    shown = ";".join(ids[:limit])
+    if len(ids) > limit:
+        shown += f"; … (+{len(ids) - limit} more)"
+    return shown, len(ids)
 
 
 @app.post("/ask")
+@app.post("/api/ask")
 async def ask(req: AskRequest):
     try:
         answer = await generate_answer(req.question, req.lang, req.history)
     except RuntimeError as e:
         raise HTTPException(status_code=503, detail=str(e)) from e
     citations = sorted({e.citation_tag for e in answer.evidence})
-    row_ids = sorted(
-        {rid for e in answer.evidence for rid in e.row_ids.split(",") if rid}
+    all_ids = sorted(
+        {rid for e in answer.evidence for rid in e.row_ids.split(";") if rid}
     )
+    evidence = []
+    for e in answer.evidence[:6]:
+        shown, count = _row_id_preview(e.row_ids)
+        evidence.append({
+            "citation": e.citation_tag,
+            "entity": e.meta.get("entity", ""),
+            "value": e.meta.get("value", ""),
+            "unit": e.meta.get("unit", ""),
+            "period_end": e.meta.get("period_end", ""),
+            "row_ids": shown,
+            "row_id_count": count,
+            "score": round(float(e.score), 4),
+        })
     return {
         "answer": answer.text,
         "refused": answer.refused,
         "citations": citations,
-        "row_ids": row_ids,
-        "confidence": max((e.score for e in answer.evidence), default=0.0),
+        "row_ids": all_ids[:8],
+        "row_id_count": len(all_ids),
+        "confidence": round(max((e.score for e in answer.evidence), default=0.0), 4),
+        "evidence": evidence,
     }
 
 
 @app.post("/ask/stream")
 async def ask_stream(req: AskRequest):
     async def event_source():
-        from rag.rag import generate_answer
-
         answer = await generate_answer(req.question, req.lang, req.history)
         citations = sorted({e.citation_tag for e in answer.evidence})
-        # First a metadata frame, then the text frames.
-        yield ServerSentEvent(
-            {
-                "type": "meta",
-                "refused": answer.refused,
-                "citations": citations,
-                "row_ids": sorted(
-                    {rid for e in answer.evidence for rid in e.row_ids.split(",")
-                     if rid}
-                ),
-            }
-        )
+        yield ServerSentEvent({
+            "type": "meta",
+            "refused": answer.refused,
+            "citations": citations,
+            "row_ids": sorted({rid for e in answer.evidence
+                               for rid in e.row_ids.split(";") if rid}),
+        })
         text = answer.text
         for i in range(0, len(text), 64):
-            yield ServerSentEvent({"type": "chunk", "text": text[i: i + 64]})
+            yield ServerSentEvent({"type": "chunk", "text": text[i:i + 64]})
         yield ServerSentEvent({"type": "done"})
 
     return EventSourceResponse(event_source())
 
 
+# Static frontend: API routes above take precedence; everything else is the SPA.
+# `check_dir=False` lets tests and CI import the app before the frontend build
+# exists; FastAPI Cloud deploys always include frontend/dist.
+app.frontend("/", directory=str(FRONTEND), check_dir=False)
+
+
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run("rag.api:app", host="0.0.0.0", port=8000, reload=True)

@@ -43,10 +43,10 @@ The loader refuses to index files that miss columns or have duplicate
 
     # CLI
     python -m rag build-index
-    python -m rag ask "اس س納ے ہفتوں میں پیٹرول کی قیمت کیا تھی؟" --lang ur
+    python -m rag ask "ان چند ہفتوں میں پیٹرول کی قیمت کیا تھی؟" --lang ur
     python -m rag serve
 
-## API (what dashboard integrates)
+## API (what the frontend integrates)
 
     GET  /health          -> {"status": "ok", "facts_indexed": N}
     POST /ask             -> {"answer", "refused", "citations", "row_ids", "confidence"}

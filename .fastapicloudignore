@@ -1,0 +1,14 @@
+# FastAPI Cloud only needs the app, the quotable gold layer and model artifacts.
+.venv/
+.playwright-mcp/
+.pytest_cache/
+__pycache__/
+*.pyc
+data/raw/
+data/clean/
+data/mock/
+data/chroma/
+tests/
+docs/
+Summary.pdf
+prefect_runs.csv

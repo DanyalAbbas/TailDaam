@@ -1,0 +1,36 @@
+[project]
+name = "hack-insight"
+version = "1.0.0"
+description = "Grounded insight agent for Pakistani petrol and diesel prices"
+requires-python = "==3.12.*"
+dependencies = [
+  "fastapi[standard]==0.147.0",
+  "chromadb==1.5.9",
+  "langchain-core==1.6.12",
+  "langchain-chroma==1.1.0",
+  "langchain-groq==1.1.3",
+  "langchain-mistralai==1.1.6",
+  "python-dotenv==1.2.4",
+  "pandas==3.0.6",
+  "numpy==2.5.4",
+  "pyarrow==26.0.0",
+  "scikit-learn==1.9.1",
+  "joblib==1.6.0",
+  "pydantic==2.14.1",
+]
+
+[project.optional-dependencies]
+# Data acquisition, the hourly pipeline and the PDF summary are local concerns;
+# the deployed service only needs the runtime above. `requirements.txt` still
+# installs everything for `make all`.
+pipeline = [
+  "xlrd==2.0.2",
+  "openpyxl==3.1.5",
+  "requests==2.34.2",
+  "prefect==3.9.0",
+  "fpdf2==2.8.9",
+]
+dev = ["pytest==9.1.1"]
+
+[tool.fastapi]
+entrypoint = "main:app"

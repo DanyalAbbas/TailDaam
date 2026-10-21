@@ -1,0 +1,17 @@
+timestamp,lang,passed,refusal,unverified_numbers,unknown_citations,question
+2026-10-21T17:06:10,en,True,False,,,What is the current petrol price in Pakistan?
+2026-10-21T17:06:10,en,True,False,,,What is the current diesel price in Pakistan?
+2026-10-21T17:06:10,en,True,False,,,What was the diesel price in Karachi in September 2026?
+2026-10-21T17:06:10,en,True,False,,,What is the petrol price in Larkana?
+2026-10-21T17:06:10,en,True,False,,,How much better is the model than the baseline?
+2026-10-21T17:06:11,en,True,False,,,What is the 90% interval coverage?
+2026-10-21T17:06:11,en,True,False,,,What was the petrol price in October 2026?
+2026-10-21T17:06:11,en,True,True,,,What is the weather in Lahore today?
+2026-10-21T17:06:11,en,True,True,,,What was the petrol price in January 2024?
+2026-10-21T17:06:11,en,True,True,,,What is the petrol price in India?
+2026-10-21T17:06:11,en,True,True,,,What is the price of gold?
+2026-10-21T17:06:11,en,True,True,,,Who is the prime minister of Pakistan?
+2026-10-21T17:06:11,ur,True,False,,,پاکستان میں پیٹرول کی قیمت کیا ہے؟
+2026-10-21T17:06:11,ur,True,False,,,کراچی میں ڈیزل کی قیمت کیا ہے؟
+2026-10-21T17:06:24,en,True,True,,,volume
+2026-10-21T17:06:40,en,True,True,,,weather in Lahore
