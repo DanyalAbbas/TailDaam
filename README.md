@@ -13,6 +13,14 @@ Built for the HACK INSIGHT hackathon (19–22 October 2026). **Track:** Energy d
 **Demo video:** [`artifacts/demo.mp4`](artifacts/demo.mp4) ·
 **API docs:** [hack-insight.fastapicloud.dev/docs](https://hack-insight.fastapicloud.dev/docs)
 
+**Submission pack:** [`Summary.pdf`](Summary.pdf) ·
+[`Dataset_Proposal.pdf`](Dataset_Proposal.pdf) ·
+[`AI_Use_Log.md`](AI_Use_Log.md) ·
+[`BUSINESS_MODEL.md`](BUSINESS_MODEL.md) ·
+[`IMPACT_ANALYSIS.md`](IMPACT_ANALYSIS.md) ·
+[`OPTIMIZATION_LOG.md`](OPTIMIZATION_LOG.md) ·
+[`TRACK_DECISION.md`](TRACK_DECISION.md)
+
 ---
 
 ## 1. The problem
@@ -179,6 +187,7 @@ directly.
 | Duplicate `row_id` | FIX (keep first) |
 | Non-positive or non-finite price | FIX (drop) |
 | Daily move > 35% | FLAG (kept: energy markets genuinely gap) |
+| Weekly domestic move > 35% | FLAG (kept and annotated; catches the 9 Apr 2026 HSD jump) |
 | Petrol outside 50–800 PKR/L | FLAG (kept, excluded from training) |
 | Weekly cadence gap > 28 days | FLAG, **not filled** |
 | Freshness > 14 days | FLAG |
@@ -249,8 +258,8 @@ make all
 ```
 
 `make all` is the reproducibility claim: it rebuilds the data layer, refits the
-model, rebuilds the index, runs tests, regenerates `Summary.pdf` and exports
-`prefect_runs.csv`.
+model, rebuilds the index, runs tests, regenerates `Summary.pdf` and
+`Dataset_Proposal.pdf`, and exports `prefect_runs.csv`.
 
 ### Optional keys
 
@@ -349,8 +358,13 @@ artifacts/        # metrics, predictions, group errors, quality log, model card,
                   # frontend screenshots, demo.mp4
 models/           # fitted model
 Summary.pdf       # one-page summary
-prefect_runs.csv  # real pipeline run history
-AI_Use_Log.md     # what AI helped with, and what it did not
+Dataset_Proposal.pdf  # sources, volume, licences and model-use rationale
+BUSINESS_MODEL.md     # user, payer, value, running cost
+IMPACT_ANALYSIS.md    # approach, impact pathways, risks, measurement plan
+OPTIMIZATION_LOG.md   # accuracy / speed / memory changes and rejected paths
+TRACK_DECISION.md     # final track scope and what is not claimed
+prefect_runs.csv      # real pipeline run history
+AI_Use_Log.md         # what AI helped with, and what it did not
 ```
 
 ---

@@ -29,6 +29,7 @@ def petro_weekly(pbs: pd.DataFrame) -> pd.DataFrame:
              "hsd": "High-speed diesel price in Pakistan"}
     for _, r in pbs.iterrows():
         flag = bool(r.get("flagged_range", False))
+        jump = bool(r.get("flagged_jump", False))
         rows.append({
             "doc_id": f"PKW-{r['product']}-{r['week_end']}",
             "table_name": "pk_petrol_weekly",
@@ -40,7 +41,8 @@ def petro_weekly(pbs: pd.DataFrame) -> pd.DataFrame:
             "value": round(float(r["price_pkr_l"]), 2),
             "unit": "PKR/L",
             "notes": f"Weekly SPI report for the week ended {r['week_end']}."
-                     + (" Quality flag: value outside expected range." if flag else ""),
+                     + (" Quality flag: value outside expected range." if flag else "")
+                     + (" Quality flag: unusually large week-on-week move." if jump else ""),
         })
     return pd.DataFrame(rows)
 

@@ -128,6 +128,22 @@ def check_pbs_weekly(df: pd.DataFrame, decisions: list[Decision]) -> pd.DataFram
                  f"all prices within [{lo},{hi}] PKR/L")
     df["flagged_range"] = df.row_id.isin(flagged)
 
+    # Flag unusually large week-on-week domestic moves but keep the published
+    # value. This catches the 9 Apr 2026 HSD jump (337.60 -> 522.29) without
+    # pretending it is a missing value or a data-entry error.
+    df = df.sort_values(["product", "week_end"])
+    df["pct_change"] = df.groupby("product")["price_pkr_l"].pct_change()
+    jumps = df[df["pct_change"].abs() > 0.35]
+    df["flagged_jump"] = df.row_id.isin(jumps.row_id)
+    if len(jumps):
+        _log(decisions, "pbs_weekly_pk", "outlier.weekly_jump", "FLAG",
+             jumps.row_id,
+             f"{len(jumps)} weekly moves exceed 35%; kept and annotated because "
+             "the published price is real and is not replaced")
+    else:
+        _log(decisions, "pbs_weekly_pk", "outlier.weekly_jump", "PASS", "", "")
+    df = df.drop(columns=["pct_change"])
+
     # Completeness: expected weekly cadence per product.
     for product in df["product"].unique():
         sub = df[df["product"] == product].sort_values("week_end")

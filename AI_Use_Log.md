@@ -21,7 +21,7 @@ prose; AI did not generate data, results, or citations.**
 | 21 Oct | Quality agent | Drafted rule set and decision-log schema | Reviewed thresholds; confirmed no value invention |
 | 21 Oct | Model | Drafted HAR feature code and metrics code | Ran the split ourselves; read the metrics; kept the failed price-level attempt in the model card |
 | 21 Oct | Frontend | Drafted a Streamlit layout, then replaced it with a hand-written SPA served by FastAPI | Ran both locally; the Streamlit version was discarded before submission |
-| 21 Oct | Docs | Edited README, model card and this log | Every claim cross-checked against artifacts |
+| 21 Oct | Docs | Edited README, model card, dataset proposal, business model, impact analysis, optimization log and this log | Every claim cross-checked against artifacts and measured timings |
 | 21 Oct | Deployment | Prepared `main:app`, `pyproject.toml` and the FastAPI Cloud entrypoint | Verified locally, on FastAPI Cloud, and on the static Hugging Face Space |
 | 21 Oct | Demo | Recorded the captioned walkthrough with Playwright and ffmpeg | Reviewed every frame; captions match the real UI and live numbers |
 

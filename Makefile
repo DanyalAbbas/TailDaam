@@ -6,7 +6,8 @@ PY ?= .venv/bin/python
 export PYTHONPATH := src
 
 .PHONY: setup data acquire clean quality model gold rag-index pipeline \
-        pipeline-serve api serve export-runs test summary all mock-gold help
+        pipeline-serve api serve export-runs test summary dataset-proposal \
+        all mock-gold help
 
 setup:
 	uv venv --python 3.12 .venv
@@ -50,14 +51,17 @@ export-runs:
 summary:
 	$(PY) src/make_summary.py
 
+dataset-proposal:
+	$(PY) src/make_dataset_proposal.py
+
 test:
 	$(PY) -m pytest tests/ -q
 
-all: data model rag-index test summary export-runs
+all: data model rag-index test summary dataset-proposal export-runs
 	@echo "full pipeline complete"
 
 mock-gold:
 	$(PY) src/rag/make_mock.py
 
 help:
-	@echo "targets: setup data model rag-index pipeline pipeline-serve api export-runs test summary all"
+	@echo "targets: setup data model rag-index pipeline pipeline-serve api export-runs test summary dataset-proposal all"

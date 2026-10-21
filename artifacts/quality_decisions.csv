@@ -25,3 +25,31 @@ timestamp,table,rule,action,row_ids,reason
 2026-10-21T11:31:39+00:00,pbs_weekly_pk,freshness.latest_observation,PASS,,latest weekly observation is 2026-10-15 (6 days old)
 2026-10-21T11:31:39+00:00,wb_monthly_energy,schema.required_columns,PASS,,all 4 required columns present
 2026-10-21T11:31:39+00:00,wb_monthly_energy,range.non_negative,PASS,,
+2026-10-21T13:04:37+00:00,eia_daily,schema.required_columns,PASS,,all 5 required columns present
+2026-10-21T13:04:37+00:00,eia_daily,duplicates.row_id,PASS,,row_id is unique
+2026-10-21T13:04:37+00:00,eia_daily,range.positive,PASS,,all prices are finite and positive
+2026-10-21T13:04:37+00:00,eia_daily,outlier.daily_jump,FLAG,eia:EER_EPD2F_PF4_Y35NY_DPGd:2000-01-20;eia:EER_EPD2F_PF4_Y35NY_DPGd:2000-02-02;eia:EER_EPD2F_PF4_Y35NY_DPGd:2000-02-07;eia:EER_EPJK_PF4_RGC_DPGd:2008-09-11;eia:EER_EPLLPA_PF4_Y44MB_DPGd:1996-02-09;eia:EER_EPLLPA_PF4_Y44MB_DPGd:2003-03-03;eia:EER_EPMRR_PF4_Y05LA_DPGd:2003-08-18;eia:EER_EPMRR_PF4_Y05LA_DPGd:2016-02-24;eia:EER_EPMRR_PF4_Y05LA_DPGd:2019-10-02;eia:EER_EPMRR_PF4_Y05LA_DPGd:2020-03-16;eia:EER_EPMRR_PF4_Y05LA_DPGd:2020-04-21;eia:EER_EPMRR_PF4_Y05LA_DPGd:2020-04-22;eia:EER_EPMRU_PF4_RGC_DPGd:2005-08-31;eia:EER_EPMRU_PF4_RGC_DPGd:2008-09-11;eia:RBRTEd:2020-04-02;eia:RBRTEd:2020-04-21;eia:RBRTEd:2020-04-22;eia:RWTCd:2020-03-31;eia:RWTCd:2020-04-21;eia:RWTCd:2020-04-22,"20 daily moves exceed 35%; kept because energy spot markets can genuinely gap (e.g. 2020, 2022) - model uses robust loss"
+2026-10-21T13:04:37+00:00,pbs_weekly_pk,schema.required_columns,PASS,,all 4 required columns present
+2026-10-21T13:04:37+00:00,pbs_weekly_pk,duplicates.row_id,PASS,,
+2026-10-21T13:04:37+00:00,pbs_weekly_pk,range.petrol_super,PASS,,"all prices within [50.0,800.0] PKR/L"
+2026-10-21T13:04:37+00:00,pbs_weekly_pk,range.hsd,PASS,,"all prices within [50.0,900.0] PKR/L"
+2026-10-21T13:04:37+00:00,pbs_weekly_pk,outlier.weekly_jump,FLAG,pbs:2026-04-09:hsd,1 weekly moves exceed 35%; kept and annotated because the published price is real and is not replaced
+2026-10-21T13:04:37+00:00,pbs_weekly_pk,completeness.hsd,FLAG,pbs:2025-07-17:hsd;pbs:2025-10-09:hsd,2 gaps longer than 28 days; NOT filled because publication gaps are not the same as missing observations
+2026-10-21T13:04:37+00:00,pbs_weekly_pk,completeness.petrol_super,FLAG,pbs:2025-07-17:petrol_super;pbs:2025-10-09:petrol_super,2 gaps longer than 28 days; NOT filled because publication gaps are not the same as missing observations
+2026-10-21T13:04:37+00:00,pbs_weekly_pk,freshness.latest_observation,PASS,,latest weekly observation is 2026-10-15 (6 days old)
+2026-10-21T13:04:37+00:00,wb_monthly_energy,schema.required_columns,PASS,,all 4 required columns present
+2026-10-21T13:04:37+00:00,wb_monthly_energy,range.non_negative,PASS,,
+2026-10-21T13:05:31+00:00,eia_daily,schema.required_columns,PASS,,all 5 required columns present
+2026-10-21T13:05:31+00:00,eia_daily,duplicates.row_id,PASS,,row_id is unique
+2026-10-21T13:05:31+00:00,eia_daily,range.positive,FIX,eia:RWTCd:2020-04-20,dropped 1 non-positive/non-finite prices
+2026-10-21T13:05:31+00:00,eia_daily,outlier.daily_jump,FLAG,eia:EER_EPD2F_PF4_Y35NY_DPGd:2000-01-20;eia:EER_EPD2F_PF4_Y35NY_DPGd:2000-02-02;eia:EER_EPD2F_PF4_Y35NY_DPGd:2000-02-07;eia:EER_EPJK_PF4_RGC_DPGd:2008-09-11;eia:EER_EPLLPA_PF4_Y44MB_DPGd:1996-02-09;eia:EER_EPLLPA_PF4_Y44MB_DPGd:2003-03-03;eia:EER_EPMRR_PF4_Y05LA_DPGd:2003-08-18;eia:EER_EPMRR_PF4_Y05LA_DPGd:2016-02-24;eia:EER_EPMRR_PF4_Y05LA_DPGd:2019-10-02;eia:EER_EPMRR_PF4_Y05LA_DPGd:2020-03-16;eia:EER_EPMRR_PF4_Y05LA_DPGd:2020-04-21;eia:EER_EPMRR_PF4_Y05LA_DPGd:2020-04-22;eia:EER_EPMRU_PF4_RGC_DPGd:2005-08-31;eia:EER_EPMRU_PF4_RGC_DPGd:2008-09-11;eia:RBRTEd:2020-04-02;eia:RBRTEd:2020-04-21;eia:RBRTEd:2020-04-22;eia:RWTCd:2020-03-31;eia:RWTCd:2020-04-21;eia:RWTCd:2020-04-22,"20 daily moves exceed 35%; kept because energy spot markets can genuinely gap (e.g. 2020, 2022) - model uses robust loss"
+2026-10-21T13:05:31+00:00,pbs_weekly_pk,schema.required_columns,PASS,,all 4 required columns present
+2026-10-21T13:05:31+00:00,pbs_weekly_pk,duplicates.row_id,PASS,,
+2026-10-21T13:05:31+00:00,pbs_weekly_pk,range.petrol_super,PASS,,"all prices within [50.0,800.0] PKR/L"
+2026-10-21T13:05:31+00:00,pbs_weekly_pk,range.hsd,PASS,,"all prices within [50.0,900.0] PKR/L"
+2026-10-21T13:05:31+00:00,pbs_weekly_pk,outlier.weekly_jump,FLAG,pbs:2026-04-09:hsd,1 weekly moves exceed 35%; kept and annotated because the published price is real and is not replaced
+2026-10-21T13:05:31+00:00,pbs_weekly_pk,completeness.hsd,FLAG,pbs:2025-07-17:hsd;pbs:2025-10-09:hsd,2 gaps longer than 28 days; NOT filled because publication gaps are not the same as missing observations
+2026-10-21T13:05:31+00:00,pbs_weekly_pk,completeness.petrol_super,FLAG,pbs:2025-07-17:petrol_super;pbs:2025-10-09:petrol_super,2 gaps longer than 28 days; NOT filled because publication gaps are not the same as missing observations
+2026-10-21T13:05:31+00:00,pbs_weekly_pk,freshness.latest_observation,PASS,,latest weekly observation is 2026-10-15 (6 days old)
+2026-10-21T13:05:31+00:00,wb_monthly_energy,schema.required_columns,PASS,,all 4 required columns present
+2026-10-21T13:05:31+00:00,wb_monthly_energy,range.non_negative,PASS,,
