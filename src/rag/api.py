@@ -100,6 +100,8 @@ def _read_artifact_csv(name: str) -> pd.DataFrame:
 def _last_pipeline_run() -> dict:
     path = ROOT / "prefect_runs.csv"
     if not path.exists():
+        path = ROOT / "artifacts" / "prefect_runs.csv"
+    if not path.exists():
         return {}
     try:
         df = pd.read_csv(path)
