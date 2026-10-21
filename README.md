@@ -1,10 +1,45 @@
-# TailDaam — Pakistan fuel prices, with receipts
+<p align="center">
+  <img src="frontend/dist/mark.png" width="96" alt="TailDaam logo" />
+</p>
 
-An end-to-end, reproducible data product for **Pakistani petrol and diesel
-prices**: a governed data warehouse, a baseline-beating risk model, and a RAG
-insight agent that is structurally incapable of inventing a number.
+<h1 align="center">TailDaam</h1>
 
-The name combines **tail risk** with **daam**, Urdu for price.
+<p align="center">
+  <strong>Pakistan fuel prices, with receipts.</strong><br />
+  A governed data product for petrol and diesel prices: a reproducible warehouse,
+  a baseline-beating volatility model, and an insight agent that refuses when
+  the record does not support an answer.
+</p>
+
+<p align="center">
+  <a href="https://hack-insight.fastapicloud.dev">
+    <img src="https://img.shields.io/badge/Live-FastAPI%20Cloud-0A6B3D?style=flat-square" alt="Live on FastAPI Cloud" />
+  </a>
+  <a href="https://danyalabbas-hack-insight.static.hf.space">
+    <img src="https://img.shields.io/badge/Hugging%20Face-Static%20Space-FFD21E?style=flat-square" alt="TailDaam on Hugging Face" />
+  </a>
+  <a href="#3-dataset-real-cited-and-big-enough-to-matter">
+    <img src="https://img.shields.io/badge/Data-91%2C384%20clean%20rows-0A6B3D?style=flat-square" alt="91,384 clean rows" />
+  </a>
+  <a href="#4-model-volatility-where-a-model-can-actually-win">
+    <img src="https://img.shields.io/badge/Model-7.27%25%20MAE%20win-0A6B3D?style=flat-square" alt="7.27% lower MAE than the baseline" />
+  </a>
+  <a href="#8-reproduce-from-a-clean-clone">
+    <img src="https://img.shields.io/badge/Tests-10%20passing-0A6B3D?style=flat-square" alt="10 tests passing" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://danyalabbas-hack-insight.static.hf.space">
+    <img src="artifacts/frontend_overview.png" width="900" alt="TailDaam dashboard: live prices, data quality, model comparison and last pipeline run" />
+  </a>
+  <br />
+  <sub>Live dashboard on the static Hugging Face Space. No login required.</sub>
+</p>
+
+<p align="center">
+  <em>tail risk</em> + <em>daam</em> (Urdu for price) = <strong>TailDaam</strong>
+</p>
 
 Built for the HACK INSIGHT hackathon (19–22 October 2026). **Track:** Energy demand — proposed problem: Pakistani fuel-price volatility and pass-through.
 
