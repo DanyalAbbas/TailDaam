@@ -30,7 +30,7 @@ from pydantic import BaseModel, Field
 
 from rag.config import GROQ_API_KEY, GROQ_MODEL
 from rag.rag import generate_answer
-from rag.retrieval import build_index, embedding_mode, get_vectorstore
+from rag.retrieval import embedding_mode, indexed_fact_count
 
 APP_VERSION = "1.0.0"
 ROOT = Path(__file__).resolve().parents[2]
@@ -40,14 +40,12 @@ FRONTEND = ROOT / "frontend" / "dist"
 
 @asynccontextmanager
 async def lifespan(_app: FastAPI):
-    """Build the offline index on a fresh deploy where data/chroma is ignored."""
-    index_file = ROOT / "data" / "chroma" / "chroma.sqlite3"
-    if not index_file.exists():
-        try:
-            build_index()
-            print("Built the local TF-IDF index from data/gold")
-        except Exception as exc:  # keep overview/model available even if this fails
-            print(f"WARNING: could not build the retrieval index: {exc}")
+    """Keep startup fast enough for the platform health check.
+
+    Chroma is prebuilt locally. On a fresh deploy the retrieval layer fits the
+    same TF-IDF model over data/gold in memory on the first question, so the
+    service never blocks startup on a 100 MB index build.
+    """
     yield
 
 
@@ -193,10 +191,7 @@ def _city_table() -> dict:
 @app.get("/health")
 @app.get("/api/health")
 async def health():
-    try:
-        n_facts = get_vectorstore()._collection.count()
-    except Exception:
-        n_facts = 0
+    n_facts = indexed_fact_count()
     return {
         "status": "ok",
         "version": APP_VERSION,

@@ -230,9 +230,10 @@ make test           # contract + honesty tests
 make api            # FastAPI + frontend on http://127.0.0.1:8000
 ```
 
-The retrieval index is ignored by git (109 MB). On a fresh clone or a cloud
-deploy it is rebuilt automatically from `data/gold` on startup; `make rag-index`
-does it explicitly.
+The retrieval index is ignored by git (109 MB). On a fresh clone the service
+fits the same TF-IDF model over `data/gold` in memory on the first question, so
+startup is fast and the 109 MB upload is unnecessary; `make rag-index` builds
+the persistent Chroma index explicitly.
 
 One command for everything:
 
@@ -281,8 +282,9 @@ file:
 ```
 
 The static frontend is mounted with `app.frontend("/", directory="frontend/dist")`.
-If `MISTRAL_API_KEY` is unavailable, the service rebuilds the local TF-IDF index
-from `data/gold` at startup, so the deployed app has no external index to fetch.
+If `MISTRAL_API_KEY` is unavailable, the service fits the local TF-IDF model
+over `data/gold` in memory on first use, so the deployed app has no external
+index to fetch and no large index to upload.
 
 Example:
 
