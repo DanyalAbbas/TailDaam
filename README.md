@@ -269,7 +269,8 @@ make api          # uvicorn + static frontend on :8000
 
 | Endpoint | Purpose |
 |---|---|
-| `GET /health` | status, embedding mode, gold fact count |
+| `GET /api/health` | status, embedding mode, gold fact count (the SPA uses this) |
+| `GET /health` | same response locally; FastAPI Cloud reserves the bare path, so use `/api/health` there |
 | `GET /api/overview` | latest prices, weekly series, city annex, quality, model summary |
 | `GET /api/model` | metrics, held-out predictions, group errors, model card |
 | `POST /ask` | `{question, lang, history}` → answer + citations + row_id previews |
