@@ -1,0 +1,10 @@
+.git
+.venv
+.pytest_cache
+.playwright-mcp
+data/chroma
+artifacts/demo.mp4
+artifacts/frontend_*.png
+__pycache__
+*.pyc
+.env
