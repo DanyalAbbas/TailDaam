@@ -1,6 +1,6 @@
 # Demo script — 3 minutes
 
-The recorded walkthrough is `artifacts/demo.mp4` (59 seconds, silent, with
+The recorded walkthrough is `artifacts/demo.mp4` (33.4 seconds, silent, with
 on-screen captions). Use this script for a narrated version.
 
 Record at 1080p. Have the app already running (`make api`) at
