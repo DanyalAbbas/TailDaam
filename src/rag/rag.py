@@ -209,6 +209,14 @@ def _filter_product_city(evidence: list[Evidence],
     if wanted_city:
         out = [e for e in out
                if wanted_city in str(e.meta.get("entity", "")).lower()]
+    else:
+        # A generic question about "the petrol price" means the national
+        # series, not a September city snapshot. Keep city facts only when a
+        # city is actually named.
+        national = [e for e in out
+                    if str(e.meta.get("entity", "")).endswith("in Pakistan")]
+        if national:
+            out = national
     return out
 
 
@@ -403,7 +411,11 @@ async def generate_answer(
     if lang == "ur" and not re.search(r"\b20\d{2}\b", search_query):
         # Urdu present-tense questions ("... کیا ہے؟") ask for the current value.
         search_query += " current"
-    retrieved = retrieve(search_query, k=max(TOP_K, 30))
+    # A recency question (e.g. "current petrol price") needs enough of the
+    # weekly series retrieved that the latest observation is in the candidate
+    # set before the recency filter runs.  With only 2,417 gold facts this is
+    # cheap, and it prevents a stale week from being quoted as "current".
+    retrieved = retrieve(search_query, k=max(TOP_K, 200))
     evidence = select_evidence(search_query, retrieved)
     if not evidence or should_refuse(retrieved, search_query):
         refusal = build_refusal(lang, retrieved)
